@@ -286,7 +286,7 @@ html{
     transition: .5s;
     margin-bottom: 0;
     z-index: 999;
-    position: fixed;
+    position: relative;
 }
 .techno_nav_manu.transparent_menu {
     background: transparent;
