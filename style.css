@@ -2493,7 +2493,7 @@ a.em-active-button:hover {
 .why-choose-us .section_sub_title h5:before {
     width: 161px;
 }
-.testimonial-area .section_sub_title h5 {;
+.testimonial-area .section_sub_title h5 {
     color: #fff;
 }
 .testimonial-area .section_sub_title h5:before {
@@ -11500,7 +11500,7 @@ ul.accordion.upper {
 }
 
 
-@keyframes "spin" {
+@keyframes spin {
  0% {
     -webkit-transform: rotate(360deg);
    	-moz-transform: rotate(360deg);
@@ -11526,7 +11526,7 @@ ul.accordion.upper {
    transform: rotate(0deg);
  }
 }
-@-webkit-keyframes "spin" {
+@-webkit-keyframes spin {
  0% {
    -webkit-transform: rotate(360deg);
    transform: rotate(360deg);
@@ -11536,7 +11536,7 @@ ul.accordion.upper {
    transform: rotate(0deg);
  }
 }
-@-ms-keyframes "spin" {
+@-ms-keyframes spin {
  0% {
    -ms-transform: rotate(360deg);
    transform: rotate(360deg);
@@ -11546,7 +11546,7 @@ ul.accordion.upper {
    transform: rotate(0deg);
  }
 }
-@-o-keyframes "spin" {
+@-o-keyframes spin {
  0% {
    -o-transform: rotate(360deg);
    transform: rotate(360deg);
@@ -11556,7 +11556,7 @@ ul.accordion.upper {
    transform: rotate(0deg);
  }
 }
-@keyframes "spin2" {
+@keyframes spin2 {
  0% {
     -webkit-transform: rotate(0deg);
    	-moz-transform: rotate(0deg);
@@ -11582,7 +11582,7 @@ ul.accordion.upper {
    transform: rotate(360deg);
  }
 }
-@-webkit-keyframes "spin2" {
+@-webkit-keyframes spin2 {
  0% {
    -webkit-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -11592,7 +11592,7 @@ ul.accordion.upper {
    transform: rotate(360deg);
  }
 }
-@-ms-keyframes "spin2" {
+@-ms-keyframes spin2 {
  0% {
    -ms-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -11602,7 +11602,7 @@ ul.accordion.upper {
    transform: rotate(360deg);
  }
 }
-@-o-keyframes "spin2" {
+@-o-keyframes spin2 {
  0% {
    -o-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -11612,7 +11612,7 @@ ul.accordion.upper {
    transform: rotate(360deg);
  }
 }
-@keyframes "glow" {
+@keyframes glow {
  0% {
     -webkit-box-shadow: none;
    	box-shadow: none;
@@ -11638,7 +11638,7 @@ ul.accordion.upper {
  }
 
 }
-@-webkit-keyframes "glow" {
+@-webkit-keyframes glow {
  0% {
    -webkit-box-shadow: none;
    box-shadow: none;
@@ -11653,7 +11653,7 @@ ul.accordion.upper {
  }
 
 }
-@-ms-keyframes "glow" {
+@-ms-keyframes glow {
  0% {
    box-shadow: none;
  }
@@ -11665,7 +11665,7 @@ ul.accordion.upper {
  }
 
 }
-@-o-keyframes "glow" {
+@-o-keyframes glow {
  0% {
    box-shadow: none;
  }
