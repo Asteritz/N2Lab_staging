@@ -2216,12 +2216,19 @@ a.em-active-button:hover {
 
 
 
-
-
-
 .partner_logos img{
     width: 100%;
     height: 100%;
+}
+
+.N2productDiagram {
+    text-align: center;
+}
+
+.N2productDiagram img{
+    max-width: 100%;
+    height: 100%;
+
 }
 
 
@@ -3737,6 +3744,8 @@ a.em-active-button:hover {
 }
 
 /* Feature Partners */
+
+
 .feature_partners {
     background: #fff;
     text-align: center;
@@ -3771,7 +3780,7 @@ a.em-active-button:hover {
     height: 130px;
     border-radius: 100%;
     line-height: 130px;
-    font-size: 40px;
+    font-size: 50px;
     color: #FC3C32;
     transition: .4s;
     display: inline-block;
@@ -3910,15 +3919,15 @@ a.em-active-button:hover {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     content: "";
     /* background: #adc7f1;  Jk-remove blue dot on right */
     transition: .3s;
     z-index: -1;
 }
 .single_feature_six_seven_icon .icon {
-    font-size: 45px;
+    font-size: 50px;
     color: #FC3C32;
 	transition:.5s;
 }
@@ -3928,7 +3937,7 @@ a.em-active-button:hover {
 }
 
 .single_feature_seven_content p {
-    padding-top: 8px;
+    padding-top: 3px;
     transition: .5s;
 }
 

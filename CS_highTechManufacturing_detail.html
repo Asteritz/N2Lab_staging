@@ -50,6 +50,41 @@ h1,h2,h3,h4,h5,h6 {
     </style>
 	<!-- modernizr js -->	
 	<script type="text/javascript" src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+		<!--==================================================-->
+	<!----- Start repeat navi footer Script----->
+	<!--==================================================-->
+	
+	<script src="//code.jquery.com/jquery.min.js"></script>
+
+
+	<script>
+		// <!-- start main_menu -->
+		$.get("main_menu.html", function(data){
+			$("#main_menu").replaceWith(data);
+		});
+	
+		// <!-- start footer -->
+		$.get("footer.html", function(data){
+			$("#footer").replaceWith(data);
+		});
+
+		// <!-- start caseStudy -->
+		$.get("case_study.html", function(data){
+			$("#case_study").replaceWith(data);
+		});
+
+		// <!-- start process -->
+		$.get("process.html", function(data){
+			$("#process").replaceWith(data);
+		});
+
+	</script>
+
+
+	<!--==================================================-->
+	<!----- End repeat navi footer Script----->
+	<!--==================================================-->
 	
 </head>
 <body>
@@ -62,130 +97,11 @@ h1,h2,h3,h4,h5,h6 {
 	<!-- Loder End -->
 		
 	<!--==================================================-->
-	<!----- Start Top Menu Area Css ----->
-	<!--==================================================-->
-	<div class="header_top_menu pt-2 pb-2 bg_color">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-sm-8">
-					<div class="header_top_menu_address">
-						<div class="header_top_menu_address_inner">
-							<ul>
-								<li><a href="mailto:sales@N2 Lab.io"><i class="fa fa-envelope-o"></i>sales@N2Lab.io</a></li>
-								<li><a href="#"><i class="fa fa-map-marker"></i>800 W 5th St, #602, Austin, TX 78703</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-4">
-					<div class="header_top_menu_icon">
-						<div class="header_top_menu_icon_inner">
-							<ul>
-								<li><a href="#"><i class="fa fa-phone"></i>+ 1 408 518 0368</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!----- End	Top Menu Area Css ----->
-	<!--===================================================-->
-
-	<!--==================================================-->
 	<!----- Start Main Menu Area ----->
 	<!--==================================================-->
-	<div id="sticky-header" class="techno_nav_manu d-md-none d-lg-block d-sm-none d-none">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="menu">
-					<a href="index.html" class="logo">
-						<img class="down" src="assets/images/N2Lablogo.png" width="50%" alt=""> 
-						<img class="main_sticky" src="assets/images/N2Lablogo_BW.png" alt="">
-					</a> <!--cph-->
-					<ul class="clearfix">
-						<li><a href="index.html">Home</a>
-							
-						</li>
-						<li><a href="#">Company</a>
-							<ul>
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="ourTeam.html">Our Team</a></li>
-								<li><a href="careers.html">Careers</a></li>
-								<li><a href="ourPartners.html">Our Partners</a></li>
-							</ul>
-						</li>
-						<li><a href="services.html">Services</a>
-						</li>
-						<li><a href="products.html">Products</a>
-							<ul>
-								<li><a href="products_inventoryAgingReport.html">Inventory Aging Report</a></li>
-								<li><a href="#">Purchase Approvals w/2-3 way Matching</a></li>
-								<li><a href="#">Contract Manufacturing Transaction Automation</a></li>
-								<li><a href="#">Cross Subsidiary Fulfillment Plus</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Our Works</a>
-							<ul>
-									<li><a href="CS_highTechManufacturing.html">Case Studies</a></li>
-										<li><a href="#">Portfolio</a></li>
-									</ul>
-								</li>			
-						<li><a href="contact.html">Contact Us</a>
-						</li>
-						<!-- Hide Oracle Logo ---
-							 <div class="donate-btn-header">
-							<a href="#"><img class="down" src="assets/images/oracleLogo.png" alt=""> <img class="main_sticky" src="assets/images/oracleLogoWhite.png" alt=""></a>
-						</div> -->
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Mobile Menu Area -->
-	<div class="mobile-menu-area d-sm-block d-md-block d-lg-none">
-		<div class="mobile-menu">
-			<nav class="techno_menu">
-				<ul class="clearfix">
-						<li><a href="index.html">Home</a>
-							
-						</li>
-						<li><a href="#">Company</a>
-							<ul>
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="ourTeam.html">Our Team</a></li>
-								<li><a href="careers.html">Careers</a></li>
-								<li><a href="ourPartners.html">Our Partners</a></li>
-							</ul>
-						</li>
-						<li><a href="services.html">Services</a>
-						</li>
-						<li><a href="products.html">Products</a>
-							<ul>
-								<li><a href="products_inventoryAgingReport.html">Inventory Aging Report</a></li>
-								<li><a href="#">Purchase Approvals w/2-3 way Matching</a></li>
-								<li><a href="#">Contract Manufacturing Transaction Automation</a></li>
-								<li><a href="#">Cross Subsidiary Fulfillment Plus</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Our Works</a>
-							<ul>
-									<li><a href="CS_highTechManufacturing.html">Case Studies</a></li>
-										<li><a href="#">Portfolio</a></li>
-									</ul>
-								</li>			
-						<li><a href="#">Contact Us</a>
-						</li>
-						<div class="donate-btn-header">
-							<a href="#"><img class="down" src="assets/images/oracleLogo.png" alt=""></a>	
-						</div>
-					</ul>
-			</nav>
-		</div>
-	</div>
+
+	<div id="main_menu"></div>
+
 	<!--==================================================-->
 	<!----- End Main Menu Area ----->
 	<!--==================================================-->
@@ -389,115 +305,10 @@ h1,h2,h3,h4,h5,h6 {
 
 
 
-    <!--==================================================-->
+   	<!--==================================================-->
 	<!----- Start How It Works Area -----> 
 	<!--==================================================-->
-	<div class="process_area pt-70 pb-70">
-		<div class="container">
-			<div class="row">
-				<!-- Start Section Tile -->
-				<div class="col-lg-12">
-					<div class="section_title text_center mb-50 mt-3">
-						
-						<div class="section_sub_title uppercase mb-3">
-							<h6>OUR IMPLEMENATION APPROACH</h6>
-						</div>
-						<div class="section_main_title">
-							<h1>How It Works?</h1>
-						</div>
-						<div class="em_bar">
-							<div class="em_bar_bg"></div>
-						</div>
-						
-					</div>
-					
-				</div>
-			</div>
-			<div class="row">
-				<div class="colProcess5 col-sm-6 col-xs-12">
-					<div class="single_process">
-						<div class="single_process_thumb">
-							<img src="assets/images/1process1.jpg" alt="" />
-						</div>
-						<div class="single_process_number">
-							<div class="single_process_number_inner">
-								<span>1</span>
-							</div>
-						</div>
-						<div class="single_process_content">
-							<h2>PLAN</h2>
-							<p>Kick-off, Discovery Sessions, Project Plan, Essential Training.</p>
-						</div>
-					</div>
-				</div>
-				<div class="colProcess5 col-sm-6 col-xs-12">
-					<div class="single_process">
-						<div class="single_process_thumb">
-							<img src="assets/images/1process2.jpg" alt="" />
-						</div>
-						<div class="single_process_number">
-							<div class="single_process_number_inner">
-								<span>2</span>
-							</div>
-						</div>
-						<div class="single_process_content">
-							<h2>DRIVE</h2>
-							<p>Configure Prototype. Initial Data Migration, and Process Walkthrough.</p>
-						</div>
-					</div>
-				</div>
-				<div class="colProcess5 col-sm-6 col-xs-12">
-					<div class="single_process">
-						<div class="single_process_thumb">
-							<img src="assets/images/1process3.jpg" alt="" />
-						</div>
-						<div class="single_process_number">
-							<div class="single_process_number_inner">
-								<span>3</span>
-							</div>
-						</div>
-						<div class="single_process_content">
-							<h2>ENABLE</h2>
-							<p>Finalize Data Migration, Process Walkthrough, UAT and User Training.</p>
-						</div>
-					</div>
-				</div>
-				<div class="colProcess5 col-sm-6 col-xs-12">
-					<div class="single_process">
-						<div class="single_process_thumb">
-							<img src="assets/images/1process4.jpg" alt="" />
-						</div>
-						<div class="single_process_number">
-							<div class="single_process_number_inner">
-								<span>4</span>
-							</div>
-						</div>
-						<div class="single_process_content">
-							<h2>CONVERT</h2>
-							<p>Data Migration, Deploy, Post Go-LiveSupport, and Planning for Future Projects.</p>
-						</div>
-					</div>
-				</div>
-				<div class="colProcess5 col-sm-6 col-xs-12">
-					<div class="single_process">
-						<div class="single_process_thumb">
-							<img src="assets/images/1process5.jpg" alt="" />
-						</div>
-						<div class="single_process_number">
-							<div class="single_process_number_inner">
-								<span>5</span>
-							</div>
-						</div>
-						<div class="single_process_content">
-							<h2>MANAGE</h2>
-							<p>We manage your implemented NetSuite solutions, and ensure reliability.</p>
-						</div>
-					</div>
-				</div>
-				</div>		
-			</div>
-		</div>
-	</div>
+	<div id="process"></div>
 	<!--==================================================-->
 	<!----- End How It Works Area -----> 
 	<!--==================================================-->
@@ -515,7 +326,7 @@ h1,h2,h3,h4,h5,h6 {
 							
                         <div class="section_main_title">
                             <h1 class="pb-10 mt-30">Conclusion</h1>
-                            <p>By leveraging NetSuite's robust ERP capabilities, the Flash Storage Company successfully addressed their complex revenue recognition and tax determination challenges. This case study demonstrates how a tailored NAPPJO solution can empower organizations to streamline their financial processes, improve reporting accuracy, and achieve operational excellence. The Flash Storage Company's partnership with NAPPJO stands as a testament to the transformative impact of cutting-edge ERP solutions in the tech industry.
+                            <p>By leveraging NetSuite's robust ERP capabilities, the Flash Storage Company successfully addressed their complex revenue recognition and tax determination challenges. This case study demonstrates how a tailored N2 Lab solution can empower organizations to streamline their financial processes, improve reporting accuracy, and achieve operational excellence. The Flash Storage Company's partnership with N2 Lab stands as a testament to the transformative impact of cutting-edge ERP solutions in the tech industry.
                             </p>
                         </div>
                      
@@ -532,180 +343,17 @@ h1,h2,h3,h4,h5,h6 {
 	<!--==================================================-->
 	<!----- Start Case Study Area ----->
 	<!--==================================================-->
-	<div class="case_study_area three bg_color2 pt-80 pb-70" id="portfolio">
-		<div class="container">
-			<div class="row">
-				<!-- Start Section Tile -->
-				<div class="col-lg-12">
-					<div class="section_title text_center mb-50 mt-3">
-						<div class="section_main_title">
-							<h1>Our Success <span>Stories</span></h1>
-						</div>
-						<div class="em_bar">
-							<div class="em_bar_bg"></div>
-						</div>
-						
-					</div>
-					
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12"> <!--cph changed from col-lg-3-->
-					<div class="case_study_style_two mb-30">
-						<div class="case_study_style_two_thumb">
-							<img src="assets/images/gallery/tn_highTechManufacturing.jpg" alt="" />
-						</div>
-						<div class="case_study_style_two_content">
-							<div class="case_study_style_two_title">
-								<span>Solution For</span>
-								<h4><a href="CS_highTechManufacturing.html">High Tech Manufacturing</a></h4>
-							</div>
-							<div class="case_study_style_two_button pt-3">
-								<a href="CS_highTechManufacturing.html">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12"> <!--cph changed from col-lg-3-->
-					<div class="case_study_style_two mb-30">
-						<div class="case_study_style_two_thumb">
-							<img src="assets/images/gallery/tn_softwareTechnology.jpg" alt="" />
-						</div>
-						<div class="case_study_style_two_content">
-							<div class="case_study_style_two_title">
-								<span>Solution For</span>
-								<h4><a href="CS_softwareTechnology.html">Software & Technology</a></h4>
-							</div>
-							<div class="case_study_style_two_button pt-3">
-								<a href="CS_softwareTechnology.html">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12"> <!--cph changed from col-lg-3-->
-					<div class="case_study_style_two mb-30">
-						<div class="case_study_style_two_thumb">
-							<img src="assets/images/gallery/tn_wholesalesDistribution.jpg" alt="" />
-						</div>
-						<div class="case_study_style_two_content">
-							<div class="case_study_style_two_title">
-								<span>Solution For</span>
-								<h4><a href="CS_wholesalesDistribution.html">Wholesales Distribution</a></h4>
-							</div>
-							<div class="case_study_style_two_button pt-3">
-								<a href="CS_wholesalesDistribution.html">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12"> <!--cph changed from col-lg-3-->
-					<div class="case_study_style_two mb-30">
-						<div class="case_study_style_two_thumb">
-							<img src="assets/images/gallery/tn_retailTechnology.jpg" alt="" />
-						</div>
-						<div class="case_study_style_two_content">
-							<div class="case_study_style_two_title">
-								<span>Solution For</span>
-								<h4><a href="CS_retailTechnology.html">Retail Technology</a></h4>
-							</div>
-							<div class="case_study_style_two_button pt-3">
-								<a href="CS_retailTechnology.html">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
+	<div id="case_study"></div>
 	<!--==================================================-->
 	<!----- End Case Study Area ----->
 	<!--==================================================-->
 	
-
-
-
-
-<!--==================================================-->
+	<!--==================================================-->
 	<!----- Start Footer Middle Area ----->
 	<!--==================================================-->
-	<div class="footer-middle pt-95"> 
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="widget widgets-company-info">
-						<div class="footer-bottom-logo pb-15">
-							<img src="assets/images/N2Lablogo_white.png" width="70%" alt="" />
-						</div>
-						<div class="company-info-desc">
-							<p>N2 Lab is a leading provider of NetSuite implementation and services.
-							</p>
-						</div>
-						<div class="follow-company-info pt-3">
-							<div class="follow-company-text mr-3">
-								<a href="#"><p>Follow Us</p></a>
-							</div>
-							<div class="follow-company-icon">
-								<a href="https://www.linkedin.com/company/n2lab/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-								<a href="https://www.instagram.com/n2labllc" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-								<a href="https://twitter.com/n2labllc" target="_blank"><i class="fa-brands fa-x-twitter"></i></i></a>
-							</div>
-						</div>
-					</div>					
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="widget widget-nav-menu">
-						<h4 class="widget-title pb-4">Company&nbsp;</h4>
-						<div class="menu-quick-link-container">
-							<ul id="menu-quick-link" class="menu">
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="ourTeam.html">Our Team</a></li>
-								<li><a href="careers.html">Careers</a></li>
-								<li><a href="ourPartners.html">Our Partners</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>	
-			  <div class="col-lg-4 col-md-6 col-sm-12">
-					
-					<div class="widget widget-nav-menu">
-						<h4 class="widget-title pb-4">Services&nbsp;</h4>
-						<div class="menu-quick-link-container">
-							<ul id="menu-quick-link" class="menu">
-								<li><a href="services.html">Our Specialities</a></li>
-								<li><a href="services.html">Our Core Services</a></li>
-						  </ul>
-					  </div>
-				</div>
-			  </div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-				  <div class="widget widget-nav-menu">
-						<h4 class="widget-title pb-4">Products&nbsp;</h4>
-					<div class="menu-quick-link-container">
-							<ul id="menu-quick-link" class="menu">
-								<li><a href="products_inventoryAgingReport.html">Inventory Aging Report</a></li>
-								<li><a href="#">Purchase Approvals<br>w/2-3 way Matching</a></li>
-								<li><a href="#">Contract Manufacturing <br>Transaction Automation</a></li>
-								<li><a href="#">Cross Subsidiary<br>Fulfilment Plus</a></li>
-							</ul>
-					</div>
-					</div>
-				</div>
-				
-			</div>
-			<div class="row footer-bottom mt-70 pt-3 pb-1">
-				<hr>
-					<div class="footer-bottom-content">
-						
-						<div class="footer-bottom-content-copy">
-							<p>Copyright © 2024. All Rights Reserved to N2 Lab. </p>
-						</div>
-					</div>
-		
+	
+	<div id="footer"></div>
 
-			</div>
-		</div>
-	</div>		
 	<!--==================================================-->
 	<!----- End Footer Middle Area ----->
 	<!--==================================================-->
