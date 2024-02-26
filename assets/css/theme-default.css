@@ -191,6 +191,10 @@ a,i, cite, em, var, address, dfn,ol,li,ul{
     background: #171717;
 }
 
+.bg_black {
+    background: #000000;
+}
+
 .white_bg{
     background: #fff;
 }
