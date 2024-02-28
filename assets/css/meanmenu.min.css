@@ -1,3 +1,5 @@
+
+
 a.meanmenu-reveal{display:none}
 .mean-container .mean-bar {
 	background: #fc3c32;
@@ -100,7 +102,7 @@ a.meanmenu-reveal{display:none}
 	border-radius: 0;
 }
 .mean-container a.meanmenu-reveal span {
-  background: #fff;
+  background: #ffffff;
 }
 .mobile-menu-area {
   background: #fff none repeat scroll 0 0;
@@ -136,10 +138,18 @@ a.meanmenu-reveal{display:none}
 }
 .mean-container .mean-bar::before {
 	color: #fff;
-	content: "N2 Lab";
+	content: "N2.Lab";
+  font-family: Arial, Helvetica, sans-serif;
 	font-size: 22px;
 	font-weight: 800;
 	left: 10px;
 	position: absolute;
 	top: 18px;
+}
+
+.mobile-menuLogo {
+  background-image: url(/assets/images/N2Lablogo.png);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
 }
