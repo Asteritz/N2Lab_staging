@@ -1969,6 +1969,13 @@ p.seo-text1 {
 /* small mobile :320px. */
 @media only screen and (min-width: 320px) and (max-width: 599px) {
 
+.team_style_two_thumb img {
+    text-align: right;
+    width: 50%;
+    border-radius: 100%;
+}
+
+
 .cert-logo{
     text-align: center;
 }
