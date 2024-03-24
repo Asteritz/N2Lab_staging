@@ -75,6 +75,10 @@ h1,h2,h3,h4,h5,h6 {
 		// $.get("main_menu.html", function(data){
 		// 	$("#main_menu").replaceWith(data);
 		// });
+
+		$(document).ready(function () {
+			location.hash+'h' && $(location.hash + '.collapse').collapse('show');
+		});
 	
 		// <!-- start footer -->
 		$.get("footer.html", function(data){
@@ -480,9 +484,9 @@ h1,h2,h3,h4,h5,h6 {
 						<!-- Start Specialities 3 -->
 						
 						<div class="panel panel-default bg_color5">
-							<div  id="arm1h" class="panel-heading mb-3">
+							<div class="panel-heading mb-3">
 								<h4 class="panel-title" >
-									<a data-toggle="collapse" data-parent="#accordion" href="#arm1" class="collapsed"><i class="fa fa-check-circle"></i>
+									<a data-toggle="collapse" data-parent="#accordion" name="#arm1" class="collapsed"><i class="fa fa-check-circle"></i>
                                         Advanced Revenue Management
 									</a>
 								</h4>
