@@ -77,7 +77,7 @@ h1,h2,h3,h4,h5,h6 {
 		// });
 
 		$(document).ready(function () {
-			location.hash+'h' && $(location.hash + '.collapse').collapse('show');
+			location.hash && $(location.hash + '.collapse').collapse('show');
 		});
 	
 		// <!-- start footer -->
@@ -486,7 +486,7 @@ h1,h2,h3,h4,h5,h6 {
 						<div class="panel panel-default bg_color5">
 							<div class="panel-heading mb-3">
 								<h4 class="panel-title" >
-									<a data-toggle="collapse" data-parent="#accordion" name="#arm1" class="collapsed"><i class="fa fa-check-circle"></i>
+									<a href="#arm1" data-toggle="collapse" data-parent="#accordion" class="collapsed"><i class="fa fa-check-circle"></i>
                                         Advanced Revenue Management
 									</a>
 								</h4>
