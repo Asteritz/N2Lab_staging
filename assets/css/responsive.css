@@ -1991,6 +1991,11 @@ p.seo-text1 {
 .owl-prev, .owl-next{
 	display:none;
 }
+/* cph */
+.owl-carousel .owl-stage-outer {
+    -webkit-transform: translate3d(100px, 0, 0);
+}
+
 .slider_text_inner h1 {
 	font-size: 45px !important;
 }
