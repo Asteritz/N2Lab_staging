@@ -57,10 +57,14 @@ h1,h2,h3,h4,h5,h6 {
 	<!--==================================================-->
 	
 	<!-- <script src="https://code.jquery.com/jquery.min.js"></script> -->
-	<script type="text/javascript" src="assets/js/vendor/jquery-3.2.1.min.js"></script>
-
-
+	<!-- <script type="text/javascript" src="assets/js/vendor/jquery-3.2.1.min.js"></script> -->
+	<script type="text/javascript" src="assets/js/accordion/jquery-3.4.1.min.js"></script>
+	
 	<script>
+
+		$(document).ready(function() {
+            $('#fade-in').delay(1000).fadeIn('slow')
+		});
 	
 		// <!-- start footer -->
 		$.get("footer.html", function(data){
@@ -142,7 +146,7 @@ h1,h2,h3,h4,h5,h6 {
 						<img class="down" src="assets/images/N2Lablogo.png" width="50%" alt=""> 
 						<img class="main_sticky" src="assets/images/N2Lablogo_BW.png" alt="">
 					</a> <!--cph-->
-					<ul class="clearfix">
+					<ul class="clearfix" id="fade-in">
 						<li><a href="index.html">Home</a>
 							
 						</li>
@@ -189,7 +193,7 @@ h1,h2,h3,h4,h5,h6 {
 			<nav class="techno_menu">
 	
 				
-				<ul class="clearfix">
+				<ul class="clearfix" id="fade-in">
 						<li><a href="index.html">Home</a>
 							
 						</li>

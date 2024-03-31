@@ -66,7 +66,8 @@ h1,h2,h3,h4,h5,h6 {
 	<!--==================================================-->
 	
 	<!-- <script src="//code.jquery.com/jquery.min.js"></script> -->
-	<script type="text/javascript" src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+	<!-- <script type="text/javascript" src="assets/js/vendor/jquery-3.2.1.min.js"></script> -->
+	<script type="text/script" src="assets/js/accordion/jquery-3.4.1.min.js"></script>
 
 
 
@@ -75,6 +76,10 @@ h1,h2,h3,h4,h5,h6 {
 		// $.get("main_menu.html", function(data){
 		// 	$("#main_menu").replaceWith(data);
 		// });
+
+		$(document).ready(function() {
+            $('#fade-in').delay(1000).fadeIn('slow');
+		});
 	
 		// <!-- start footer -->
 		$.get("footer.html", function(data){
@@ -144,7 +149,7 @@ h1,h2,h3,h4,h5,h6 {
 						<img class="down" src="assets/images/N2Lablogo.png" width="50%" alt=""> 
 						<img class="main_sticky" src="assets/images/N2Lablogo_BW.png" alt="">
 					</a> <!--cph-->
-					<ul class="clearfix">
+					<ul class="clearfix" id="fade-in">
 						<li><a href="index.html">Home</a>
 							
 						</li>
@@ -665,7 +670,7 @@ h1,h2,h3,h4,h5,h6 {
 	<!--==================================================-->
 	
 	<!-- jquery js -->	
-	<script type="text/javascript" src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+	<!-- <script type="text/javascript" src="assets/js/vendor/jquery-3.2.1.min.js"></script> -->
 	<!-- bootstrap js -->	
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<!-- carousel js -->
@@ -695,15 +700,15 @@ h1,h2,h3,h4,h5,h6 {
 	<!-- jquery meanmenu js -->	
 	<script type="text/javascript" src="assets/js/jquery.meanmenu.js"></script>
 	<!-- jquery scrollup js -->	
+	<script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.scrollUp.js"></script>
-	<!-- <script src="assets/js/extensions/revolution.extension.actions.min.js"></script> -->
-	<script src="assets/js/extensions/revolution.extension.carousel.min.js"></script>
-	<script src="assets/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script src="assets/js/extensions/revolution.extension.migration.min.js"></script>
-	<script src="assets/js/extensions/revolution.extension.parallax.min.js"></script>
-	<script src="assets/js/extensions/revolution.extension.video.min.js"></script>
-	<script src="assets/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="assets/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.migration.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.video.min.js"></script>
 	<script type="text/javascript" src="assets/js/extensions/revolution.extension.slideanims.min.js"></script>
 	<script type="text/javascript" src="assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
 	<script type="text/javascript" src="assets/js/extensions/revolution.extension.navigation.min.js"></script>

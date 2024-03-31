@@ -93,6 +93,7 @@ img.main_sticky {
     list-style: none;
     position: relative;
     text-align: right;
+    display: none;
 }
 .menu > ul:before,
 .menu > ul:after {
