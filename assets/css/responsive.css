@@ -1987,6 +1987,16 @@ p.seo-text1 {
 /* small mobile :320px. */
 @media only screen and (min-width: 320px) and (max-width: 599px) {
 
+/* cph 2024-04-14 */
+.col-lg-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline-grid;
+    justify-items: center;
+    justify-content: center;
+}
 .team_style_two_thumb img {
     text-align: right;
     width: 50%;
@@ -2011,7 +2021,7 @@ p.seo-text1 {
 }
 /* cph */
 .owl-carousel .owl-stage-outer {
-    -webkit-transform: translate3d(100px, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0); /* cph 2024-04-14 */
 }
 
 .slider_text_inner h1 {
