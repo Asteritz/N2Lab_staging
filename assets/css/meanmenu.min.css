@@ -142,17 +142,19 @@ a.meanmenu-reveal{display:none}
 }
 .mean-container .mean-bar::before {
 	color: #fff;
-	content: "N2.Lab";
+  /* content: "N2.Lab"; */
+	content: "N2.Lab" url(/assets/images/OracleLogo_mobile.png);
   font-family: Paytone, Arial, Helvetica, sans-serif;
-	font-size: 28px;
+	font-size: 30px;
 	font-weight: 0;
 	left: 20px;
 	position: absolute;
-	top: 18px;
+	top: 8px;
+
 }
 
 .mobile-menuLogo {
-  background-image: url(/assets/images/N2Lablogo.png);
+  background-image: url(/assets/images/OracleLogoWhite.png);
   background-repeat: no-repeat;
   width: 200px;
   height: 200px;
