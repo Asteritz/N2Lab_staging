@@ -80,8 +80,21 @@ h1,h2,h3,h4,h5,h6 {
             $('#fade-in').delay(1000).fadeIn('slow')
 		});
 
+		// $(document).ready(function () {
+		// 	location.hash && $(location.hash + '.collapse').collapse('show');
+		// });
+
 		$(document).ready(function () {
-			location.hash && $(location.hash + '.collapse').collapse('show');
+			if (location.hash){
+				$(location.hash).collapse('show');
+    			$(location.hash).parents('.accordion').collapse('show');
+
+				if (location.hash.endsWith("h")){
+					window.location.hash = location.hash;
+				}else{
+					window.location.hash = location.hash+"h";
+				}
+			}
 		});
 	
 		// <!-- start footer -->
@@ -374,12 +387,12 @@ h1,h2,h3,h4,h5,h6 {
 						<div class="panel panel-default bg_color5">
 							<div class="panel-heading mb-3">
 								<h4 class="panel-title">
-									<a name="soxh" data-toggle="collapse" data-parent="#accordion" href="#sox" class=""><i class="fa fa-check-circle"></i>
+									<a name="soxh" data-toggle="collapse" data-parent="#accordion" href="#sox" class="collapsed"><i class="fa fa-check-circle"></i>
                                         SOX-Compliant NetSuite Solutions
 									</a>
 								</h4>
 							</div>
-							<div id="sox" class="panel-collapse in collapse show">
+							<div id="sox" class="panel-collapse in collapse">
 								<div class="panel-body pl-4 pr-4">
 									<p>
                                         Design your NetSuite ERP system with full consideration of Sarbanes-Oxley Act (SOX) compliance requirements, ensuring a robust and secure financial framework from the ground up.
@@ -489,7 +502,7 @@ h1,h2,h3,h4,h5,h6 {
 						<div class="panel panel-default bg_color5">
 							<div class="panel-heading mb-3">
 								<h4 class="panel-title" >
-									<a name="armh" data-toggle="collapse" data-parent="#accordion" href="#arm1" class="collapsed"><i class="fa fa-check-circle"></i>
+									<a name="arm1h" data-toggle="collapse" data-parent="#accordion" href="#arm1" class="collapsed"><i class="fa fa-check-circle"></i>
                                         Advanced Revenue Management
 									</a>
 								</h4>
@@ -545,7 +558,7 @@ h1,h2,h3,h4,h5,h6 {
 						<div class="panel panel-default bg_color5">
 							<div class="panel-heading mb-3">
 								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#edia" class="collapsed"><i class="fa fa-check-circle"></i>
+									<a name="ediah" data-toggle="collapse" data-parent="#accordion" href="#edia" class="collapsed"><i class="fa fa-check-circle"></i>
                                         Electronic Data Interchange Automation
 									</a>
 								</h4>
@@ -600,7 +613,7 @@ h1,h2,h3,h4,h5,h6 {
 						<div class="panel panel-default bg_color5">
 							<div class="panel-heading mb-3">
 								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#oppp" class="collapsed"><i class="fa fa-check-circle"></i>
+									<a name="oppph" class="collapsed"><i class="fa fa-check-circle"></i>
                                         Optimizing Procure to Pay Processes
 									</a>
 								</h4>
@@ -655,7 +668,7 @@ h1,h2,h3,h4,h5,h6 {
 						<div class="panel panel-default bg_color5">
 							<div class="panel-heading mb-3">
 								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#mba" class="collapsed"><i class="fa fa-check-circle"></i>
+									<a name="mbah" data-toggle="collapse" data-parent="#accordion" href="#mba" class="collapsed"><i class="fa fa-check-circle"></i>
                                         Multibook Accounting
 									</a>
 								</h4>
