@@ -4,7 +4,7 @@ a.meanmenu-reveal{display:none}
 .mean-container .mean-bar {
 	background: #fc3c32;
 	float: left;
-	min-height: 60px;
+	min-height: 60px; /* changed from 60px; */
 	padding: 4px 0 0;
 	position: relative;
 	width: 100%;
@@ -143,13 +143,18 @@ a.meanmenu-reveal{display:none}
 .mean-container .mean-bar::before {
 	color: #fff;
   /* content: "N2.Lab"; */
-	content: "N2.Lab" url(../images/OracleLogo_mobile3.png);
+	content: "N2.Lab";
+  background-image:  url(../images/OracleLogo_mobile5.png);  
+  background-size: 100%;
+  width: 330px; 
+  height: 50px;
+  padding-bottom: 20px;
   font-family: Paytone, Arial, Helvetica, sans-serif;
 	font-size: 32px;
 	font-weight: 0;
 	left: 20px;
 	position: absolute;
-	top: -1px;
+	top: 17px;
 
 }
 
