@@ -1991,7 +1991,7 @@ p.seo-text1 {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    display: inline-grid;
+    display: block; /* cph inline-grid */
     justify-items: center;
     justify-content: center;
 }
@@ -2017,11 +2017,6 @@ p.seo-text1 {
 .owl-prev, .owl-next{
 	display:none;
 }
-/* cph */
-.owl-carousel .owl-stage-outer {
-    -webkit-transform: translate3d(0, 0, 0); /* cph 2024-04-14 */
-}
-
 .slider_text_inner h1 {
 	font-size: 45px !important;
 }
