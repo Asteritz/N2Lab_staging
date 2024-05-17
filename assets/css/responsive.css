@@ -2001,6 +2001,13 @@ p.seo-text1 {
     border-radius: 100%;
 }
 
+/* jk to centralise trusted logo */
+.owl-carousel .owl-item img {
+    display: block;
+    padding: 0px 150px; /* force partner's logo to centralise */
+}
+
+
 
 .cert-logo{
     text-align: center;
