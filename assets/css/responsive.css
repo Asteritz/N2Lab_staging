@@ -2017,6 +2017,15 @@ p.seo-text1 {
 .owl-prev, .owl-next{
 	display:none;
 }
+
+/* force trusted logo to center */
+.owl-carousel .owl-item img {
+    display: block;
+    padding: 0px 150px; /* force trusted logo to center */
+}
+}
+
+
 .slider_text_inner h1 {
 	font-size: 45px !important;
 }
