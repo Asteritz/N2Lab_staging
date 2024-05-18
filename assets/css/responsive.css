@@ -548,7 +548,7 @@ p.seo-text1 {
     text-align: center;
 }
 .case_study_style_two_title h4 a {
-    font-size: 18px;
+    font-size: 22px;
 }
 .text_left .section_main_title h1 {
     font-size: 28px;
@@ -2012,6 +2012,10 @@ p.seo-text1 {
 }
 
 
+.case_study_style_two_title span {
+    font-size: 24px;
+}
+
 .cert-logo{
     text-align: center;
 }
@@ -2316,9 +2320,9 @@ p.seo-text1 {
 .software_shape_thumb {
     display: none;
 }
-.tp-caption a {
-	/* display:none !important; */
-}
+/* .tp-caption a {
+	display:none !important;
+} */
 .slider13 .slider_text_inner p, .slider14 .slider_text_inner p {
     width: 100%!important;
 }
@@ -3079,12 +3083,12 @@ p.seo-text1 {
 .service_area .section_main_title h1, .section_main_title h2 {
     font-size: 21px;
 }
-.case_study_style_two_title h4 a {
-    font-size: 20px;
-}
-.case_study_style_two_title span {
+/* .case_study_style_two_title h4 a {
+    font-size: 32px;
+} */
+/* .case_study_style_two_title span {
     font-size: 16px;
-}
+} */
 .feature_style_five_text p {
     font-size: 15px;
 }
@@ -3101,9 +3105,5 @@ p.seo-text1 {
     font-size: 15px;
 }
 
-
-
-
-}
 
 
