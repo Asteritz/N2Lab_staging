@@ -548,7 +548,7 @@ p.seo-text1 {
     text-align: center;
 }
 .case_study_style_two_title h4 a {
-    font-size: 20px;
+    font-size: 18px;
 }
 .text_left .section_main_title h1 {
     font-size: 28px;
@@ -2007,6 +2007,9 @@ p.seo-text1 {
     justify-content: center;
   }
 
+.case_study_style_two_title h4 a {
+    font-size: 35px;
+}
 
 
 .cert-logo{
@@ -3077,7 +3080,7 @@ p.seo-text1 {
     font-size: 21px;
 }
 .case_study_style_two_title h4 a {
-    font-size: 26px;
+    font-size: 20px;
 }
 .case_study_style_two_title span {
     font-size: 16px;
