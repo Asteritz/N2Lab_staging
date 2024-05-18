@@ -2005,7 +2005,6 @@ p.seo-text1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FC3C32;
   }
 
 
@@ -3078,10 +3077,10 @@ p.seo-text1 {
     font-size: 21px;
 }
 .case_study_style_two_title h4 a {
-    font-size: 40px;
+    font-size: 26px;
 }
 .case_study_style_two_title span {
-    font-size: 25px;
+    font-size: 16px;
 }
 .feature_style_five_text p {
     font-size: 15px;
