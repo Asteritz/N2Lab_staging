@@ -2035,7 +2035,6 @@ p.seo-text1 {
 /* force trusted logo to center */
 .owl-carousel .owl-item img {
     display: block;
-    padding: 0px 120px; /* force trusted logo to center */
 }
 }
 
