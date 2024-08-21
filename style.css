@@ -57,14 +57,15 @@ img.main_sticky {
 }
 .menu a.logo {
     display: inline-block;
-    width: 260px;
+    width: 300px;
     padding: 25px 1px 12px 1px;
     float: left;
     position: relative;
     z-index: 1;
 }
 .menu img {
-    max-width: 120%; /*cph2024-01-20 changed from 100%, Jo changed to 100% 2024-05-07*/
+    padding-left: 15px;
+    max-width: 100%; /*cph2024-01-20 changed from 100%, Jo changed to 100% 2024-05-07*/
 }
 .menu-mobile {
   display: none;
