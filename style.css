@@ -64,7 +64,7 @@ img.main_sticky {
     z-index: 1;
 }
 .menu img {
-    max-width: 100%; /*cph2024-01-20 changed from 100%, Jo changed to 100% 2024-05-07*/
+    max-width: 120%; /*cph2024-01-20 changed from 100%, Jo changed to 100% 2024-05-07*/
 }
 .menu-mobile {
   display: none;
