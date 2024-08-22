@@ -58,7 +58,7 @@ img.main_sticky {
 .menu a.logo {
     display: inline-block;
     width: 300px;
-    padding: 25px 1px 12px 1px;
+    padding: 25px 1px 25px 1px;
     float: left;
     position: relative;
     z-index: 1;
