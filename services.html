@@ -1,0 +1,975 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>N2 Lab - Our Specialities</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/N2_icon.png">
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+	<!-- carousel CSS -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all" />	
+	<!-- nivo-slider CSS -->
+	<link rel="stylesheet" href="assets/css/nivo-slider.css" type="text/css" media="all" />
+	<!-- animate CSS -->
+	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all" />	
+	<!-- animated-text CSS -->
+	<link rel="stylesheet" href="assets/css/animated-text.css" type="text/css" media="all" />	
+	<!-- font-awesome CSS -->
+	<link type="text/css" rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+	<link type="text/css" rel="stylesheet" href="assets/fonts/font-awesome/css/brands.css">
+	<!-- font-flaticon CSS -->
+	<link rel="stylesheet" href="assets/css/flaticon.css" type="text/css" media="all" />	
+	<!-- theme-default CSS -->
+	<link rel="stylesheet" href="assets/css/theme-default.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="assets/css/all.min.css" type="text/css" media="all" />		
+	<!-- meanmenu CSS -->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all" />	
+	<!-- Main Style CSS -->
+	<link rel="stylesheet"  href="style.css" type="text/css" media="all" />
+	<!-- transitions CSS -->
+	<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all" />
+	<!-- venobox CSS -->
+	<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all" />
+	<!-- widget CSS -->
+	<link rel="stylesheet" href="assets/css/widget.css" type="text/css" media="all" />
+	<!-- settings CSS -->
+	<link rel="stylesheet" href="assets/css/settings.css" type="text/css" media="all" />
+	<!-- responsive CSS -->
+	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
+	<style type="text/css">
+	body,td,th {
+    font-family: Muli, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Muli, sans-serif;
+}
+    </style>
+	<!-- modernizr js -->	
+	<script type="text/javascript" src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+	<!-- new JS for accordion -->
+	<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> -->
+	<script type="text/javascript" src="assets/js/accordion/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/accordion/popper.min.js"></script>
+	<script type="text/javascript" src="assets/js/accordion/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="assets/css/accordion/bootstrap-icons.css"/>
+
+
+	<!--==================================================-->
+	<!----- Start repeat navi footer Script----->
+	<!--==================================================-->
+	
+	<!-- <script src="//code.jquery.com/jquery.min.js"></script> -->
+	<!-- <script type="text/javascript" src="assets/js/vendor/jquery-3.2.1.min.js"></script> -->
+
+
+	<script type="text/javascript" >
+		// <!-- start main_menu -->
+		// $.get("main_menu.html", function(data){
+		// 	$("#main_menu").replaceWith(data);
+		// });
+
+		$(document).ready(function() {
+            $('#fade-in').delay(1000).fadeIn('slow')
+		});
+
+		// $(document).ready(function () {
+		// 	location.hash && $(location.hash + '.collapse').collapse('show');
+		// });
+
+		$(document).ready(function () {
+			if (location.hash){
+				$(location.hash).collapse('show');
+    			$(location.hash).parents('.accordion').collapse('show');
+
+				if (location.hash.endsWith("h")){
+					window.location.hash = location.hash;
+				}else{
+					window.location.hash = location.hash+"h";
+				}
+			}
+		});
+	
+		// <!-- start footer -->
+		$.get("footer.html", function(data){
+			$("#footer").replaceWith(data);
+		});
+
+		// <!-- start caseStudy -->
+		$.get("case_study.html", function(data){
+			$("#case_study").replaceWith(data);
+		});
+
+		// <!-- start process -->
+		$.get("process.html", function(data){
+			$("#process").replaceWith(data);
+		});
+
+	</script>
+
+
+	<!--==================================================-->
+	<!----- End repeat navi footer Script----->
+	<!--==================================================-->
+	
+</head>
+<body>
+	<!-- Loder Start-->
+	<div class="loader-wrapper">
+	  <div class="loader"></div>
+	  <div class="loder-section left-section"></div>
+	  <div class="loder-section right-section"></div>
+	</div>
+	<!-- Loder End -->
+		
+<!--==================================================-->
+	<!----- Start Top Menu Area Css ----->
+	<!--==================================================-->
+	<div class="header_top_menu pt-2 pb-2 bg_color">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-sm-8">
+					<div class="header_top_menu_address">
+						<div class="header_top_menu_address_inner">
+							<ul>
+								<li><a href="mailto:sales@n2lab.io"><i class="fa fa-envelope-o"></i>sales@n2lab.io</a></li>
+								<li><a href="#"><i class="fa fa-map-marker"></i>Austin, TX | San Jose, CA | Noida, India | Singapore</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="header_top_menu_icon">
+						<div class="header_top_menu_icon_inner">
+							<ul>
+								<li><a href="#"><i class="fa fa-phone"></i>+ 1 408 518 0368</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End	Top Menu Area Css ----->
+	<!--===================================================-->
+
+<!--==================================================-->
+	<!----- Start Main Menu Area ----->
+	<!--==================================================-->
+
+	
+	<div id="sticky-header" class="techno_nav_manu d-md-none d-lg-block d-sm-none d-none">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="menu">
+					<a href="index.html" class="logo">
+						<img class="down" src="assets/images/N2Lab_PartnerLogo.png"  alt="N2 Lab logo"> 
+						<img class="main_sticky" src="assets/images/N2Lab_PartnerLogo_white.png" alt="N2 Lab logo">
+					</a> <!--cph-->
+					<ul class="clearfix" id="fade-in">
+						<li><a href="index.html">Home</a>
+							
+						</li>
+						<li><a href="about.html">Company</a>
+							<ul>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="ourTeam.html">Our Team</a></li>
+								<li><a href="careers.html">Careers</a></li>
+								<li><a href="ourPartners.html">Our Partners</a></li>
+							</ul>
+						</li>
+						<li><a href="services.html">Services</a>
+						</li>
+						<li><a href="products.html">Products</a>
+							<ul>
+								<li><a href="products_inventoryAgingReport.html">Inventory Aging Report</a></li>
+								<li><a href="products_PurchaseApprovals_23wayMatching.html">Purchase Approvals w/2-3 way Matching</a></li>
+								<li><a href="products_SFTPconnector.html">SFTP Connector</a></li>
+								<li><a href="products_crossSubsidiaryFulfilment.html">Cross Subsidiary Fulfillment Plus</a></li>
+							</ul>
+						</li>
+						<li><a href="CS_highTechManufacturing.html">Our Works</a>
+							<ul>
+									<li><a href="CS_highTechManufacturing.html">Case Studies</a></li>
+										<li><a href="ourClients.html">Our Clients</a></li>
+									</ul>
+								</li>			
+						<li><a href="contact.html">Contact Us</a>
+						</li>
+						
+						<!-- <div class="donate-btn-header">
+							<img class="down" src="assets/images/oracleLogo.png" alt="Oracle logo"> <img class="main_sticky" src="assets/images/OracleLogoWhite.png" width="100%" alt="Oracle logo">
+						</div> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Mobile Menu Area -->
+	<div class="mobile-menu-area d-sm-block d-md-block d-lg-none">
+		<div class="mobile-menu">
+			<nav class="techno_menu">
+				<ul class="clearfix" id="fade-in">
+						<li><a href="index.html">Home</a>
+							
+						</li>
+						<li><a href="about.html">Company</a>
+							<ul>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="ourTeam.html">Our Team</a></li>
+								<li><a href="careers.html">Careers</a></li>
+								<li><a href="ourPartners.html">Our Partners</a></li>
+							</ul>
+						</li>
+						<li><a href="services.html">Services</a>
+						</li>
+						<li><a href="products.html">Products</a>
+							<ul>
+								<li><a href="products_inventoryAgingReport.html">Inventory Aging Report</a></li>
+								<li><a href="products_PurchaseApprovals_23wayMatching.html">Purchase Approvals w/2-3 way Matching</a></li>
+								<li><a href="products_SFTPconnector.html">SFTP Connector</a></li>
+								<li><a href="products_crossSubsidiaryFulfilment.html">Cross Subsidiary Fulfillment Plus</a></li>
+							</ul>
+						</li>
+						<li><a href="CS_highTechManufacturing.html">Our Works</a>
+							<ul>
+									<li><a href="CS_highTechManufacturing.html">Case Studies</a></li>
+										<li><a href="ourClients.html">Our Clients</a></li>
+									</ul>
+								</li>			
+						<li><a href="contact.html">Contact Us</a>
+						</li>
+
+					</ul>
+			</nav>
+		</div>
+	</div>
+
+	<!--==================================================-->
+	<!----- End Main Menu Area ----->
+	<!--==================================================-->
+	
+	<!-- ============================================================== -->
+	<!-- Start Banner Area -->
+	<!-- ============================================================== -->
+	<div class="breatcome_area services_img d-flex align-items-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="breatcome_title">
+						<div class="breatcome_title_inner pb-2">
+							<h2>Services</h2>
+						</div>
+						<div class="breatcome_title_inner">
+								<h4>Our Cloud Strategy and Advisory team specializes in creating technology-driven transformations that are customized for your industry to unlock additional outstanding business value.</h4>
+						</div>
+						<div>&nbsp;</div>
+							<div class="button two">
+								<a href="mailto:sales@n2lab.io?&subject=Request for Demo - Services" target="_top">Request a Demo</a>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ============================================================== -->
+	<!-- End Banner Area -->
+	<!-- ============================================================== -->
+	
+	<!--==================================================-->
+	<!----- Start Certification Area ----->
+	<!--==================================================-->
+	<div class="brand_area bg_color5 pt-30 pb-15">
+		<div class="container">
+			<div class="row">
+				<!-- Start Section Tile -->
+				<div class="col-lg-12">
+					<div class="section_title text_center mb-50 mt-3">
+						<div class="section_main_title">
+							<h1>Empowering <span>Success</span></h1>
+						</div>
+						<div class="section_content_text pt-4">
+							<p>Our Team's Prestigious Certifications Guarantee Unparalleled Expertise, Ensuring Your Business Needs Are Met with Absolute Trust and Reliability.</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row">
+				<!-- Start Cert -->
+				<div class="col5- col-md-4 col-sm-2">
+					<div class="single_brand mb-30">
+						<div class="single_brand_thumb">
+							<img src="assets/images/brand/netsuite-authorized-arm-revenue-management.png" width="100%" alt="netsuite authorized arm revenue management" />
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col5- col-md-4 col-sm-2">
+					<div class="single_brand mb-30">
+						<div class="single_brand_thumb">
+							<img src="assets/images/brand/netsuite-authorized-multi-book.png" width="100%" alt="netsuite authorized multi book" />
+						</div>
+					</div>
+				</div>
+
+				<div class="col5- col-md-4 col-sm-2">
+					<div class="single_brand mb-30">
+						<div class="single_brand_thumb">
+							<img src="assets/images/brand/netsuite-certified-ERP consultant.png" width="100%" alt="netsuite certified ERP consultant" />
+						</div>
+					</div>
+				</div>
+
+				<div class="col5- col-md-4 col-sm-2">
+					<div class="single_brand mb-30">
+						<div class="single_brand_thumb">
+							<img src="assets/images/brand/netsuite-certified-suitecloud-developer-1.png" width="100%" alt="netsuite certified suitecloud developer 1" />
+						</div>
+					</div>
+				</div>
+
+				<div class="col5- col-md-4 col-sm-2">
+					<div class="single_brand mb-30">
+						<div class="single_brand_thumb">
+							<img src="assets/images/brand/netsuite-certified-administrator.png" width="100%" alt="netsuite certified administrator." />
+						</div>
+					</div>
+				</div>
+
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End Certificatio Area ----->
+	<!--==================================================-->
+	
+	<!--==================================================-->
+	<!----- Start Specialities  Area ----->
+	<!--==================================================-->
+	<div class="accordion_area style-two bg_color2 pt-90 pb-90">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section_title text_center mb-55">
+						<div class="section_main_title">
+							<h1>Our <span>Specialities</span></h1>
+						</div>
+						<div class="em_bar">
+							<div class="em_bar_bg"></div>
+						</div>
+						<div class="section_content_text pt-4">
+							<p>We specialize in providing expert advisory services for NetSuite, <br> the leading cloud-based enterprise (ERP) platform.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="row">
+				<div class="col col-md-6 col-sm-12">
+					<div class="panel-group default symb" id="accordion">
+						<!-- Start Specialities 1 -->
+						
+						<div class="panel panel-default bg_color5">
+							<div class="panel-heading mb-3">
+								<h4 class="panel-title">
+									<a name="soxh" data-toggle="collapse" data-parent="#accordion" href="#sox" class="collapsed"><i class="fa fa-check-circle"></i>
+                                        SOX-Compliant NetSuite Solutions
+									</a>
+								</h4>
+							</div>
+							<div id="sox" class="panel-collapse in collapse">
+								<div class="panel-body pl-4 pr-4">
+									<p>
+                                        Design your NetSuite ERP system with full consideration of Sarbanes-Oxley Act (SOX) compliance requirements, ensuring a robust and secure financial framework from the ground up.
+									</p>
+								</div>
+                                <div class="row pl-4 pr-4">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Features</h5>
+                                                </div>
+                                                <div class="pl-4">
+                                                    <ul>
+                                                        <li>Easily automate and tailor NetSuite with custom preventative and detective controls using workflows, SuiteScripts, saved search alerts and custom fields.</li>
+                                                        <li>Make the necessary customizations in your accounting processes with ongoing compliance.</li>
+                                                        <li>Smooth transition from old to new revenue principles.</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="col-lg-6 col-md-6">									<div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Benefits</h5>
+                                                </div>
+                                                <div class="pl-4">
+                                                    <ul>
+                                                        <li>Eliminate labour-intensive and error-prone back-end reviews.</li>
+                                                        <li>Work closely with your executives to be always audit-ready.</li>
+                                                        <li>Effective segregation of duties (SOD) controls.</li>
+                                                        <li>Best practices adopted for change controls.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+						
+						<!-- End Specialities 1 -->
+
+						<!-- Start Specialities 2 -->
+						<div class="panel panel-default bg_color5">
+							<div class="panel-heading mb-3">
+								<h4 class="panel-title">
+									<a name="cpqh" data-toggle="collapse" data-parent="#accordion" href="#cpq" class="collapsed"><i class="fa fa-check-circle"></i>
+                                        Salesforce (CPQ) to NetSuite (O2C) Integration
+									</a>
+								</h4>
+							</div>
+							<div id="cpq" class="panel-collapse in collapse">
+								<div class="panel-body pl-4 pr-4">
+									<p>
+                                        The undisputed leaders in CRM and ERP simply work well together to deliver the best long-term outcomes for you. N2 Lab is committed to deliver integration solutions that achieved your desired outcomes with deep understanding and careful consideration. Our advantage is our high ability to apply skills and knowledge in a context-sensitive integration.
+									</p>
+								</div>
+								
+                                <div class="row pl-4 pr-4">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Features</h5>
+                                                </div>
+                                                <div class="pl-4">
+                                                    <ul>
+                                                        <li>Streamline business end-to-end sales and order management processes.</li>
+                                                        <li>Managed point-to-point with audit logs.</li>
+                                                        <li>Enterprise partnered integration with Boomi or Celigo.</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Benefits</h5>
+                                                </div>
+												
+                                                <div class="pl-4">
+                                                    <ul>
+														<li>Improve performances with live data access and exchanges.</li>
+                                                        <li>Increased productivity and efficiency, giving business users more time to focus on their core operations.</li>
+                                                        <li><li>Strengthen and optimize the areas of opportunity within your revenue operations.</li>
+                                                    </ul>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+
+						<!-- End Specialities 2 -->
+
+
+						<!-- Start Specialities 3 -->
+						
+						<div class="panel panel-default bg_color5">
+							<div class="panel-heading mb-3">
+								<h4 class="panel-title" >
+									<a name="arm1h" data-toggle="collapse" data-parent="#accordion" href="#arm1" class="collapsed"><i class="fa fa-check-circle"></i>
+                                        Advanced Revenue Management
+									</a>
+								</h4>
+							</div>
+							<div id="arm1" class="panel-collapse in collapse">
+								<div class="panel-body pl-4 pr-4">
+									<p>
+                                        This add-on module ensures that revenue is recognised in accordance with accounting standards including ASC 605, ASC 606 and IFRS 15 standards. N2 Lab delivers timely and quality revenue management services through a team of Oracle NetSuite Authorised-ARM and Authorised-Multi-Book consultants.
+									</p>
+								</div>
+                                <div class="row pl-4 pr-4">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Features</h5>
+                                                </div>
+                                                <div class="pl-4">
+                                                    <ul>
+                                                        <li>Automates complex revenue recognition.</li>
+                                                        <li>Fair value allocation.</li>
+                                                        <li>Two-Step Residual Method.</li>
+														<li>ASC 606 and Multi-Book Accounting expertise</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Benefits</h5>
+                                                </div>
+                                                <div class="pl-4">
+                                                    <ul>
+                                                        <li>Eliminates manual calculations which are time-consuming and error-prone.</li>
+                                                        <li>Increased productivity, accuracy, visibility and compliance.</li>
+                                                        <li>Smooth transition from classic revenue recognition to advanced revenue management.</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+						<!-- End Specialities 3 -->
+
+						<!-- Start Specialities 4 -->
+						<div class="panel panel-default bg_color5">
+							<div class="panel-heading mb-3">
+								<h4 class="panel-title">
+									<a name="ediah" data-toggle="collapse" data-parent="#accordion" href="#edia" class="collapsed"><i class="fa fa-check-circle"></i>
+                                        Electronic Data Interchange Automation
+									</a>
+								</h4>
+							</div>
+							<div id="edia" class="panel-collapse in collapse">
+								<div class="panel-body pl-4 pr-4">
+									<p>
+                                        Electronic Data Interchange (EDI) allows connectivity between two or multiple endpoints to enable data transfer between them, for example, between NetSuite and Salesforce. N2 Lab has a team of highly competent EDI experts that deliver integration solutions with careful integration considerations in a context-sensitive integration.
+									</p>
+								</div>
+                                <div class="row pl-4 pr-4">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Features</h5>
+                                                </div>
+                                                <div class="pl-4">
+                                                    <ul>
+                                                        <li>Streamline processes with business partners/suppliers or internal core business processes running on different platforms.</li>
+                                                        <li>Managed point-to-point with audit logs.</li>
+                                                        <li>Enterprise partnered integration with Boomi, Celigo and Workato.</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Benefits</h5>
+                                                </div>
+                                                <div class="pl-4">
+                                                    <ul>
+                                                        <li>Improve performances with live data access and exchanges.</li>
+                                                        <li>Increased productivity and efficiency by automating supplier fulfillments and invoicing, giving business users more time to focus on their core operations.</li>
+                                                        <li>Reduce costs with less manual processing and potential costly rework due to errors.</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+						<!-- End Specialities 4 -->
+
+						<!-- Start Specialities 5 -->
+						<div class="panel panel-default bg_color5">
+							<div class="panel-heading mb-3">
+								<h4 class="panel-title">
+									<a name="oppph" data-toggle="collapse" data-parent="#accordion" href="#oppp" class="collapsed"><i class="fa fa-check-circle"></i>
+                                        Optimizing Procure to Pay Processes
+									</a>
+								</h4>
+							</div>
+							<div id="oppp" class="panel-collapse in collapse">
+								<div class="panel-body pl-4 pr-4">
+									<p>
+                                        Optimizing the Procure-to-Pay (P2P) process in NetSuite involves streamlining vendor onboarding and approvals, implementing 2-3 way matching controls, automating vendor bill acknowledgments, and establishing a Purchasing Approval Matrix for efficient authorization. These steps enhance transparency, accuracy, and speed in the P2P cycle. With N2 Lab's expertise, clients can trust in the right team to navigate these optimizations effectively.
+									</p>
+								</div>
+                                <div class="row pl-4 pr-4">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Features</h5>
+                                                </div>
+                                                <div class="pl-4">
+                                                    <ul>
+                                                        <li>Streamlined procurement processes which are scalable, making it possible for you to deal with more customers and more complicated tasks.</li>
+                                                        <li>Automated procurement for faster cycles and few payments delays.</li>
+                                                        <li>Purchase approvals with 2/3 way matching.</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Benefits</h5>
+                                                </div>
+                                                <div class="pl-4">
+                                                    <ul>
+                                                        <li>Reduces procurement errors, for example, overpay or overorder.</li>
+                                                        <li>Improve efficiency and reduce processing cost with higher speed and accuracy.</li>
+                                                        <li>Mitigate non-compliance with approval workflow, combined with documentation and audit trails.</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+						<!-- End Specialities 5 -->
+
+						<!-- Start Specialities 6 -->
+						<div class="panel panel-default bg_color5">
+							<div class="panel-heading mb-3">
+								<h4 class="panel-title">
+									<a name="mbah" data-toggle="collapse" data-parent="#accordion" href="#mba" class="collapsed"><i class="fa fa-check-circle"></i>
+                                        Multibook Accounting
+									</a>
+								</h4>
+							</div>
+							<div id="mba" class="panel-collapse in collapse">
+								<div class="panel-body pl-4 pr-4">
+									<p>
+                                        Implement NetSuite Multi-Book Accounting features which provides the ability to maintain multiple sets of accounting records based on a single set of real-time financial transactions; N2 Lab possesses a track record of successfully implementing Multi-Book solution to our clients through a team of Oracle NetSuite Authorised-Multi-Book consultants.
+									</p>
+								</div>
+                                <div class="row pl-4 pr-4">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Features</h5>
+                                                </div>
+                                                <div class="pl-4">
+                                                    <ul>
+                                                        <li>Maintain a single set of financial transactions in different time zones, currencies and/or methods.</li>
+                                                        <li>Maintain consistency, accuracy, and legality in financial reporting in all operating countries.</li>
+                                                        <li>Make the necessary customizations in your accounting processes with ongoing compliance.</li>
+														<li>Smooth transition from old to new revenue principles.</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single_faq mb-4">
+                                            <div class="single_faq_content">
+                                                <div class="accordion-subheader pb-2">
+                                                    <h5>Benefits</h5>
+                                                </div>
+                                                <div class="pl-4">
+                                                    <ul>
+                                                        <li>Ensure ongoing compliance with each set of standards, such as Generally Accepted Accounting Principles (GAAP) or local statutory requirements when operating in multiple countries.</li>
+                                                        <li>Streamline communications and optimize business processes among various stakeholders.</li>
+                                                        <li>Optimize financial close process and provide real-time visibility for any book, anytime.</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+						<!-- End Specialities 6 -->
+
+					</div>
+				</div>
+            </div>
+		</div>	
+	</div>
+
+    <!--==================================================-->
+	<!----- End Specialities  Area ----->
+	<!--==================================================-->
+
+    
+
+    
+	<!--==================================================-->
+	<!----- Start Techno Choose Us Area ----->
+	<!--==================================================-->
+	<div class="choose_us_area top_feature two pb-70">
+		<div class="container">
+			<div class="row">
+				<!-- Start Section Tile -->
+		
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+                        <div class="about_skill_thumb mb-4">
+                            <img src="assets/images/galery/coreServices.jpg" alt="core Services diagram" />
+                        </div>
+				</div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+					<div class="section_title text_left mb-40 mt-5">
+						<div class="section_main_title">
+							<h1>Our <span>Core Services</span></h1>
+						</div>
+							<div class="singel-about-content mb-40 mt-4">
+								<h5>Implementations</h5>
+                                <p>At N2 Lab, we take pride in being your trusted partner in delivering the best solutions for your business. Our commitment to your success is unwavering, and our expertise is unmatched.</p>
+                                <h5>Managed Services</h5>
+                                <p>Netsuite Administrator,Developer, or functional consultant to support your team and implemented solutions.</p>
+                                <h5>Technical Services</h5>
+                                <p>Customize your Netsuite instance to best fit your business needs or third-party systems to automate your processes to increase accuracy and efficiency.</p>
+						    </div>
+					</div>
+					<div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End Techno Choose Us Area ----->
+	<!--==================================================-->
+	
+	
+	<!--==================================================-->
+	<!----- Start Call Do Action Area ----->
+	<!--==================================================-->
+	<div class="call_do_action pt-50 pb-10 bg_color" style="background-image:url(assets/images/call-do-bg.png)" >
+		<div class="container">
+			<div class="row">
+				<!-- Start Section Tile -->
+				<div class="col-lg-12">
+					<div class="section_title text_center white mb-50 mt-3">
+						<div class="section_main_title">
+							<h1>Learn How ERP Can Streamline Your Business.</h1>
+						</div>
+						<div class="section_title white text_center mb-20 mt-3">
+							<div class="button three mt-40">
+								<a href="mailto:sales@n2lab.io?&subject=Request for free consultation - Our Services" target="_top">Schedule a Free Consultation</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End Call Do Action Area ----->
+	<!--==================================================-->
+
+
+	<!--==================================================-->
+	<!----- Start Case Study Area ----->
+	<!--==================================================-->
+	<div id="case_study"></div>
+	<!--==================================================-->
+	<!----- End Case Study Area ----->
+	<!--==================================================-->
+	
+
+	<!--==================================================-->
+	<!----- Start Footer Middle Area ----->
+	<!--==================================================-->
+	
+	<div id="footer"></div>
+
+	<!--==================================================-->
+	<!----- End Footer Middle Area ----->
+	<!--==================================================-->
+	
+	
+	<!-- jquery js -->	
+	<!-- <script type="text/javascript" src="assets/js/vendor/jquery-3.2.1.min.js"></script> -->
+	<!-- bootstrap js -->	
+	<!-- <script type="text/javascript" src="assets/js/bootstrap.min.js"></script> -->
+	<!-- carousel js -->
+	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+	<!-- counterup js -->
+	<script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
+	<!-- waypoints js -->
+	<script type="text/javascript" src="assets/js/waypoints.min.js"></script>
+	<!-- wow js -->
+	<script type="text/javascript" src="assets/js/wow.js"></script>
+	<!-- imagesloaded js -->
+	<script type="text/javascript" src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<!-- venobox js -->
+	<script type="text/javascript" src="venobox/venobox.js"></script>
+	<!-- ajax mail js -->
+	<script type="text/javascript" src="assets/js/ajax-mail.js"></script>
+	<!--  testimonial js -->	
+	<script type="text/javascript" src="assets/js/testimonial.js"></script>
+	<!--  animated-text js -->	
+	<script type="text/javascript" src="assets/js/animated-text.js"></script>
+	<!-- venobox min js -->
+	<script type="text/javascript" src="venobox/venobox.min.js"></script>
+	<!-- isotope js -->
+	<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+	<!-- jquery nivo slider pack js -->
+	<script type="text/javascript" src="assets/js/jquery.nivo.slider.pack.js"></script>
+	<!-- jquery meanmenu js -->	
+	<script type="text/javascript" src="assets/js/jquery.meanmenu.js"></script>
+	<!-- jquery scrollup js -->	
+	<script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.scrollUp.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.migration.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.video.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="assets/js/extensions/revolution.extension.navigation.min.js"></script>
+	<!-- theme js -->	
+	<script type="text/javascript" src="assets/js/theme.js"></script>
+		<!-- jquery js -->	
+		
+		
+		
+<script type="text/javascript">
+
+    jQuery('#rev_slider_1').show().revolution({
+        delay: 7000,
+        responsiveLevels: [1200, 1140, 778, 480],
+        gridwidth: [1140, 920, 700, 380],
+        sliderLayout: 'fullscreen',
+        navigation: {
+            arrows: {
+                enable: true,
+                style: "vor_arrows",
+                hide_onleave: false,
+                left: {
+                    container: 'slider',
+                    h_align: 'left',
+                    v_align: 'center',
+                    h_offset: 26,
+                    v_offset: 0
+                },
+                right: {
+                    container: 'slider',
+                    h_align: 'right',
+                    v_align: 'center',
+                    h_offset: 26,
+                    v_offset: 0
+                }
+            },
+            bullets: {
+                enable: true,
+                style: "vor_bullet",
+                hide_onleave: false,
+                h_align: "center",
+                v_align: "bottom",
+                h_offset: 0,
+                v_offset: 40,
+                space: 12
+
+            }
+        }
+    });
+    jQuery('#rev_slider_2').show().revolution({
+        delay: 7000,
+        responsiveLevels: [1200, 1140, 778, 480],
+        gridwidth: [1140, 920, 700, 380],
+        jsFileLocation: "js/",
+        sliderLayout: "auto",
+        minHeight: 800,
+        navigation: {
+            arrows: {
+                enable: true,
+                style: "vor_arrows",
+                hide_onleave: false,
+                left: {
+                    container: 'slider',
+                    h_align: 'left',
+                    v_align: 'center',
+                    h_offset: 26,
+                    v_offset: 0
+                },
+                right: {
+                    container: 'slider',
+                    h_align: 'right',
+                    v_align: 'center',
+                    h_offset: 26,
+                    v_offset: 0
+                }
+            },
+            bullets: {
+                enable: true,
+                style: "vor_bullet",
+                hide_onleave: false,
+                h_align: "center",
+                v_align: "bottom",
+                h_offset: 0,
+                v_offset: 23,
+                space: 12
+
+            }
+        }
+    });
+    jQuery('#rev_slider_3').show().revolution({
+        delay: 7000,
+        responsiveLevels: [1200, 1140, 778, 480],
+        gridwidth: [1140, 920, 700, 380],
+        sliderLayout: 'fullscreen',
+        navigation: {
+            arrows: {
+                enable: false
+            },
+            bullets: {
+                enable: true,
+                style: "vor_bullet",
+                hide_onleave: false,
+                h_align: "center",
+                v_align: "bottom",
+                h_offset: 0,
+                v_offset: 33,
+                space: 12
+            }
+        }
+    });
+</script>
+</body>
+</html>
