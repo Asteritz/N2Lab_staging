@@ -1,0 +1,649 @@
+$flaticon_n2-font: "flaticon_n2";
+
+@font-face {
+    font-family: $flaticon_n2-font;
+    src: url("./flaticon_n2.woff2?7c2f0fbd672b5aa32e107ffce4f6fbcc") format("woff2"),
+url("./flaticon_n2.woff?7c2f0fbd672b5aa32e107ffce4f6fbcc") format("woff"),
+url("./flaticon_n2.eot?7c2f0fbd672b5aa32e107ffce4f6fbcc#iefix") format("embedded-opentype"),
+url("./flaticon_n2.ttf?7c2f0fbd672b5aa32e107ffce4f6fbcc") format("truetype"),
+url("./flaticon_n2.svg?7c2f0fbd672b5aa32e107ffce4f6fbcc#flaticon_n2") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_n2 !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_n2-map: (
+    "data-gathering": "\f101",
+    "analysis": "\f102",
+    "check-list": "\f103",
+    "cash-flow": "\f104",
+    "time": "\f105",
+    "time-management": "\f106",
+    "investment": "\f107",
+    "target": "\f108",
+    "revenue": "\f109",
+    "report": "\f10a",
+    "web-design": "\f10b",
+    "online-banking": "\f10c",
+    "invoice": "\f10d",
+    "machine": "\f10e",
+    "pay": "\f10f",
+    "calculator": "\f110",
+    "payment": "\f111",
+    "payment-1": "\f112",
+    "bank": "\f113",
+    "business": "\f114",
+    "strategy": "\f115",
+    "coins": "\f116",
+    "cash": "\f117",
+    "data-transfer": "\f118",
+    "research": "\f119",
+    "investment-1": "\f11a",
+    "employee": "\f11b",
+    "tax": "\f11c",
+    "time-management-1": "\f11d",
+    "consumer": "\f11e",
+    "financial": "\f11f",
+    "online-business": "\f120",
+    "search": "\f121",
+    "demand": "\f122",
+    "database": "\f123",
+    "technology": "\f124",
+    "server": "\f125",
+    "firewall": "\f126",
+    "shield": "\f127",
+    "warehouse": "\f128",
+    "laptop": "\f129",
+    "cash-flow-1": "\f12a",
+    "agreement": "\f12b",
+    "iteration": "\f12c",
+    "portfolio": "\f12d",
+    "website": "\f12e",
+    "business-1": "\f12f",
+    "hierarchy": "\f130",
+    "agile": "\f131",
+    "cash-on-delivery": "\f132",
+    "price-list": "\f133",
+    "management": "\f134",
+    "shopping-list": "\f135",
+    "truck": "\f136",
+    "exchange": "\f137",
+    "conversation": "\f138",
+    "wireless-charging": "\f139",
+    "scale": "\f13a",
+    "bull-market": "\f13b",
+    "currency": "\f13c",
+    "grow-up": "\f13d",
+    "taxes": "\f13e",
+    "calendar": "\f13f",
+    "build": "\f140",
+    "big-data": "\f141",
+    "smartphone": "\f142",
+    "outsourcing": "\f143",
+    "circular-economy": "\f144",
+    "return-on-investment": "\f145",
+    "accounting": "\f146",
+    "court": "\f147",
+    "cash-money": "\f148",
+    "audit": "\f149",
+    "budget": "\f14a",
+    "currency-exchange": "\f14b",
+    "travel-guide": "\f14c",
+    "responsive-design": "\f14d",
+    "error": "\f14e",
+    "smartphone-1": "\f14f",
+    "connection": "\f150",
+    "server-1": "\f151",
+    "smartphone-2": "\f152",
+    "cloud-storage": "\f153",
+    "audit-1": "\f154",
+    "target-1": "\f155",
+    "target-2": "\f156",
+    "chart": "\f157",
+    "credit-card": "\f158",
+    "payment-2": "\f159",
+    "cashless-payment": "\f15a",
+    "demographic": "\f15b",
+    "cyber-security": "\f15c",
+    "data-transfer-1": "\f15d",
+    "filtering": "\f15e",
+    "information": "\f15f",
+    "image": "\f160",
+    "data-exchange": "\f161",
+    "file-transfer": "\f162",
+    "transfer": "\f163",
+    "schedule": "\f164",
+    "time-management-2": "\f165",
+    "transfer-1": "\f166",
+    "data-transfer-2": "\f167",
+    "ftp": "\f168",
+    "export": "\f169",
+    "data-gathering-1": "\f16a",
+    "file-sharing": "\f16b",
+    "database-1": "\f16c",
+    "backup-file": "\f16d",
+    "file-transfer-1": "\f16e",
+    "login": "\f16f",
+    "monitoring": "\f170",
+    "demand-1": "\f171",
+    "demand-2": "\f172",
+    "understand": "\f173",
+    "analytics": "\f174",
+    "demand-3": "\f175",
+    "customer-behavior": "\f176",
+    "demand-4": "\f177",
+    "production": "\f178",
+    "delivery-time": "\f179",
+    "time-1": "\f17a",
+    "warehouse-1": "\f17b",
+    "inventory": "\f17c",
+    "quality-control": "\f17d",
+    "web": "\f17e",
+    "software-testing": "\f17f",
+    "report-1": "\f180",
+    "order": "\f181",
+    "risk-management": "\f182",
+    "product-management": "\f183",
+    "best-seller": "\f184",
+    "management-1": "\f185",
+    "approve": "\f186",
+    "checklist": "\f187",
+    "loan": "\f188",
+    "approved": "\f189",
+    "verified": "\f18a",
+    "document": "\f18b",
+    "approved-1": "\f18c",
+    "organization": "\f18d",
+    "time-2": "\f18e",
+    "checklist-1": "\f18f",
+    "data-quality": "\f190",
+    "accounting-1": "\f191",
+    "invoice-1": "\f192",
+    "invoice-2": "\f193",
+    "receipt": "\f194",
+    "engineering": "\f195",
+    "sustainability": "\f196",
+    "sustainability-1": "\f197",
+    "structure": "\f198",
+    "manufacturing": "\f199",
+    "supply-chain": "\f19a",
+    "outsource": "\f19b",
+    "supply-chain-1": "\f19c",
+);
+
+.flaticon-data-gathering:before {
+    content: map-get($flaticon_n2-map, "data-gathering");
+}
+.flaticon-analysis:before {
+    content: map-get($flaticon_n2-map, "analysis");
+}
+.flaticon-check-list:before {
+    content: map-get($flaticon_n2-map, "check-list");
+}
+.flaticon-cash-flow:before {
+    content: map-get($flaticon_n2-map, "cash-flow");
+}
+.flaticon-time:before {
+    content: map-get($flaticon_n2-map, "time");
+}
+.flaticon-time-management:before {
+    content: map-get($flaticon_n2-map, "time-management");
+}
+.flaticon-investment:before {
+    content: map-get($flaticon_n2-map, "investment");
+}
+.flaticon-target:before {
+    content: map-get($flaticon_n2-map, "target");
+}
+.flaticon-revenue:before {
+    content: map-get($flaticon_n2-map, "revenue");
+}
+.flaticon-report:before {
+    content: map-get($flaticon_n2-map, "report");
+}
+.flaticon-web-design:before {
+    content: map-get($flaticon_n2-map, "web-design");
+}
+.flaticon-online-banking:before {
+    content: map-get($flaticon_n2-map, "online-banking");
+}
+.flaticon-invoice:before {
+    content: map-get($flaticon_n2-map, "invoice");
+}
+.flaticon-machine:before {
+    content: map-get($flaticon_n2-map, "machine");
+}
+.flaticon-pay:before {
+    content: map-get($flaticon_n2-map, "pay");
+}
+.flaticon-calculator:before {
+    content: map-get($flaticon_n2-map, "calculator");
+}
+.flaticon-payment:before {
+    content: map-get($flaticon_n2-map, "payment");
+}
+.flaticon-payment-1:before {
+    content: map-get($flaticon_n2-map, "payment-1");
+}
+.flaticon-bank:before {
+    content: map-get($flaticon_n2-map, "bank");
+}
+.flaticon-business:before {
+    content: map-get($flaticon_n2-map, "business");
+}
+.flaticon-strategy:before {
+    content: map-get($flaticon_n2-map, "strategy");
+}
+.flaticon-coins:before {
+    content: map-get($flaticon_n2-map, "coins");
+}
+.flaticon-cash:before {
+    content: map-get($flaticon_n2-map, "cash");
+}
+.flaticon-data-transfer:before {
+    content: map-get($flaticon_n2-map, "data-transfer");
+}
+.flaticon-research:before {
+    content: map-get($flaticon_n2-map, "research");
+}
+.flaticon-investment-1:before {
+    content: map-get($flaticon_n2-map, "investment-1");
+}
+.flaticon-employee:before {
+    content: map-get($flaticon_n2-map, "employee");
+}
+.flaticon-tax:before {
+    content: map-get($flaticon_n2-map, "tax");
+}
+.flaticon-time-management-1:before {
+    content: map-get($flaticon_n2-map, "time-management-1");
+}
+.flaticon-consumer:before {
+    content: map-get($flaticon_n2-map, "consumer");
+}
+.flaticon-financial:before {
+    content: map-get($flaticon_n2-map, "financial");
+}
+.flaticon-online-business:before {
+    content: map-get($flaticon_n2-map, "online-business");
+}
+.flaticon-search:before {
+    content: map-get($flaticon_n2-map, "search");
+}
+.flaticon-demand:before {
+    content: map-get($flaticon_n2-map, "demand");
+}
+.flaticon-database:before {
+    content: map-get($flaticon_n2-map, "database");
+}
+.flaticon-technology:before {
+    content: map-get($flaticon_n2-map, "technology");
+}
+.flaticon-server:before {
+    content: map-get($flaticon_n2-map, "server");
+}
+.flaticon-firewall:before {
+    content: map-get($flaticon_n2-map, "firewall");
+}
+.flaticon-shield:before {
+    content: map-get($flaticon_n2-map, "shield");
+}
+.flaticon-warehouse:before {
+    content: map-get($flaticon_n2-map, "warehouse");
+}
+.flaticon-laptop:before {
+    content: map-get($flaticon_n2-map, "laptop");
+}
+.flaticon-cash-flow-1:before {
+    content: map-get($flaticon_n2-map, "cash-flow-1");
+}
+.flaticon-agreement:before {
+    content: map-get($flaticon_n2-map, "agreement");
+}
+.flaticon-iteration:before {
+    content: map-get($flaticon_n2-map, "iteration");
+}
+.flaticon-portfolio:before {
+    content: map-get($flaticon_n2-map, "portfolio");
+}
+.flaticon-website:before {
+    content: map-get($flaticon_n2-map, "website");
+}
+.flaticon-business-1:before {
+    content: map-get($flaticon_n2-map, "business-1");
+}
+.flaticon-hierarchy:before {
+    content: map-get($flaticon_n2-map, "hierarchy");
+}
+.flaticon-agile:before {
+    content: map-get($flaticon_n2-map, "agile");
+}
+.flaticon-cash-on-delivery:before {
+    content: map-get($flaticon_n2-map, "cash-on-delivery");
+}
+.flaticon-price-list:before {
+    content: map-get($flaticon_n2-map, "price-list");
+}
+.flaticon-management:before {
+    content: map-get($flaticon_n2-map, "management");
+}
+.flaticon-shopping-list:before {
+    content: map-get($flaticon_n2-map, "shopping-list");
+}
+.flaticon-truck:before {
+    content: map-get($flaticon_n2-map, "truck");
+}
+.flaticon-exchange:before {
+    content: map-get($flaticon_n2-map, "exchange");
+}
+.flaticon-conversation:before {
+    content: map-get($flaticon_n2-map, "conversation");
+}
+.flaticon-wireless-charging:before {
+    content: map-get($flaticon_n2-map, "wireless-charging");
+}
+.flaticon-scale:before {
+    content: map-get($flaticon_n2-map, "scale");
+}
+.flaticon-bull-market:before {
+    content: map-get($flaticon_n2-map, "bull-market");
+}
+.flaticon-currency:before {
+    content: map-get($flaticon_n2-map, "currency");
+}
+.flaticon-grow-up:before {
+    content: map-get($flaticon_n2-map, "grow-up");
+}
+.flaticon-taxes:before {
+    content: map-get($flaticon_n2-map, "taxes");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon_n2-map, "calendar");
+}
+.flaticon-build:before {
+    content: map-get($flaticon_n2-map, "build");
+}
+.flaticon-big-data:before {
+    content: map-get($flaticon_n2-map, "big-data");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon_n2-map, "smartphone");
+}
+.flaticon-outsourcing:before {
+    content: map-get($flaticon_n2-map, "outsourcing");
+}
+.flaticon-circular-economy:before {
+    content: map-get($flaticon_n2-map, "circular-economy");
+}
+.flaticon-return-on-investment:before {
+    content: map-get($flaticon_n2-map, "return-on-investment");
+}
+.flaticon-accounting:before {
+    content: map-get($flaticon_n2-map, "accounting");
+}
+.flaticon-court:before {
+    content: map-get($flaticon_n2-map, "court");
+}
+.flaticon-cash-money:before {
+    content: map-get($flaticon_n2-map, "cash-money");
+}
+.flaticon-audit:before {
+    content: map-get($flaticon_n2-map, "audit");
+}
+.flaticon-budget:before {
+    content: map-get($flaticon_n2-map, "budget");
+}
+.flaticon-currency-exchange:before {
+    content: map-get($flaticon_n2-map, "currency-exchange");
+}
+.flaticon-travel-guide:before {
+    content: map-get($flaticon_n2-map, "travel-guide");
+}
+.flaticon-responsive-design:before {
+    content: map-get($flaticon_n2-map, "responsive-design");
+}
+.flaticon-error:before {
+    content: map-get($flaticon_n2-map, "error");
+}
+.flaticon-smartphone-1:before {
+    content: map-get($flaticon_n2-map, "smartphone-1");
+}
+.flaticon-connection:before {
+    content: map-get($flaticon_n2-map, "connection");
+}
+.flaticon-server-1:before {
+    content: map-get($flaticon_n2-map, "server-1");
+}
+.flaticon-smartphone-2:before {
+    content: map-get($flaticon_n2-map, "smartphone-2");
+}
+.flaticon-cloud-storage:before {
+    content: map-get($flaticon_n2-map, "cloud-storage");
+}
+.flaticon-audit-1:before {
+    content: map-get($flaticon_n2-map, "audit-1");
+}
+.flaticon-target-1:before {
+    content: map-get($flaticon_n2-map, "target-1");
+}
+.flaticon-target-2:before {
+    content: map-get($flaticon_n2-map, "target-2");
+}
+.flaticon-chart:before {
+    content: map-get($flaticon_n2-map, "chart");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon_n2-map, "credit-card");
+}
+.flaticon-payment-2:before {
+    content: map-get($flaticon_n2-map, "payment-2");
+}
+.flaticon-cashless-payment:before {
+    content: map-get($flaticon_n2-map, "cashless-payment");
+}
+.flaticon-demographic:before {
+    content: map-get($flaticon_n2-map, "demographic");
+}
+.flaticon-cyber-security:before {
+    content: map-get($flaticon_n2-map, "cyber-security");
+}
+.flaticon-data-transfer-1:before {
+    content: map-get($flaticon_n2-map, "data-transfer-1");
+}
+.flaticon-filtering:before {
+    content: map-get($flaticon_n2-map, "filtering");
+}
+.flaticon-information:before {
+    content: map-get($flaticon_n2-map, "information");
+}
+.flaticon-image:before {
+    content: map-get($flaticon_n2-map, "image");
+}
+.flaticon-data-exchange:before {
+    content: map-get($flaticon_n2-map, "data-exchange");
+}
+.flaticon-file-transfer:before {
+    content: map-get($flaticon_n2-map, "file-transfer");
+}
+.flaticon-transfer:before {
+    content: map-get($flaticon_n2-map, "transfer");
+}
+.flaticon-schedule:before {
+    content: map-get($flaticon_n2-map, "schedule");
+}
+.flaticon-time-management-2:before {
+    content: map-get($flaticon_n2-map, "time-management-2");
+}
+.flaticon-transfer-1:before {
+    content: map-get($flaticon_n2-map, "transfer-1");
+}
+.flaticon-data-transfer-2:before {
+    content: map-get($flaticon_n2-map, "data-transfer-2");
+}
+.flaticon-ftp:before {
+    content: map-get($flaticon_n2-map, "ftp");
+}
+.flaticon-export:before {
+    content: map-get($flaticon_n2-map, "export");
+}
+.flaticon-data-gathering-1:before {
+    content: map-get($flaticon_n2-map, "data-gathering-1");
+}
+.flaticon-file-sharing:before {
+    content: map-get($flaticon_n2-map, "file-sharing");
+}
+.flaticon-database-1:before {
+    content: map-get($flaticon_n2-map, "database-1");
+}
+.flaticon-backup-file:before {
+    content: map-get($flaticon_n2-map, "backup-file");
+}
+.flaticon-file-transfer-1:before {
+    content: map-get($flaticon_n2-map, "file-transfer-1");
+}
+.flaticon-login:before {
+    content: map-get($flaticon_n2-map, "login");
+}
+.flaticon-monitoring:before {
+    content: map-get($flaticon_n2-map, "monitoring");
+}
+.flaticon-demand-1:before {
+    content: map-get($flaticon_n2-map, "demand-1");
+}
+.flaticon-demand-2:before {
+    content: map-get($flaticon_n2-map, "demand-2");
+}
+.flaticon-understand:before {
+    content: map-get($flaticon_n2-map, "understand");
+}
+.flaticon-analytics:before {
+    content: map-get($flaticon_n2-map, "analytics");
+}
+.flaticon-demand-3:before {
+    content: map-get($flaticon_n2-map, "demand-3");
+}
+.flaticon-customer-behavior:before {
+    content: map-get($flaticon_n2-map, "customer-behavior");
+}
+.flaticon-demand-4:before {
+    content: map-get($flaticon_n2-map, "demand-4");
+}
+.flaticon-production:before {
+    content: map-get($flaticon_n2-map, "production");
+}
+.flaticon-delivery-time:before {
+    content: map-get($flaticon_n2-map, "delivery-time");
+}
+.flaticon-time-1:before {
+    content: map-get($flaticon_n2-map, "time-1");
+}
+.flaticon-warehouse-1:before {
+    content: map-get($flaticon_n2-map, "warehouse-1");
+}
+.flaticon-inventory:before {
+    content: map-get($flaticon_n2-map, "inventory");
+}
+.flaticon-quality-control:before {
+    content: map-get($flaticon_n2-map, "quality-control");
+}
+.flaticon-web:before {
+    content: map-get($flaticon_n2-map, "web");
+}
+.flaticon-software-testing:before {
+    content: map-get($flaticon_n2-map, "software-testing");
+}
+.flaticon-report-1:before {
+    content: map-get($flaticon_n2-map, "report-1");
+}
+.flaticon-order:before {
+    content: map-get($flaticon_n2-map, "order");
+}
+.flaticon-risk-management:before {
+    content: map-get($flaticon_n2-map, "risk-management");
+}
+.flaticon-product-management:before {
+    content: map-get($flaticon_n2-map, "product-management");
+}
+.flaticon-best-seller:before {
+    content: map-get($flaticon_n2-map, "best-seller");
+}
+.flaticon-management-1:before {
+    content: map-get($flaticon_n2-map, "management-1");
+}
+.flaticon-approve:before {
+    content: map-get($flaticon_n2-map, "approve");
+}
+.flaticon-checklist:before {
+    content: map-get($flaticon_n2-map, "checklist");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon_n2-map, "loan");
+}
+.flaticon-approved:before {
+    content: map-get($flaticon_n2-map, "approved");
+}
+.flaticon-verified:before {
+    content: map-get($flaticon_n2-map, "verified");
+}
+.flaticon-document:before {
+    content: map-get($flaticon_n2-map, "document");
+}
+.flaticon-approved-1:before {
+    content: map-get($flaticon_n2-map, "approved-1");
+}
+.flaticon-organization:before {
+    content: map-get($flaticon_n2-map, "organization");
+}
+.flaticon-time-2:before {
+    content: map-get($flaticon_n2-map, "time-2");
+}
+.flaticon-checklist-1:before {
+    content: map-get($flaticon_n2-map, "checklist-1");
+}
+.flaticon-data-quality:before {
+    content: map-get($flaticon_n2-map, "data-quality");
+}
+.flaticon-accounting-1:before {
+    content: map-get($flaticon_n2-map, "accounting-1");
+}
+.flaticon-invoice-1:before {
+    content: map-get($flaticon_n2-map, "invoice-1");
+}
+.flaticon-invoice-2:before {
+    content: map-get($flaticon_n2-map, "invoice-2");
+}
+.flaticon-receipt:before {
+    content: map-get($flaticon_n2-map, "receipt");
+}
+.flaticon-engineering:before {
+    content: map-get($flaticon_n2-map, "engineering");
+}
+.flaticon-sustainability:before {
+    content: map-get($flaticon_n2-map, "sustainability");
+}
+.flaticon-sustainability-1:before {
+    content: map-get($flaticon_n2-map, "sustainability-1");
+}
+.flaticon-structure:before {
+    content: map-get($flaticon_n2-map, "structure");
+}
+.flaticon-manufacturing:before {
+    content: map-get($flaticon_n2-map, "manufacturing");
+}
+.flaticon-supply-chain:before {
+    content: map-get($flaticon_n2-map, "supply-chain");
+}
+.flaticon-outsource:before {
+    content: map-get($flaticon_n2-map, "outsource");
+}
+.flaticon-supply-chain-1:before {
+    content: map-get($flaticon_n2-map, "supply-chain-1");
+}
