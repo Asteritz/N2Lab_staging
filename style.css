@@ -4077,6 +4077,7 @@ a.em-active-button:hover {
 }
 .techno_flipbox_back .flipbox_desc p{
     color: #fff;
+    line-height: 1.6;
 }
 .techno_flipbox .techno_flipbox_back .flipbox_button a i {
 	display: none;
