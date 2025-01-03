@@ -3990,6 +3990,17 @@ a.em-active-button:hover {
 	-webkit-transform-style: preserve-3d;
 	z-index: 1;
 }
+
+.techno_flipbox_label {
+    font-size: 0.75rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+	text-align: center;
+    line-height: 1rem;
+    color: #616161;
+}
+
+
 .techno_flipbox .techno_flipbox_font,
 .techno_flipbox .techno_flipbox_back {
 	min-height: 250px;
