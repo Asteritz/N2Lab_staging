@@ -693,7 +693,7 @@ pre code {
 .offset-11 {
   margin-left: 91.666667%
 }
-@media (min-width:576px) {
+@media (min-width:420px) { /* old 576px */
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;

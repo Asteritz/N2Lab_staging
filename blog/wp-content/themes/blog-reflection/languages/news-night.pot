@@ -1,0 +1,1879 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blog Reflection\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-18 16:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.10; wp-6.5.4\n"
+"X-Domain: blog-reflection"
+
+#. number of items in the mini cart.
+#: inc/woocommerce.php:201
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#: inc/kirki-customize/header/header-bottom.php:130
+msgid "About Text"
+msgstr ""
+
+#: inc/kirki-customize/front-page/ads-middle.php:47
+#: inc/kirki-customize/front-page/side-ads.php:66
+#: inc/kirki-customize/header/header-middle.php:65
+msgid "Ad images recommended size (615 x 69 Px)"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:91
+msgid "Ad url"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:402
+msgid "Add Content Color"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:437
+msgid "Add Content Color hover"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-copyright.php:33
+msgid "Add copyright text Color"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:239
+msgid "Add Divider Color"
+msgstr ""
+
+#: functions.php:203 functions.php:215 functions.php:227 functions.php:239
+msgid "Add Footer widgets here."
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:36
+msgid "Add Header Top Background Color"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:205
+msgid "Add Left Heading Color"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:206
+msgid "Add link of social media"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:274
+msgid "Add Post title Color"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:307
+msgid "Add Post title Hover Color"
+msgstr ""
+
+#: functions.php:150 functions.php:161 functions.php:172 functions.php:182
+#: functions.php:192
+msgid "Add sidebar widgets here."
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:237
+msgid "Add Social Icon Color"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:158
+msgid "Add Social Media"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:199
+msgid "Add title of social media"
+msgstr ""
+
+#: inc/widget/advertising-widget.php:58
+msgid "Advertising Image Upload :"
+msgstr ""
+
+#: inc/widget/advertising-widget.php:54
+msgid "Advertising Url:"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:246
+#: inc/kirki-customize/front-page/news-ticker.php:426
+#: inc/kirki-customize/front-page/tending-video.php:155
+msgid "ASC"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:99
+#: inc/kirki-customize/front-page/news-top.php:244
+msgid "Ascending"
+msgstr ""
+
+#: inc/kirki-customize/front-page/more-news.php:146
+#: inc/kirki-customize/front-page/most-popular-news.php:147
+#: inc/kirki-customize/front-page/news-editor-choice.php:115
+#: inc/kirki-customize/front-page/news-hero.php:248
+#: inc/kirki-customize/front-page/news-hero.php:404
+#: inc/kirki-customize/front-page/news-hero.php:663
+#: inc/kirki-customize/front-page/news-ticker.php:102
+#: inc/kirki-customize/front-page/video-post.php:77
+#: inc/kirki-customize/front-page/whats-new.php:178
+msgid "ASE"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-typography.php:49
+msgid "Background Color"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:222
+msgid "Behance"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:4
+msgid "Blog Options"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:8
+msgid "Blog Post "
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:33
+msgid "Blog Post Overlay"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:34
+msgid "Blog Post Overlay Settings"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-typography.php:18
+msgid "Body Typography"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:37
+#: inc/kirki-customize/front-page/news-ticker.php:149
+msgid "Braking News"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:147
+msgid "Braking News Text"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:186
+msgid "Button Text"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:179
+#: inc/kirki-customize/header/header-top.php:156
+msgid "Category"
+msgstr ""
+
+#: functions.php:671 functions.php:733 functions.php:747
+msgid "Category Image"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:220
+msgid "Center"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-copyright.php:51
+msgid "Change Copyright Background Color"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-typography.php:50
+msgid "Change Footer Background Color"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-typography.php:18
+msgid "Change Footer Text Color"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-top.php:114
+msgid "Change text color ."
+msgstr ""
+
+#: inc/kirki-customize/front-page/editor-choice.php:106
+#: inc/kirki-customize/front-page/more-news.php:114
+#: inc/kirki-customize/front-page/most-popular-news.php:116
+#: inc/kirki-customize/front-page/news-editor-choice.php:54
+#: inc/kirki-customize/front-page/news-hero.php:102
+#: inc/kirki-customize/front-page/news-hero.php:133
+#: inc/kirki-customize/front-page/news-hero.php:163
+#: inc/kirki-customize/front-page/news-hero.php:350
+#: inc/kirki-customize/front-page/news-hero.php:518
+#: inc/kirki-customize/front-page/news-hero.php:549
+#: inc/kirki-customize/front-page/news-hero.php:581
+#: inc/kirki-customize/front-page/news-hero.php:613
+#: inc/kirki-customize/front-page/news-ticker.php:386
+#: inc/kirki-customize/front-page/news-top.php:170
+#: inc/kirki-customize/front-page/trending-stories.php:113
+#: inc/kirki-customize/front-page/whats-new.php:87
+#: inc/kirki-customize/front-page/whats-new.php:108
+#: inc/kirki-customize/header/header-top.php:172
+#: inc/kirki-customize/options-kirki/blog-options.php:52
+msgid "Choose an Category"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:85
+#: inc/kirki-customize/front-page/blog-post.php:115
+#: inc/kirki-customize/front-page/more-news.php:137
+#: inc/kirki-customize/front-page/more-news.php:159
+#: inc/kirki-customize/front-page/most-popular-news.php:138
+#: inc/kirki-customize/front-page/most-popular-news.php:160
+#: inc/kirki-customize/front-page/news-editor-choice.php:101
+#: inc/kirki-customize/front-page/news-editor-choice.php:131
+#: inc/kirki-customize/front-page/news-hero.php:229
+#: inc/kirki-customize/front-page/news-hero.php:261
+#: inc/kirki-customize/front-page/news-hero.php:385
+#: inc/kirki-customize/front-page/news-hero.php:417
+#: inc/kirki-customize/front-page/news-hero.php:644
+#: inc/kirki-customize/front-page/news-ticker.php:88
+#: inc/kirki-customize/front-page/news-ticker.php:244
+#: inc/kirki-customize/front-page/news-ticker.php:265
+#: inc/kirki-customize/front-page/news-ticker.php:412
+#: inc/kirki-customize/front-page/news-ticker.php:440
+#: inc/kirki-customize/front-page/news-top.php:230
+#: inc/kirki-customize/front-page/news-top.php:260
+#: inc/kirki-customize/front-page/tending-video.php:153
+#: inc/kirki-customize/front-page/tending-video.php:180
+#: inc/kirki-customize/front-page/video-post.php:68
+#: inc/kirki-customize/front-page/video-post.php:90
+#: inc/kirki-customize/front-page/whats-new.php:164
+#: inc/kirki-customize/front-page/whats-new.php:191
+msgid "Choose an option"
+msgstr ""
+
+#: functions.php:642 functions.php:661 functions.php:713
+#: inc/kirki-customize/header/header-middle.php:243
+msgid "Color"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:135
+#: inc/kirki-customize/front-page/more-news.php:173
+#: inc/kirki-customize/front-page/most-popular-news.php:174
+#: inc/kirki-customize/front-page/news-editor-choice.php:151
+#: inc/kirki-customize/front-page/news-hero.php:285
+#: inc/kirki-customize/front-page/news-hero.php:441
+#: inc/kirki-customize/front-page/news-ticker.php:272
+#: inc/kirki-customize/front-page/news-ticker.php:459
+#: inc/kirki-customize/front-page/news-top.php:280
+#: inc/kirki-customize/front-page/tending-video.php:187
+#: inc/kirki-customize/front-page/video-post.php:104
+#: inc/kirki-customize/front-page/whats-new.php:211
+msgid "Comment count"
+msgstr ""
+
+#: template-parts/content.php:191
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:188
+msgid "Continue reading"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-blog.php:108 template-parts/content-blog.php:199
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-copyright.php:3
+msgid "Copyright"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-copyright.php:11
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-copyright.php:50
+msgid "Copyright Text Color"
+msgstr ""
+
+#: functions.php:606
+msgid "Custom Pattern"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:132
+#: inc/kirki-customize/front-page/more-news.php:170
+#: inc/kirki-customize/front-page/most-popular-news.php:171
+#: inc/kirki-customize/front-page/news-editor-choice.php:148
+#: inc/kirki-customize/front-page/news-hero.php:282
+#: inc/kirki-customize/front-page/news-hero.php:438
+#: inc/kirki-customize/front-page/news-ticker.php:269
+#: inc/kirki-customize/front-page/news-ticker.php:456
+#: inc/kirki-customize/front-page/news-top.php:277
+#: inc/kirki-customize/front-page/tending-video.php:184
+#: inc/kirki-customize/front-page/video-post.php:101
+#: inc/kirki-customize/front-page/whats-new.php:208
+msgid "Date"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:67
+msgid "Date Control"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:427
+#: inc/kirki-customize/front-page/tending-video.php:156
+msgid "DESC"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:100
+#: inc/kirki-customize/front-page/news-top.php:245
+msgid "Descending"
+msgstr ""
+
+#: functions.php:607
+msgid "Description of the custom pattern."
+msgstr ""
+
+#: inc/kirki-customize/front-page/more-news.php:147
+#: inc/kirki-customize/front-page/most-popular-news.php:148
+#: inc/kirki-customize/front-page/news-editor-choice.php:116
+#: inc/kirki-customize/front-page/news-hero.php:249
+#: inc/kirki-customize/front-page/news-hero.php:405
+#: inc/kirki-customize/front-page/news-hero.php:664
+#: inc/kirki-customize/front-page/news-ticker.php:103
+#: inc/kirki-customize/front-page/news-ticker.php:247
+#: inc/kirki-customize/front-page/video-post.php:78
+#: inc/kirki-customize/front-page/whats-new.php:179
+msgid "DESE"
+msgstr ""
+
+#: inc/kirki-customize/front-page/ads-middle.php:35
+#: inc/kirki-customize/front-page/blog-post.php:24
+#: inc/kirki-customize/front-page/editor-choice.php:19
+#: inc/kirki-customize/front-page/more-news.php:24
+#: inc/kirki-customize/front-page/most-popular-news.php:24
+#: inc/kirki-customize/front-page/news-editor-choice.php:24
+#: inc/kirki-customize/front-page/news-editor-choice.php:87
+#: inc/kirki-customize/front-page/news-hero.php:19
+#: inc/kirki-customize/front-page/news-hero.php:78
+#: inc/kirki-customize/front-page/news-hero.php:325
+#: inc/kirki-customize/front-page/news-hero.php:492
+#: inc/kirki-customize/front-page/news-letter.php:18
+#: inc/kirki-customize/front-page/news-ticker.php:23
+#: inc/kirki-customize/front-page/news-ticker.php:76
+#: inc/kirki-customize/front-page/news-ticker.php:373
+#: inc/kirki-customize/front-page/news-top.php:24
+#: inc/kirki-customize/front-page/news-top.php:216
+#: inc/kirki-customize/front-page/side-ads.php:54
+#: inc/kirki-customize/front-page/tending-video.php:18
+#: inc/kirki-customize/front-page/tending-video.php:135
+#: inc/kirki-customize/front-page/trending-stories.php:20
+#: inc/kirki-customize/front-page/video-post.php:24
+#: inc/kirki-customize/front-page/whats-new.php:24
+#: inc/kirki-customize/footer/footer-settings.php:24
+#: inc/kirki-customize/header/header-bottom.php:27
+#: inc/kirki-customize/header/header-bottom.php:65
+#: inc/kirki-customize/header/header-bottom.php:121
+#: inc/kirki-customize/header/header-middle.php:26
+#: inc/kirki-customize/header/header-middle.php:54
+#: inc/kirki-customize/header/header-middle.php:146
+#: inc/kirki-customize/header/header-settings.php:63
+#: inc/kirki-customize/header/header-top.php:26
+#: inc/kirki-customize/header/header-top.php:89
+#: inc/kirki-customize/header/header-top.php:379
+#: inc/kirki-customize/options-kirki/blog-options.php:75
+#: inc/kirki-customize/options-kirki/blog-options.php:88
+#: inc/kirki-customize/options-kirki/blog-options.php:100
+#: inc/kirki-customize/options-kirki/blog-options.php:113
+#: inc/kirki-customize/options-kirki/blog-options.php:126
+#: inc/kirki-customize/options-kirki/blog-options.php:139
+#: inc/kirki-customize/options-kirki/blog-options.php:152
+#: inc/kirki-customize/options-kirki/blog-options.php:165
+#: inc/kirki-customize/options-kirki/blog-options.php:178
+#: inc/kirki-customize/options-kirki/blog-options.php:207
+#: inc/kirki-customize/options-kirki/theme-general.php:32
+#: inc/kirki-customize/options-kirki/theme-general.php:116
+#: inc/kirki-customize/options-kirki/theme-general.php:129
+#: inc/kirki-customize/options-kirki/theme-general.php:190
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:62
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:76
+msgid "Disable"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:230
+msgid "Discord"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:208
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:42
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:42
+msgid "Display Item"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:238
+msgid "Divider Color"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:221
+msgid "Dribbble"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100 template-parts/content-page.php:40
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/kirki-customize/front-page/editor-choice.php:28
+msgid "Editor Choice Overlay"
+msgstr ""
+
+#: inc/kirki-customize/front-page/editor-choice.php:29
+msgid "Editor Choice Overlay Settings"
+msgstr ""
+
+#: inc/kirki-customize/front-page/editor-choice.php:6
+#: inc/kirki-customize/front-page/news-editor-choice.php:8
+msgid "Editor Choice Section"
+msgstr ""
+
+#: inc/kirki-customize/front-page/editor-choice.php:55
+#: inc/kirki-customize/front-page/news-editor-choice.php:34
+msgid "Editor Choice Title"
+msgstr ""
+
+#: inc/kirki-customize/front-page/ads-middle.php:34
+#: inc/kirki-customize/front-page/blog-post.php:23
+#: inc/kirki-customize/front-page/editor-choice.php:18
+#: inc/kirki-customize/front-page/more-news.php:23
+#: inc/kirki-customize/front-page/most-popular-news.php:23
+#: inc/kirki-customize/front-page/news-editor-choice.php:23
+#: inc/kirki-customize/front-page/news-editor-choice.php:86
+#: inc/kirki-customize/front-page/news-hero.php:18
+#: inc/kirki-customize/front-page/news-hero.php:77
+#: inc/kirki-customize/front-page/news-hero.php:324
+#: inc/kirki-customize/front-page/news-hero.php:491
+#: inc/kirki-customize/front-page/news-letter.php:17
+#: inc/kirki-customize/front-page/news-ticker.php:22
+#: inc/kirki-customize/front-page/news-ticker.php:75
+#: inc/kirki-customize/front-page/news-ticker.php:372
+#: inc/kirki-customize/front-page/news-top.php:23
+#: inc/kirki-customize/front-page/news-top.php:215
+#: inc/kirki-customize/front-page/side-ads.php:53
+#: inc/kirki-customize/front-page/tending-video.php:17
+#: inc/kirki-customize/front-page/tending-video.php:134
+#: inc/kirki-customize/front-page/trending-stories.php:19
+#: inc/kirki-customize/front-page/video-post.php:23
+#: inc/kirki-customize/front-page/whats-new.php:23
+#: inc/kirki-customize/footer/footer-settings.php:23
+#: inc/kirki-customize/header/header-bottom.php:26
+#: inc/kirki-customize/header/header-bottom.php:64
+#: inc/kirki-customize/header/header-bottom.php:120
+#: inc/kirki-customize/header/header-middle.php:25
+#: inc/kirki-customize/header/header-middle.php:53
+#: inc/kirki-customize/header/header-middle.php:145
+#: inc/kirki-customize/header/header-settings.php:62
+#: inc/kirki-customize/header/header-top.php:25
+#: inc/kirki-customize/header/header-top.php:88
+#: inc/kirki-customize/header/header-top.php:378
+#: inc/kirki-customize/options-kirki/blog-options.php:74
+#: inc/kirki-customize/options-kirki/blog-options.php:87
+#: inc/kirki-customize/options-kirki/blog-options.php:99
+#: inc/kirki-customize/options-kirki/blog-options.php:112
+#: inc/kirki-customize/options-kirki/blog-options.php:125
+#: inc/kirki-customize/options-kirki/blog-options.php:138
+#: inc/kirki-customize/options-kirki/blog-options.php:151
+#: inc/kirki-customize/options-kirki/blog-options.php:164
+#: inc/kirki-customize/options-kirki/blog-options.php:177
+#: inc/kirki-customize/options-kirki/blog-options.php:206
+#: inc/kirki-customize/options-kirki/theme-general.php:31
+#: inc/kirki-customize/options-kirki/theme-general.php:115
+#: inc/kirki-customize/options-kirki/theme-general.php:128
+#: inc/kirki-customize/options-kirki/theme-general.php:189
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:61
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:75
+msgid "Enable"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:37
+msgid "Enable Ad Section"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:108
+msgid "Enable Author Name"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:18
+msgid "Enable Blog Post"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-general.php:123
+msgid "Enable Bottom To Top"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:147
+msgid "Enable Category"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:134
+msgid "Enable Comment"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:95
+msgid "Enable Content"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:121
+msgid "Enable Date"
+msgstr ""
+
+#: inc/kirki-customize/front-page/editor-choice.php:13
+#: inc/kirki-customize/front-page/news-editor-choice.php:18
+msgid "Enable Editor Choice"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:56
+msgid "Enable Filter"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:70
+msgid "Enable Header Mini Cart"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:70
+msgid "Enable Image"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:71
+msgid "Enable Left Section"
+msgstr ""
+
+#: inc/kirki-customize/header/header-bottom.php:103
+msgid "Enable Light/Dark Mode"
+msgstr ""
+
+#: inc/kirki-customize/front-page/ads-middle.php:18
+msgid "Enable Middle Ads Section"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:71
+msgid "Enable Mini Cart On Header"
+msgstr ""
+
+#: inc/kirki-customize/front-page/more-news.php:18
+msgid "Enable More News"
+msgstr ""
+
+#: inc/kirki-customize/front-page/most-popular-news.php:18
+msgid "Enable Most Popular News"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:13
+msgid "Enable News Main Section"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-letter.php:13
+msgid "Enable Newsletter Section"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:202
+msgid "Enable Pagination"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-general.php:184
+msgid "Enable Popup Search"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-general.php:110
+msgid "Enable Popup Subscribe"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-editor-choice.php:74
+#: inc/kirki-customize/front-page/news-ticker.php:360
+#: inc/kirki-customize/front-page/news-top.php:203
+msgid "Enable Post filter"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:319
+#: inc/kirki-customize/front-page/news-hero.php:486
+msgid "Enable Post Section"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-general.php:26
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:173
+msgid "Enable Read More"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:361
+msgid "Enable Right Section"
+msgstr ""
+
+#: inc/kirki-customize/header/header-bottom.php:47
+msgid "Enable Search Button"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:57
+msgid "Enable Shop Page Filter Options"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:72
+msgid "Enable Slider Section"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:129
+msgid "Enable Social Media"
+msgstr ""
+
+#: inc/kirki-customize/header/header-settings.php:58
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:160
+msgid "Enable Tag"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:83
+msgid "Enable Title"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-top.php:18
+msgid "Enable Top News"
+msgstr ""
+
+#: inc/kirki-customize/front-page/trending-stories.php:14
+msgid "Enable Trending Stories"
+msgstr ""
+
+#: inc/kirki-customize/front-page/video-post.php:18
+msgid "Enable Trending Video"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:130
+msgid "Enable Video Post Filter"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:13
+msgid "Enable Video Section"
+msgstr ""
+
+#: inc/kirki-customize/front-page/whats-new.php:18
+msgid "Enable Whats New"
+msgstr ""
+
+#: inc/kirki-customize/header/header-bottom.php:15
+msgid "Enable/Disable Bottom Header"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-settings.php:19
+msgid "Enable/Disable Footer"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:14
+msgid "Enable/Disable Middle Header"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:17
+msgid "Enable/Disable News Ticker"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:63
+msgid "Enable/Disable Post Filter"
+msgstr ""
+
+#: inc/kirki-customize/front-page/side-ads.php:37
+msgid "Enable/Disable Side Ads Section"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:13
+msgid "Enable/Disable Top Header"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:216
+msgid "Facebook"
+msgstr ""
+
+#: inc/widget/social-link.php:231 inc/widget/social-media-widget.php:162
+msgid "Facebook follower:"
+msgstr ""
+
+#: inc/widget/social-follow.php:184
+msgid "Facebook Image Upload :"
+msgstr ""
+
+#: inc/widget/social-follow.php:178 inc/widget/social-link.php:225
+#: inc/widget/social-media-widget.php:156
+msgid "Facebook Url:"
+msgstr ""
+
+#: inc/widget/social-follow.php:118 inc/widget/social-link.php:158
+#: inc/widget/social-media-widget.php:126
+msgid "facebook.com"
+msgstr ""
+
+#: functions.php:591
+msgid "Fancy Quote"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:33
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:33
+msgid "Five Column"
+msgstr ""
+
+#: inc/widget/follow-us.php:60 inc/widget/social-follow.php:109
+msgid "Follow us"
+msgstr ""
+
+#: inc/kirki-customize/front-page/front-page-settings.php:3
+msgid "Home page one setting"
+msgstr ""
+
+#: inc/kirki-customize/front-page/front-page-settings.php:3
+msgid "Home page two setting"
+msgstr ""
+
+#: functions.php:237
+msgid "Footer Four"
+msgstr ""
+
+#: functions.php:201
+msgid "Footer One"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-settings.php:3
+msgid "Footer Options"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-settings.php:11
+msgid "Footer Select"
+msgstr ""
+
+#: functions.php:225
+msgid "Footer Three"
+msgstr ""
+
+#: functions.php:213
+msgid "Footer Two"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-typography.php:3
+msgid "Footer Typography"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:32
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:32
+msgid "Four Column"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:15
+msgid "Full Width"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-general.php:4
+msgid "General Options"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:18
+msgid "Grid Full"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:19
+msgid "Grid With Left Sidebar"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:20
+msgid "Grid With Right Sidebar"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:33
+msgid "H1"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-typography.php:48
+msgid "H1 Typography"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:34
+msgid "H2"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-typography.php:78
+msgid "H2 Typography"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:35
+msgid "H3"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-typography.php:108
+msgid "H3 Typography"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:36
+msgid "H4"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-typography.php:138
+msgid "H4 Typography"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:37
+msgid "H5"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-typography.php:168
+msgid "H5 Typography"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:38
+msgid "H6"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-typography.php:198
+msgid "H6 Typography"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:64
+msgid "Header Ad Image"
+msgstr ""
+
+#: inc/kirki-customize/header/header-bottom.php:4
+msgid "Header Bottom"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:4
+msgid "Header Middle"
+msgstr ""
+
+#: inc/kirki-customize/header/header-settings.php:3
+msgid "Header Options"
+msgstr ""
+
+#: inc/kirki-customize/header/header-settings.php:11
+msgid "Header Select"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:4
+msgid "Header Top"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:35
+msgid "Header Top Background"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:610
+msgid "Hero Two Trending Post Category"
+msgstr ""
+
+#: functions.php:526 inc/template-functions.php:52
+msgid "Home"
+msgstr ""
+
+#. URI of the theme
+msgid "http://mycodecare.com/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://mycodecare.com/"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:236
+msgid "Icon Color"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:131
+#: inc/kirki-customize/front-page/more-news.php:169
+#: inc/kirki-customize/front-page/most-popular-news.php:170
+#: inc/kirki-customize/front-page/news-editor-choice.php:147
+#: inc/kirki-customize/front-page/news-hero.php:281
+#: inc/kirki-customize/front-page/news-hero.php:437
+#: inc/kirki-customize/front-page/news-ticker.php:268
+#: inc/kirki-customize/front-page/news-ticker.php:455
+#: inc/kirki-customize/front-page/news-top.php:276
+#: inc/kirki-customize/front-page/tending-video.php:183
+#: inc/kirki-customize/front-page/video-post.php:100
+#: inc/kirki-customize/front-page/whats-new.php:207
+msgid "ID"
+msgstr ""
+
+#: functions.php:646 functions.php:667 functions.php:714
+msgid "Image"
+msgstr ""
+
+#: inc/widget/follow-us.php:94
+msgid "Image Upload:"
+msgstr ""
+
+#: inc/widget/social-follow.php:195
+msgid "Inastagram Url:"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:219
+msgid "Instagram"
+msgstr ""
+
+#: inc/widget/social-follow.php:201
+msgid "Instagram Image Upload :"
+msgstr ""
+
+#: inc/widget/social-follow.php:127
+msgid "instagram.com"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Introducing Blog Reflection – your ultimate WordPress blog theme for the modern "
+"storyteller. With its sleek design and versatile features, Blog Reflection "
+"elevates your news, magazine, or publishing website effortlessly. Customize "
+"your layout with ease, choosing between left, right, or full-width grid "
+"displays for a look that reflects your brand. Seamlessly integrate Web "
+"Stories Featured to craft immersive narratives that captivate your audience. "
+"Engage your readers with multimedia content, including video, audio, and "
+"galleries, all supported by Blog Reflection's intuitive interface. Experience "
+"lightning-fast loading speeds, exceeding 95%, ensuring swift access to your "
+"content for all users. Expand your reach globally with WPML compatibility, "
+"effortlessly translating your content into multiple languages, and "
+"maintaining visual integrity with support for RTL languages. In summary, "
+"Blog Reflection offers everything you need to create a professional online "
+"presence that resonates with your audience. Download now and embark on a "
+"captivating journey of digital storytelling."
+msgstr ""
+
+#: 404.php:38
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:101
+msgid "LATEST NEWS"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:152
+msgid "Latest Post"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:153
+msgid "Latest post will be show."
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:219
+msgid "Left"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:204
+msgid "Left Heading Color"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:16
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:16
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:16
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/widget/social-link.php:261
+msgid "Likes follower:"
+msgstr ""
+
+#: inc/widget/social-link.php:255 inc/widget/social-media-widget.php:186
+msgid "Likes Url:"
+msgstr ""
+
+#: inc/widget/social-link.php:179 inc/widget/social-media-widget.php:132
+msgid "likes.com"
+msgstr ""
+
+#: inc/widget/social-media-widget.php:192
+msgid "Likes:"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:205
+msgid "Link"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:218
+msgid "Linkedin"
+msgstr ""
+
+#: inc/widget/social-media-widget.php:222
+msgid "LinkedIn follower:"
+msgstr ""
+
+#: inc/widget/social-link.php:291
+msgid "linkedin follower:"
+msgstr ""
+
+#: inc/widget/social-follow.php:235
+msgid "Linkedin Image Upload :"
+msgstr ""
+
+#: inc/widget/social-media-widget.php:216
+msgid "LinkedIn Url:"
+msgstr ""
+
+#: inc/widget/social-follow.php:229
+msgid "Linkedin Url:"
+msgstr ""
+
+#: inc/widget/social-link.php:285
+msgid "linkedin Url:"
+msgstr ""
+
+#: inc/widget/social-follow.php:145 inc/widget/social-link.php:197
+#: inc/widget/social-media-widget.php:138
+msgid "linkedin.com"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/kirki-customize/front-page/ads-middle.php:46
+msgid "Middle Ad Image"
+msgstr ""
+
+#: inc/kirki-customize/front-page/ads-middle.php:73
+msgid "Middle Ad url"
+msgstr ""
+
+#: inc/kirki-customize/front-page/ads-middle.php:4
+msgid "Middle Ads "
+msgstr ""
+
+#: inc/kirki-customize/front-page/more-news.php:8
+msgid "More News "
+msgstr ""
+
+#: inc/kirki-customize/front-page/more-news.php:35
+msgid "More News Overlay"
+msgstr ""
+
+#: inc/kirki-customize/front-page/more-news.php:36
+msgid "More News Overlay Settings"
+msgstr ""
+
+#: inc/kirki-customize/front-page/more-news.php:61
+msgid "More News Title"
+msgstr ""
+
+#: inc/kirki-customize/front-page/most-popular-news.php:8
+msgid "Most Popular News "
+msgstr ""
+
+#: inc/kirki-customize/front-page/most-popular-news.php:61
+msgid "Most Popular News Title"
+msgstr ""
+
+#. Author of the theme
+msgid "MyCodeCare"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:133
+#: inc/kirki-customize/front-page/more-news.php:171
+#: inc/kirki-customize/front-page/most-popular-news.php:172
+#: inc/kirki-customize/front-page/news-editor-choice.php:149
+#: inc/kirki-customize/front-page/news-hero.php:283
+#: inc/kirki-customize/front-page/news-hero.php:439
+#: inc/kirki-customize/front-page/news-ticker.php:270
+#: inc/kirki-customize/front-page/news-ticker.php:457
+#: inc/kirki-customize/front-page/news-top.php:278
+#: inc/kirki-customize/front-page/tending-video.php:185
+#: inc/kirki-customize/front-page/video-post.php:102
+#: inc/kirki-customize/front-page/whats-new.php:209
+msgid "Name"
+msgstr ""
+
+#: inc/widget/advertising-widget.php:42
+msgid "New Title"
+msgstr ""
+
+#: inc/widget/recent-post-trending-post.php:166 inc/widget/social-link.php:150
+#: inc/widget/social-media-widget.php:123
+msgid "New title"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:3
+msgid "News Hero Section"
+msgstr ""
+
+#. Name of the theme
+msgid "Blog Reflection"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:7
+msgid "News ticker"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-letter.php:25
+msgid "Newsletter Content"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-letter.php:6
+msgid "Newsletter Section"
+msgstr ""
+
+#: inc/widget/advertising-widget.php:8
+msgid "Blogreflection: Advertising"
+msgstr ""
+
+#: inc/widget/social-follow.php:8
+msgid "Blogreflection: Follow Us Social Media"
+msgstr ""
+
+#. Widget name that will appear in UI
+#: inc/widget/recent-post-trending-post.php:13
+msgid "Blogreflection: Recent & Trending & Post"
+msgstr ""
+
+#: inc/widget/follow-us.php:9
+msgid "Blogreflection: Social Follow Us on Social Media"
+msgstr ""
+
+#. Widget name that will appear in UI
+#: inc/widget/social-link.php:12 inc/widget/social-media-widget.php:12
+msgid "Blogreflection: Social Media"
+msgstr ""
+
+#: single.php:29
+msgid "Next:"
+msgstr ""
+
+#: functions.php:726
+msgid "No color"
+msgstr ""
+
+#: functions.php:735
+msgid "No image"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:15
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:15
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:130
+#: inc/kirki-customize/front-page/more-news.php:168
+#: inc/kirki-customize/front-page/most-popular-news.php:169
+#: inc/kirki-customize/front-page/news-editor-choice.php:146
+#: inc/kirki-customize/front-page/news-hero.php:280
+#: inc/kirki-customize/front-page/news-hero.php:436
+#: inc/kirki-customize/front-page/news-ticker.php:267
+#: inc/kirki-customize/front-page/news-ticker.php:454
+#: inc/kirki-customize/front-page/news-top.php:275
+#: inc/kirki-customize/front-page/tending-video.php:182
+#: inc/kirki-customize/front-page/video-post.php:99
+#: inc/kirki-customize/front-page/whats-new.php:206
+msgid "None"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:29
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:29
+msgid "One Column"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:39
+msgid "p"
+msgstr ""
+
+#: template-parts/content-blog.php:121 template-parts/content-blog.php:212
+#: template-parts/content-page.php:26
+msgid "Pages:"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:215
+msgid "Pagination Alignment"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:244
+msgid "Pick a color"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:220
+msgid "Pinterest"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:68
+msgid "Please set the posting date."
+msgstr ""
+
+#: inc/kirki-customize/front-page/most-popular-news.php:35
+msgid "Popular Post Overlay"
+msgstr ""
+
+#: inc/kirki-customize/front-page/most-popular-news.php:36
+msgid "Popular Post Overlay Settings"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:114
+#: inc/kirki-customize/front-page/news-ticker.php:309
+#: inc/kirki-customize/front-page/news-ticker.php:471
+msgid "Post Number"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:241
+#: inc/kirki-customize/front-page/tending-video.php:150
+msgid "Post Order"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:262
+#: inc/kirki-customize/front-page/tending-video.php:177
+msgid "Post Order By"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-top.php:63
+msgid "Post Overlay"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-top.php:64
+msgid "Post Overlay Settings"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:273
+msgid "Post title Color"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:306
+msgid "Post title Hover Color"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-top.php:113
+msgid "Post Title Text Color"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: single.php:28
+msgid "Previous:"
+msgstr ""
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:330
+msgid "Purchase Pro For Unlimited Dispaly"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:229
+msgid "Quora"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:136
+#: inc/kirki-customize/front-page/more-news.php:174
+#: inc/kirki-customize/front-page/most-popular-news.php:175
+#: inc/kirki-customize/front-page/news-editor-choice.php:152
+#: inc/kirki-customize/front-page/news-hero.php:286
+#: inc/kirki-customize/front-page/news-hero.php:442
+#: inc/kirki-customize/front-page/news-ticker.php:273
+#: inc/kirki-customize/front-page/news-ticker.php:460
+#: inc/kirki-customize/front-page/news-top.php:281
+#: inc/kirki-customize/front-page/tending-video.php:188
+#: inc/kirki-customize/front-page/video-post.php:105
+#: inc/kirki-customize/front-page/whats-new.php:212
+msgid "Random"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:228
+msgid "Reddit"
+msgstr ""
+
+#: functions.php:672
+msgid "Remove Image"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:221
+msgid "Right"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:401
+msgid "Right Side Content Color"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:436
+msgid "Right Side Content Color on hover"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:17
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:17
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:17
+msgid "Right Sidebar"
+msgstr ""
+
+#. %s: search query.
+#: search.php:25
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:209
+msgid "Select an Categorys"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:11
+msgid "Select Blog Page Layout"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:29
+msgid "Select Blog Title Tag"
+msgstr ""
+
+#: inc/kirki-customize/front-page/whats-new.php:105
+msgid "Select Bottom Post Category "
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-editor-choice.php:51
+#: inc/kirki-customize/header/header-top.php:169
+msgid "Select Category"
+msgstr ""
+
+#: inc/kirki-customize/front-page/more-news.php:111
+#: inc/kirki-customize/front-page/most-popular-news.php:113
+#: inc/kirki-customize/front-page/news-ticker.php:383
+#: inc/kirki-customize/front-page/trending-stories.php:110
+#: inc/kirki-customize/options-kirki/blog-options.php:49
+msgid "Select Category "
+msgstr ""
+
+#: inc/kirki-customize/front-page/editor-choice.php:103
+msgid "Select Category for Editor Choice"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:347
+msgid "Select Category for Post"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:160
+msgid "Select Category for Post Three"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:130
+msgid "Select Category for Post Two"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:99
+#: inc/kirki-customize/front-page/news-top.php:167
+msgid "Select Category for Slider"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:175
+msgid "Select Category Or Tags"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:205
+msgid "Select Categroy"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-settings.php:34
+msgid "Select Footer"
+msgstr ""
+
+#: inc/kirki-customize/header/header-settings.php:36
+msgid "Select Header"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:30
+msgid "Select Hero"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:29
+msgid "Select Hero Section"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:212
+msgid "Select Icon"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:515
+msgid "Select Left Category for Post"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:546
+msgid "Select Middle Category for Post"
+msgstr ""
+
+#: inc/kirki-customize/front-page/most-popular-news.php:135
+msgid "Select Most Popular News Order"
+msgstr ""
+
+#: inc/kirki-customize/front-page/most-popular-news.php:157
+msgid "Select most popular news Order By"
+msgstr ""
+
+#: inc/kirki-customize/front-page/more-news.php:134
+msgid "Select News Order"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:82
+#: inc/kirki-customize/front-page/news-editor-choice.php:98
+#: inc/kirki-customize/front-page/news-hero.php:226
+#: inc/kirki-customize/front-page/news-hero.php:382
+#: inc/kirki-customize/front-page/news-hero.php:641
+#: inc/kirki-customize/front-page/news-ticker.php:85
+#: inc/kirki-customize/front-page/news-ticker.php:409
+#: inc/kirki-customize/front-page/news-top.php:227
+msgid "Select Post Order"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:112
+#: inc/kirki-customize/front-page/more-news.php:156
+#: inc/kirki-customize/front-page/news-editor-choice.php:128
+#: inc/kirki-customize/front-page/news-hero.php:258
+#: inc/kirki-customize/front-page/news-hero.php:414
+#: inc/kirki-customize/front-page/news-ticker.php:437
+#: inc/kirki-customize/front-page/news-top.php:257
+msgid "Select Post Order By"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:129
+msgid "Select Post Type"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:25
+msgid "Select Related item Columns"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-hero.php:578
+msgid "Select Right Category for Post"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:25
+msgid "Select Shop item Columns"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:11
+msgid "Select Shop Page Layout"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:11
+msgid "Select Single Shop Page Layout"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:213
+msgid "Select Social Media Icon"
+msgstr ""
+
+#: inc/kirki-customize/front-page/whats-new.php:84
+msgid "Select Top Post Category "
+msgstr ""
+
+#: inc/kirki-customize/front-page/video-post.php:65
+msgid "Select Trending Video Order"
+msgstr ""
+
+#: inc/kirki-customize/front-page/video-post.php:87
+msgid "Select Video Order By"
+msgstr ""
+
+#: inc/kirki-customize/front-page/whats-new.php:161
+msgid "Select Whats New Order"
+msgstr ""
+
+#: inc/kirki-customize/front-page/whats-new.php:188
+msgid "Select whats new Order By"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-settings.php:35
+msgid "Select Your Footer"
+msgstr ""
+
+#: inc/kirki-customize/header/header-settings.php:37
+msgid "Select Your Header"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop.php:3
+msgid "Shop Options"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:4
+msgid "Shop Page Options"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-letter.php:48
+msgid "Shortcode"
+msgstr ""
+
+#: inc/kirki-customize/front-page/side-ads.php:65
+msgid "Side Ad Image"
+msgstr ""
+
+#: inc/kirki-customize/front-page/side-ads.php:93
+msgid "Side Ads url"
+msgstr ""
+
+#: functions.php:148
+msgid "Side Menu Sidebar"
+msgstr ""
+
+#: functions.php:159
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:190
+msgid "Sidebar Four"
+msgstr ""
+
+#: functions.php:180
+msgid "Sidebar Three"
+msgstr ""
+
+#: functions.php:170
+msgid "Sidebar Two"
+msgstr ""
+
+#: inc/kirki-customize/front-page/side-ads.php:4
+msgid "Sides Ads "
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:4
+msgid "Single Shop Page"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:34
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:34
+msgid "Six Column"
+msgstr ""
+
+#: header.php:77
+msgid "Skip to content"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:224
+msgid "Snapchat"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/blog-options.php:40
+msgid "Span"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:85
+msgid "Static Video Post Image"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:86
+msgid "Static Video Post images upload here"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:51
+msgid "Static Video Post Title"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:107
+msgid "Static Video URL"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-letter.php:27
+msgid "Subscribe To Our Newsletter"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:180
+msgid "Tags"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:227
+msgid "Telegram"
+msgstr ""
+
+#: inc/kirki-customize/footer/footer-copyright.php:32
+#: inc/kirki-customize/footer/footer-typography.php:17
+msgid "Text Color"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/options-kirki.php:3
+msgid "Theme Setting Option"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:53
+msgid "This is a static post for trending videos"
+msgstr ""
+
+#: inc/widget/follow-us.php:10
+msgid "This widget allows users to follow us on social media."
+msgstr ""
+
+#: inc/widget/advertising-widget.php:9
+msgid "This widget is for Advertising."
+msgstr ""
+
+#: inc/widget/social-follow.php:9
+msgid "This widget is for Follow Us Social Media."
+msgstr ""
+
+#: inc/widget/recent-post-trending-post.php:16
+msgid "This widget is for recent and trending post bar."
+msgstr ""
+
+#: inc/widget/social-link.php:15 inc/widget/social-media-widget.php:15
+msgid "This widget is for Social Media bar."
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:31
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:31
+msgid "Three Column"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:223
+msgid "Tiktok"
+msgstr ""
+
+#: inc/kirki-customize/front-page/blog-post.php:134
+#: inc/kirki-customize/front-page/more-news.php:172
+#: inc/kirki-customize/front-page/most-popular-news.php:173
+#: inc/kirki-customize/front-page/news-editor-choice.php:150
+#: inc/kirki-customize/front-page/news-hero.php:284
+#: inc/kirki-customize/front-page/news-hero.php:440
+#: inc/kirki-customize/front-page/news-ticker.php:35
+#: inc/kirki-customize/front-page/news-ticker.php:271
+#: inc/kirki-customize/front-page/news-ticker.php:458
+#: inc/kirki-customize/front-page/news-top.php:279
+#: inc/kirki-customize/front-page/tending-video.php:186
+#: inc/kirki-customize/front-page/video-post.php:103
+#: inc/kirki-customize/front-page/whats-new.php:210
+#: inc/kirki-customize/header/header-middle.php:198
+#: inc/kirki-customize/header/header-top.php:99
+msgid "Title"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-ticker.php:288
+msgid "Title Length"
+msgstr ""
+
+#: inc/widget/advertising-widget.php:49 inc/widget/follow-us.php:73
+#: inc/widget/recent-post-trending-post.php:171
+#: inc/widget/social-follow.php:169 inc/widget/social-link.php:215
+#: inc/widget/social-media-widget.php:146
+msgid "Title:"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-top.php:8
+msgid "Top News Section"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-top.php:34
+msgid "Top News Title"
+msgstr ""
+
+#: inc/kirki-customize/front-page/trending-stories.php:32
+msgid "Trending Post Overlay"
+msgstr ""
+
+#: inc/kirki-customize/front-page/trending-stories.php:33
+msgid "Trending Post Overlay Settings"
+msgstr ""
+
+#: inc/kirki-customize/front-page/trending-stories.php:6
+msgid "Trending Stories Section"
+msgstr ""
+
+#: inc/kirki-customize/front-page/trending-stories.php:59
+msgid "Trending Stories Title"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:27
+msgid "Trending Video"
+msgstr ""
+
+#: inc/kirki-customize/front-page/video-post.php:8
+msgid "Trending Video "
+msgstr ""
+
+#: inc/kirki-customize/front-page/video-post.php:34
+msgid "Trending Video Section Title"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:217
+msgid "Twitter"
+msgstr ""
+
+#: inc/widget/social-link.php:246 inc/widget/social-media-widget.php:177
+msgid "Twitter follower:"
+msgstr ""
+
+#: inc/widget/social-follow.php:218
+msgid "Twitter Image Upload :"
+msgstr ""
+
+#: inc/widget/social-follow.php:212 inc/widget/social-link.php:240
+#: inc/widget/social-media-widget.php:171
+msgid "Twitter Url:"
+msgstr ""
+
+#: inc/widget/social-follow.php:136 inc/widget/social-link.php:168
+#: inc/widget/social-media-widget.php:129
+msgid "twitter.com"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/shop/shop-page.php:30
+#: inc/kirki-customize/options-kirki/shop/single-shop.php:30
+msgid "Two Column"
+msgstr ""
+
+#: inc/kirki-customize/options-kirki/theme-typography.php:3
+msgid "Typography Options"
+msgstr ""
+
+#: inc/widget/follow-us.php:98
+msgid "Upload Image"
+msgstr ""
+
+#: inc/widget/advertising-widget.php:63 inc/widget/social-follow.php:189
+#: inc/widget/social-follow.php:206 inc/widget/social-follow.php:223
+#: inc/widget/social-follow.php:240 inc/widget/social-follow.php:256
+#: inc/widget/social-follow.php:272
+msgid "Upload Image:"
+msgstr ""
+
+#: inc/widget/follow-us.php:86
+msgid "URL:"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:6
+msgid "Video News Section"
+msgstr ""
+
+#: inc/kirki-customize/front-page/tending-video.php:25
+msgid "Video Section Title"
+msgstr ""
+
+#: inc/woocommerce.php:197
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/widget/social-link.php:276 inc/widget/social-media-widget.php:207
+msgid "Vimeo follower:"
+msgstr ""
+
+#: inc/widget/social-follow.php:251
+msgid "Vimeo Image Upload :"
+msgstr ""
+
+#: inc/widget/social-follow.php:245 inc/widget/social-media-widget.php:201
+msgid "Vimeo Url:"
+msgstr ""
+
+#: inc/widget/social-link.php:270
+msgid "vimeo Url:"
+msgstr ""
+
+#: inc/widget/social-follow.php:153 inc/widget/social-link.php:187
+#: inc/widget/social-media-widget.php:135
+msgid "vimeo.com"
+msgstr ""
+
+#: inc/kirki-customize/front-page/news-editor-choice.php:164
+#: inc/kirki-customize/front-page/news-top.php:293
+msgid "Visible Number of items"
+msgstr ""
+
+#: inc/kirki-customize/front-page/more-news.php:184
+msgid "Visible Number of Post"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:226
+msgid "Weixin"
+msgstr ""
+
+#: inc/kirki-customize/front-page/whats-new.php:8
+msgid "Whats New "
+msgstr ""
+
+#: inc/kirki-customize/front-page/whats-new.php:34
+msgid "Whats New Title"
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:231
+msgid "Whatsapp"
+msgstr ""
+
+#: inc/kirki-customize/header/header-top.php:157
+msgid "You can select a category."
+msgstr ""
+
+#: inc/kirki-customize/header/header-middle.php:225
+msgid "Youtube"
+msgstr ""
+
+#: inc/widget/social-media-widget.php:237
+msgid "YouTube follower:"
+msgstr ""
+
+#: inc/widget/social-link.php:306
+msgid "Youtube follower:"
+msgstr ""
+
+#: inc/widget/social-follow.php:267
+msgid "Youtube Image Upload :"
+msgstr ""
+
+#: inc/widget/social-media-widget.php:231
+msgid "YouTube Url:"
+msgstr ""
+
+#: inc/widget/social-follow.php:261 inc/widget/social-link.php:300
+msgid "Youtube Url:"
+msgstr ""
+
+#: inc/widget/social-follow.php:162 inc/widget/social-link.php:207
+#: inc/widget/social-media-widget.php:141
+msgid "youtube.com"
+msgstr ""

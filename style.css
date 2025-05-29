@@ -4088,7 +4088,8 @@ a.em-active-button:hover {
 }
 .techno_flipbox_back .flipbox_desc p{
     color: #fff;
-    line-height: 1.6;
+    font-size: 13px;
+    line-height: 1.4;
 }
 .techno_flipbox .techno_flipbox_back .flipbox_button a i {
 	display: none;
@@ -9349,14 +9350,32 @@ p.seo-text1 {
 /*====================================================
 --<	Techno Blog Area Css -->
 ======================================================*/
+
 .single_blog {
     border: 1px solid #ebebeb;
     overflow: hidden;
 	transition:.5s;
 }
+
 .single_blog_content{
     background: #fff;
+    height: 900px;
+    float: left;
+    overflow: hidden;
+    position: relative;
 }
+
+.single_blog_content:after {
+    display: block;
+    content: "...";
+    width: 1em;
+    height: 1.5em;
+    background-color: #fff;
+    position: absolute;
+    bottom: -6px;
+    right: 0;
+}
+
 .single_blog:hover {
     border-color: transparent;
     box-shadow:0 5px 30px rgba(0,0,0,0.2);

@@ -301,68 +301,6 @@ h1,h2,h3,h4,h5,h6 {
 	<!--==================================================-->
 
 
-    <h1>Recent Blog Posts</h1>
-	<div class="blog_area pt-85 pb-65">
-    	<div id="posts-container">
-        <!-- Blog posts will appear here -->
-    	</div>
-	</div>
-
-    <script>
-		// Fetch blog posts from WordPress REST API
-        fetch('https://www.n2lab.io/blog/wp-json/wp/v2/posts')
-            .then(response => response.json()) // Convert response to JSON
-            .then(posts => {
-                const container = document.getElementById('posts-container');
-				var i = 0;
-				posts.forEach(post => {
-                    // Create a new post element
-					const rowElement = document.createElement('div');
-					rowElement.className = "row";
-					
-					const beforePostElement = document.createElement('div');
-					beforePostElement.className = "col-lg-4 col-md-6 col-sm-12";
-					
-					const sectionBeforePostElement = document.createElement('div');
-					sectionBeforePostElement.className = "single_blog mb-30";
-					
-					const postThumnailElement = document.createElement('div');
-					postThumnailElement.className = "single_blog_thumb pb-4";
-					
-                    const sectionPostElement = document.createElement('div');
-					sectionPostElement.className = "single_blog_content pl-4 pr-4";
-					
-					const postElement = document.createElement('div');
-                    postElement.classList.add('post');
-
-					console.log(posts);
-                    // Add post title and excerpt
-                    postElement.innerHTML = `
-                        <h3><a href="${post.link}" target="_blank">${post.title.rendered}</a></h3>
-                        <p>${post.date} ${post.excerpt.rendered.replace(/<[^>]+>/g, '')}</p>
-                    `;
-
-                    // Append the post to the container
-					
-					beforePostElement.appendChild(sectionBeforePostElement);
-					sectionBeforePostElement.appendChild(postThumnailElement);
-					sectionBeforePostElement.appendChild(sectionPostElement);
-                    sectionPostElement.appendChild(postElement);
-					
-					// repeat insert row  every 6 columns
-					console.log("i: "+i);
-					if (i%6==0 | i==0) {
-						rowElement.appendChild(beforePostElement);
-						container.appendChild(rowElement);
-					} else {
-						container.appendChild(beforePostElement);
-					}
-					
-					i+=1;
-                });
-            })
-            .catch(error => console.error('Error fetching posts:', error));
-    </script>
 
 	<div class="blog_area pt-85 pb-65">
 		<div class="container">
@@ -374,7 +312,7 @@ h1,h2,h3,h4,h5,h6 {
 						</div>
 						<div class="single_blog_content pl-4 pr-4">
 							<div class="techno_blog_meta">
-								<a href="#">Techno </a>
+								<a href="#">Techno 1</a>
 								<span class="meta-date pl-3">January 3, 2023</span>
 							</div>
 							<div class="blog_page_title pb-35">
@@ -390,7 +328,7 @@ h1,h2,h3,h4,h5,h6 {
 						</div>
 						<div class="single_blog_content pl-4 pr-4">
 							<div class="techno_blog_meta">
-								<a href="#">Techno </a>
+								<a href="#">Techno 2</a>
 								<span class="meta-date pl-3">December 3, 2023</span>
 							</div>
 							<div class="blog_page_title pb-35">
@@ -406,7 +344,7 @@ h1,h2,h3,h4,h5,h6 {
 						</div>
 						<div class="single_blog_content pl-4 pr-4">
 							<div class="techno_blog_meta">
-								<a href="#">Techno </a>
+								<a href="#">Techno 3</a>
 								<span class="meta-date pl-3">Augost 5, 2023</span>
 							</div>
 							<div class="blog_page_title pb-35">
@@ -422,7 +360,7 @@ h1,h2,h3,h4,h5,h6 {
 						</div>
 						<div class="single_blog_content pl-4 pr-4">
 							<div class="techno_blog_meta">
-								<a href="#">Techno </a>
+								<a href="#">Techno 4</a>
 								<span class="meta-date pl-3">Augost 5, 2023</span>
 							</div>
 							<div class="blog_page_title pb-1">
@@ -444,7 +382,7 @@ h1,h2,h3,h4,h5,h6 {
 						</div>
 						<div class="single_blog_content pl-4 pr-4">
 							<div class="techno_blog_meta">
-								<a href="#">Techno </a>
+								<a href="#">Techno 5</a>
 								<span class="meta-date pl-3">Augost 5, 2023</span>
 							</div>
 							<div class="blog_page_title pb-1">
@@ -466,7 +404,7 @@ h1,h2,h3,h4,h5,h6 {
 						</div>
 						<div class="single_blog_content pl-4 pr-4">
 							<div class="techno_blog_meta">
-								<a href="#">Techno </a>
+								<a href="#">Techno 6</a>
 								<span class="meta-date pl-3">Augost 5, 2023</span>
 							</div>
 							<div class="blog_page_title pb-1">

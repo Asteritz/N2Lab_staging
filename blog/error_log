@@ -1,0 +1,4 @@
+[17-Dec-2024 04:39:31 UTC] PHP Warning:  Attempt to read property "ID" on null in /home/yshxx5659ry3/public_html/blog/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[17-Dec-2024 04:39:31 UTC] PHP Warning:  Attempt to read property "ID" on null in /home/yshxx5659ry3/public_html/blog/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[17-Dec-2024 07:17:44 UTC] PHP Warning:  Undefined property: stdClass::$id in /home/yshxx5659ry3/public_html/blog/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 735
+[17-Dec-2024 07:17:44 UTC] PHP Warning:  Undefined property: stdClass::$post_parent in /home/yshxx5659ry3/public_html/blog/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 738
