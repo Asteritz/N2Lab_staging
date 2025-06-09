@@ -2257,7 +2257,7 @@ a.em-active-button:hover {
 }
 .text_left .section_main_title h1 {
     margin: 0;
-    letter-spacing: -1px;
+    
 }
 .section_main_title h1 span{
 	color:#FC3C32;
@@ -2288,7 +2288,7 @@ a.em-active-button:hover {
 .section_sub_title h6 {
     letter-spacing: 0;
     color: #FC3C32;
-    font-size: 16px;
+    font-size: 24px;
 }
 /*odoo section content*/
 .about_area.odoo .section_content_text {
@@ -9254,7 +9254,7 @@ p.seo-text1 {
 --<	Techno Contact Address Area Css -->
 ======================================================*/
 .single_contact_address {
-    border: 1px solid #d0e5fb;
+    border: 1px solid #dbd9d9;
     border-radius: 5px 5px 5px 5px;
     padding: 30px 25px 15px;
 }
