@@ -2092,8 +2092,8 @@ a.em-active-button:hover {
 }
 
 .product_benefits img{
-    max-height: 610px;
-    height: 100%;
+    max-height: 500px;
+    height: 100%; 
     margin: 0px;
 }
 

@@ -760,7 +760,7 @@ p.seo-text1 {
 	min-height: 400px !important;
 }
 .call_do_action {
-	padding-bottom: 70px !important;
+	padding-bottom: 0px !important;
 }
 .single_banner_thumb {
     display: none;
@@ -2244,7 +2244,7 @@ p.seo-text1 {
 	font-size: 35px;
 }
 .call_do_action {
-	padding-bottom: 70px !important;
+	padding-bottom: 0px !important;
 }
 .choose_us .techno_flipbox .techno_flipbox_font, .choose_us .techno_flipbox .techno_flipbox_back {
 	min-height: 400px !important;
