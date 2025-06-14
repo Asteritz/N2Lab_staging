@@ -72,6 +72,8 @@
 }
 /* widget list */
  .widget {
+    font-size: 14px; /*updated footer font size*/
+    line-height: 22px; /*updated footer */
 }
 .blog-left-side .widget h2 {
     bottom: -1px;
