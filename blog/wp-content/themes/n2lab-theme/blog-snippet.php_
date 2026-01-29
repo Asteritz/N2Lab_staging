@@ -1,0 +1,36 @@
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/wp-load.php');
+
+$latest_posts = new WP_Query(array(
+  'posts_per_page' => 3,
+  'post_status'    => 'publish'
+));
+
+if ($latest_posts->have_posts()) :
+  while ($latest_posts->have_posts()) : $latest_posts->the_post(); ?>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="single_blog mb-30">
+            <div class="single_blog_thumb pb-4">
+                <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+            </div>
+            <div class="single_blog_content pl-4 pr-4">
+                <div class="">
+                    <span class="techno_blog_meta"><?php the_category(', '); ?></span>
+                    <span class="techno_blog_meta_date pl-2"><?php the_date(); ?></span>
+                </div>
+                <div class="blog_page_title ">
+                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                </div>
+                <div class="text_clamp">
+                    <p><?php the_excerpt(); ?></p>
+                </div>
+            </div>
+        </div>
+    </div>
+<?php
+  endwhile;
+  wp_reset_postdata();
+else :
+  echo '<p>No posts found.</p>';
+endif;
+?>

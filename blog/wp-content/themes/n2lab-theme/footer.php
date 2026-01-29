@@ -1,13 +1,14 @@
 <footer>
         <!-- Your footer HTML here -->
 
-        <div class="footer-middle pt-95"> 
+       <div class="footer-middle pt-95"> 
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
+					<div class="colProcess5 col-sm-6 col-xs-12">
 					<div class="widget widgets-company-info">
 						<div class="footer-bottom-logo pb-15">
-							<a href="/index.html">
+							<a href="/">
 							<img src="/assets/images/N2Lablogo_white.png" width="70%" alt="" />
 							</a>
 						</div>
@@ -27,40 +28,68 @@
 						</div>
 					</div>					
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="colProcess5 col-sm-6 col-xs-12">
 					<div class="widget widget-nav-menu">
 						<h4 class="widget-title pb-4">Company&nbsp;</h4>
 						<div class="menu-quick-link-container">
 							<ul id="menu-quick-link" class="menu">
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="ourTeam.html">Our Team</a></li>
-								<li><a href="careers.html">Careers</a></li>
-								<li><a href="ourPartners.html">Our Partners</a></li>
+								<li><a href="/about.html">About Us</a></li>
+								<li><a href="/ourTeam.html">Our Team</a></li>
+								<li><a href="/ourPartners.html">Our Partners</a></li>
+								<li><a href="/ourClients.html">Our Clients</a></li>
+								<li><a href="/CS_highTechManufacturing.html">Case Studies </a></li>
+								<li><a href="/careers.html">Careers</a></li>
+								<li><a href="/blog/">Blog</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>	
-			  <div class="col-lg-4 col-md-6 col-sm-12">
+			 <div class="colProcess5 col-sm-6 col-xs-12">
 					
 					<div class="widget widget-nav-menu">
-						<h4 class="widget-title pb-4">Services&nbsp;</h4>
+						<h4 class="widget-title pb-4">Our Core Services&nbsp;</h4>
 						<div class="menu-quick-link-container">
 							<ul id="menu-quick-link" class="menu">
-								<li><a href="/services.html">Our Specialities</a></li>
-								<li><a href="/services.html">Our Core Services</a></li>
+								<li><a href="/services.html">N2 NetSuite Implementation Services</a></li>
+								<li><a href="/services.html">N2 NetSuite Technical Services</a></li>
+								<li><a href="/services.html">N2 NetSuite Managed Services</a></li>
+								<li><a href="/services.html">N2 NetSuite Enterprise Embedded Staffing Services</a></li>
+								<li><a href="/services.html">N2 NetSuite Advisory Services</a></li>
+								<li><a href="/services.html">N2 NetSuite Bi-Yearly Release Testing Service</a></li>
 						  </ul>
 					  </div>
 				</div>
 			  </div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
+
+			   <div class="colProcess5 col-sm-6 col-xs-12">
+					
+					<div class="widget widget-nav-menu">
+						<h4 class="widget-title pb-4">Our Specialities&nbsp;</h4>
+						<div class="menu-quick-link-container">
+							<ul id="menu-quick-link" class="menu">
+								<li><a href="/services.html">SOX-Compliance Solutions</a></li>
+								<li><a href="/services.html">Advanced Revenue Management (ARM)</a></li>
+								<li><a href="/services.html">Multibook Accounting</a></li>
+								<li><a href="/services.html">Warehouse Management System (WMS)</a></li>
+								<li><a href="/services.html">Material Resource Planning (MRP)</a></li>
+								<li><a href="/services.html">Electronic Data Interchange Automation (EDI)</a></li>
+								<li><a href="/services.html">Optimizing Procure-to-Pay Processes</a></li>
+
+						  </ul>
+					  </div>
+				</div>
+			  </div>
+				<div class="colProcess5 col-sm-6 col-xs-12">
 				  <div class="widget widget-nav-menu">
 						<h4 class="widget-title pb-4">Products&nbsp;</h4>
 					<div class="menu-quick-link-container">
 							<ul id="menu-quick-link" class="menu">
-								<li><a href="/products_inventoryAgingReport.html">Inventory Aging Report</a></li>
-								<li><a href="/products_PurchaseApprovals_23wayMatching.html">Purchase Approvals<br>w/2-3 way Matching</a></li>
-								<li><a href="/products_SFTPconnector.html">SFTP Connector</a></li>
-								<li><a href="/products_crossSubsidiaryFulfilment.html">Cross Subsidiary<br>Fulfilment Plus</a></li>
+								<li><a href="/products_inventoryAging.html">N2 Inventory Aging</a></li>
+								<li><a href="/products_APAutomationSuite.html">N2 AP Automation Suite</a></li>
+								<li><a href="/products_SFTPconnector.html">N2 SFTP Connector</a></li>
+								<li><a href="/products_crossSubsidiaryFulfilment.html">N2 I/C Cross-Subsidiary Fulfilment+</a></li>
+								<li><a href="/products_n2Link.html">N2 Link</a></li>
+								<li><a href="/products_accrualEngine.html">N2 Accrual Engine</a></li>
 							</ul>
 					</div>
 					</div>

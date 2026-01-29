@@ -22,14 +22,16 @@
   font-style: normal;
   font-variant: normal;
   line-height: 1;
-  text-rendering: auto; }
+  text-rendering: auto; 
+  }
 
 .fas,
 .fa-classic,
 .fa-solid,
 .far,
 .fa-regular {
-  font-family: 'Font Awesome 6 Free'; }
+  font-family: 'Font Awesome 6 Free';
+margin-right: 20px; }
 
 .fab,
 .fa-brands {

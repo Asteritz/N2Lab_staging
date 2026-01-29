@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+
+
+	<?php get_header(); ?>
 <body>
 	<!-- Loder Start-->
 	<div class="loader-wrapper">
@@ -51,12 +53,12 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="menu">
-					<a href="index.html" class="logo">
+					<a href="/" class="logo">
 						<img class="down" src="/assets/images/N2Lab_PartnerLogo.png"  alt="N2 Lab logo"> 
 						<img class="main_sticky" src="/assets/images/N2Lab_PartnerLogo_white.png" alt="N2 Lab logo">
 					</a> <!--cph-->
 					<ul class="clearfix" id="fade-in">
-						<li><a href="/index.html">Home</a>
+						<li><a href="/">Home</a>
 							
 						</li>
 						<li><a href="/about.html">Company</a>
@@ -71,10 +73,12 @@
 						</li>
 						<li><a href="/products.html">Products</a>
 							<ul>
-								<li><a href="/products_inventoryAgingReport.html">Inventory Aging Report</a></li>
-								<li><a href="/products_PurchaseApprovals_23wayMatching.html">Purchase Approvals w/2-3 way Matching</a></li>
-								<li><a href="/products_SFTPconnector.html">SFTP Connector</a></li>
-								<li><a href="/products_crossSubsidiaryFulfilment.html">Cross Subsidiary Fulfillment Plus</a></li>
+								<li><a href="/products_inventoryAging.html">N2 Inventory Aging</a></li>
+								<li><a href="/products_APAutomationSuite.html">N2 AP Automation Suite</a></li>
+								<li><a href="/products_SFTPconnector.html">N2 SFTP Connector</a></li>
+								<li><a href="/products_crossSubsidiaryFulfilment.html">N2 I/C Cross-Subsidiary Fulfilment+</a></li>
+								<li><a href="/products_n2Link.html">N2 Link</a></li>
+								<li><a href="/products_accrualEngine.html">N2 Accrual Engine</a></li>
 							</ul>
 						</li>
 						<li><a href="/CS_highTechManufacturing.html">Our Works</a>
@@ -82,7 +86,9 @@
 									<li><a href="/CS_highTechManufacturing.html">Case Studies</a></li>
 										<li><a href="/ourClients.html">Our Clients</a></li>
 									</ul>
-								</li>			
+								</li>
+						<li><a href="/blog/">Blog</a>
+						</li>			
 						<li><a href="/contact.html">Contact Us</a>
 						</li>
 						
@@ -100,7 +106,7 @@
 		<div class="mobile-menu">
 			<nav class="techno_menu">
 				<ul class="clearfix" id="fade-in">
-						<li><a href="/index.html">Home</a>
+						<li><a href="/">Home</a>
 							
 						</li>
 						<li><a href="/about.html">Company</a>
@@ -115,10 +121,12 @@
 						</li>
 						<li><a href="/products.html">Products</a>
 							<ul>
-								<li><a href="/products_inventoryAgingReport.html">Inventory Aging Report</a></li>
-								<li><a href="/products_PurchaseApprovals_23wayMatching.html">Purchase Approvals w/2-3 way Matching</a></li>
-								<li><a href="/products_SFTPconnector.html">SFTP Connector</a></li>
-								<li><a href="/products_crossSubsidiaryFulfilment.html">Cross Subsidiary Fulfillment Plus</a></li>
+								<li><a href="/products_inventoryAging.html">N2 Inventory Aging</a></li>
+								<li><a href="/products_APAutomationSuite.html">N2 AP Automation Suite</a></li>
+								<li><a href="/products_SFTPconnector.html">N2 SFTP Connector</a></li>
+								<li><a href="/products_crossSubsidiaryFulfilment.html">N2 I/C Cross-Subsidiary Fulfilment+</a></li>
+								<li><a href="/products_n2Link.html">N2 Link</a></li>
+								<li><a href="/products_accrualEngine.html">N2 Accrual Engine</a></li>
 							</ul>
 						</li>
 						<li><a href="/CS_highTechManufacturing.html">Our Works</a>
@@ -126,7 +134,9 @@
 									<li><a href="/CS_highTechManufacturing.html">Case Studies</a></li>
 										<li><a href="/ourClients.html">Our Clients</a></li>
 									</ul>
-								</li>			
+								</li>
+								<li><a href="/blog">Blog</a>
+						</li>			
 						<li><a href="/contact.html">Contact Us</a>
 						</li>
 
@@ -139,313 +149,38 @@
 	<!----- End Main Menu Area ----->
 	<!--==================================================-->
 	
-	<!--==================================================-->
-	<!----- Start Homepage Hero Slider Area ----->
-	<!--==================================================-->
-	<section class="slider">
-            <div class="rev_slider_wrapper">
-                <div id="rev_slider_1" class="rev_slider" data-version="5.4.5" style="display:none">
-                    <ul>
-
-
-                    <!-- MINIMUM SLIDE STRUCTURE 1 -->
-					   <li data-transition="random-premium" data-masterspeed="1000">
-
-						<!-- SLIDE'S MAIN BACKGROUND IMAGE --> <!-- cph changed data-width="['850', '800', '700', '100%']"-->
-						<img src="/assets/images/slider/home-slider1.jpg" alt="professional lady with laptop" class="rev-slidebg">
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left" 
-							 data-y="center" 
-							 data-hoffset="['0', '0', '0', '0']"
-							 data-voffset="['-90']" 
-							 data-width="['850', '800', '700', '96%']" 
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-							 data-fontsize="['60', '50', '45', '30']"
-							 data-lineheight="['60', '55', '50', '40']"
-							 data-fontweight="['700']"
-							 data-color="['#FFF']"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[40,40,40,40]"
-							 data-paddingleft="[50,50,50,50]"
-							 > Unlock the Power <br>  of NetSuite </div>
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left" 
-							 data-y="center" 
-							 data-hoffset="['0', '0', '0', '0']"
-							 data-voffset="['23', '20', '20', '25']"
-							 data-width="['650', '650', '90%', '96%']"
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-							 data-fontsize="['20', '20', '20', '18']"
-							 data-lineheight="['30', '30', '30', '28']"
-							 data-fontweight="['300']"
-							 data-color="['#FFF']"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[40,40,60,40]"
-							 data-paddingleft="[50,50,50,50]"
-							 >Elevate Your Business with Our Expert Managed Services Across the Globe w/ SOX Compliant Architectural Designs</div>
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left"
-							 data-y="center" 
-							 data-hoffset="0" 
-							 data-voffset="['89', '89', '100', '100']"
-							 data-width="['650', '650', ''700', '100%']"
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-							 data-fontsize="['20', '20', '20', '18']"
-							 data-lineheight="['30', '30', '30', '28']"
-							 data-fontweight="['300']"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[20,20,30,0]"
-							 data-paddingleft="[50,50,50,50]"
-							 ><a href="/services.html#sox" class="vor_btn_1 mr13">Read More</a></div>
-					</li>
-
-
-					
-					<!-- MINIMUM SLIDE STRUCTURE 2 -->
-					<li data-transition="random-premium" data-masterspeed="1000">
-
-						<!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-						<img src="/assets/images/slider/home-slider2.jpg" alt="2 executives discussing" class="rev-slidebg">
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left" 
-							 data-y="center" 
-							 data-hoffset="['0', '0', '0', '0']"
-							 data-voffset="['-80']" 
-							 data-width="['850', '100%', 96%', '96%']"
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-							 data-fontsize="['60', '50', '45', '30']"
-							 data-lineheight="['60', '55', '50', '40']"
-							 data-fontweight="['700']"
-							 data-color="['#FFF']"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[40,40,40,40]"
-							 data-paddingleft="[50,50,50,50]"
-							 > Maximize Your <br> Revenue Precision </div>
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left" 
-							 data-y="center" 
-							 data-hoffset="['0', '0', '0', '0']"
-							 data-voffset="['23', '20', '20', '30']"
-							 data-width="['650', '650', '90%', '96%']"
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-							 data-fontsize="['20', '20', '20', '20']"
-							 data-lineheight="['30', '30', '30', '36']"
-							 data-fontweight="['300']"
-							 data-color="['#FFF']"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[40,40,40,40]"
-							 data-paddingleft="[50,50,50,50]"
-							 >Discover How Advanced Revenue Management Can Transfer Your Business for IPO-Readiness</div>
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left"
-							 data-y="center" 
-							 data-hoffset="0" 
-							 data-voffset="['89', '89', '89', '140']"
-							 data-width="['650', '100%', '700', '100%']"
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-
-							 data-fontsize="16"
-							 data-lineheight="['30', '30', '30', '30']"
-							 data-fontweight="500"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[40,40,40,40]"
-							 data-paddingleft="[50,50,50,50]"
-							 ><a href="/services.html#arm1" class="vor_btn_1 mr13">Learn More</a></div>
-					</li>
-					<!-- MINIMUM SLIDE STRUCTURE 3 -->
-					<li data-transition="random-premium" data-masterspeed="1000">
-
-						<!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-						<img src="/assets/images/slider/home-slider3.jpg" alt="Accountant looking troubled in office" class="rev-slidebg">
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left" 
-							 data-y="center" 
-							 data-hoffset="0" 
-							 data-voffset="['-80']" 
-							 data-width="['850', '800', '700', '100%']"
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-							 data-fontsize="['60', '50', '45', '30']"
-							 data-lineheight="['60', '55', '50', '40']"
-							 data-fontweight="['700']"
-							 data-color="['#FFF']"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[40,40,40,40]"
-							 data-paddingleft="[50,50,50,50]"
-							 > Tired of QuickBooks? </div>
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left" 
-							 data-y="center" 
-							 data-hoffset="0" 
-							 data-voffset="['-10', '-10', '-10', '-15']"
-							 data-width="['650', '650', '700', '96%']"
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-							 data-fontsize="['20', '20', '20', '20']"
-							 data-lineheight="['20', '20', '20', '26']"
-							 data-fontweight="['300']"
-							 data-color="['#FFF']"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[40,40,40,40]"
-							 data-paddingleft="[50,50,50,50]"
-							 >Let's discuss how NetSuite is a good fit!  </div>
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left"
-							 data-y="center" 
-							 data-hoffset="0" 
-							 data-voffset="['45', '55', '55', '80']"
-							 data-width="['650', '100%', '700', '100%']"
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-
-							 data-fontsize="16"
-							 data-lineheight="['30', '30', '30', '30']"
-							 data-fontweight="500"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[40,40,40,40]"
-							 data-paddingleft="[50,50,50,50]"
-							 ><a href="/services.html" class="vor_btn_1 mr13">Learn More</a></div>
-					</li>   
-						
-					<!-- MINIMUM SLIDE STRUCTURE 4 -->
-
-					<li data-transition="random-premium" data-masterspeed="1000">
-
-						<!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-						<img src="/assets/images/slider/home-slider5.jpg" alt="workers in warehouse" class="rev-slidebg">
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left" 
-							 data-y="center" 
-							 data-hoffset="0" 
-							 data-voffset="['-80']" 
-							 data-width="['850', '800', '700', '100%']"
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-							 data-fontsize="['60', '50', '45', '30']"
-							 data-lineheight="['60', '55', '50', '40']"
-							 data-fontweight="['700']"
-							 data-color="['#FFF']"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[40,40,40,40]"
-							 data-paddingleft="[50,50,50,50]"
-							 > Maximize Your <br/> Inventory Efficiency</div>
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left" 
-							 data-y="center" 
-							 data-hoffset="['0', '0', '0', '0']"
-							 data-voffset="['23', '20', '20', '25']"
-							 data-width="['650', '650', '96%', '96%']"
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-							 data-fontsize="['20', '20', '20', '18']"
-							 data-lineheight="['30', '30', '30', '28']"
-							 data-fontweight="['300']"
-							 data-color="['#FFF']"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[40,40,40,40]"
-							 data-paddingleft="[50,50,50,50]"
-							 >Discover how to manage your inventory reserves with N2's Lab Real-Time Inventory Aging Report</div>
-						<div class="tp-caption tp-resizeme normalWraping" 
-
-							 data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-							 {"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]' 
-
-							 data-x="left"
-							 data-y="center" 
-							 data-hoffset="0" 
-							 data-voffset="['89', '89', '89', 115']"
-							 data-width="['650', '650', '700', '100%']"
-							 data-height="['auto']"
-							 data-whitesapce="['normal']"
-							 data-fontsize="['20', '20', '20', '18']"
-							 data-lineheight="['30', '30', '30', '28']"
-							 data-fontweight="['300']"
-							 data-textAlign="['left', 'left', 'left', 'left']"
-							 data-paddingtop="[0,0,0,0]"
-							 data-paddingright="[0,0,0,0]"
-							 data-paddingbottom="[40,40,40,40]"
-							 data-paddingleft="[50,50,50,50]"
-							 ><a href="/products_inventoryAgingReport.html" class="vor_btn_1 mr13">Read More</a></div>
-					</li>
-			
+	<!-- ============================================================== -->
+	<!-- Start Techno Breatcome Area -->
+	<!-- ============================================================== -->
+	<div class="breatcome_area blog_img d-flex align-items-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="breatcome_title">
+						<div class="breatcome_title_inner pb-2">
+							<h2>Our Blog</h2>
+						</div>
+						<div class="breatcome_title_inner">
+								
+								<h4><span><b>Optimizing NetSuite, One Insight at a Time. </b></span>From expert strategies to industry trends, our blog keeps you ahead. </h4>
+						</div>
+				
+					</div>
+				</div>
+			</div>
 		</div>
-        </section>
-	<!--==================================================-->
-	<!----- End Homepage Hero Slider Area ----->
-	<!--==================================================-->
+	</div>
+	<!-- ============================================================== -->
+	<!-- End Techno Breatcome Area -->
+	<!-- ============================================================== -->
+
+
+	
+
 <div class="blog_area pt-85 pb-65">
+	<div class="container">
+        <?php do_action('blog_reflection_breadcrumb'); ?>
+    </div>
     <div class="container">
         <div class="row">
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -455,14 +190,14 @@
                             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
                         </div>
                         <div class="single_blog_content pl-4 pr-4">
-                            <div class="techno_blog_meta">
-                                <span><?php the_category(', '); ?></span>
-                                <span class="meta-date pl-3"><?php the_date(); ?></span>
+                            <div class="">
+                                <span class="techno_blog_meta"><?php the_category(' '); ?></span>
+                                <span class="techno_blog_meta_date pl-0""><?php the_date(); ?></span>
                             </div>
-                            <div class="blog_page_title pb-35">
+                            <div class="blog_page_title ">
                                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             </div>
-                            <div class="blog_description">
+                            <div class="text_clamp">
                                 <p><?php the_excerpt(); ?></p>
                             </div>
                         </div>
@@ -472,7 +207,22 @@
                 <p>No posts found.</p>
             <?php endif; ?>
         </div>
-    </div>
+
+		<!-- start pagination -->
+		<div class="row">
+				<div class="col-md-12">
+					<div class="paginations">				
+						<ul class="page-numbers">
+							
+							<li><?php blog_reflection_post_pagination(); ?></li>
+						
+						</ul>
+					</div>
+				</div>
+			</div>
+		<!-- end pagination -->
+
+	</div>
 </div>
 <!-- <main class="wrap">
   <section class="content-area content-thin">
@@ -652,5 +402,8 @@
             }
         }
     });
+
+
+
 </script>
 <?php get_footer(); ?>

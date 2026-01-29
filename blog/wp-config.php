@@ -20,19 +20,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'i9748004_tyoi1' );
+define( 'DB_NAME', 'wordpress' );
 
 /** Database username */
-define( 'DB_USER', 'i9748004_tyoi1' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'U.zaAFRAD6h9TJiNHGV03' );
+define( 'DB_PASSWORD', 'root' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,34 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'npYhyFOTv6X2vL87sc8h0oeBKB0rheL32mHQIdiAxMTeCbf3FhQfoe1ORrBDTHPF');
-define('SECURE_AUTH_KEY',  'NFoR3vDvW3zt8gXrSlMGPBsrvnJv3SrADC1njbIc5jdzEudBd0VmjOrUC4apyKfY');
-define('LOGGED_IN_KEY',    'oyUxdgRliC48WYDlfjCaOBgXHFtL2WqqSjDljvTrMOm1YfdjROU6fY4hsXS2SW16');
-define('NONCE_KEY',        '7ABDp8a8VF3UeVCrKB0MKVf6ifYnnL7mSxlktZx7DAlsd0jMffk6pphyg7abqBQg');
-define('AUTH_SALT',        'rypSy8Is8yqTc9rNwXiZdkXPLlHLsTylIR2VMR9lQOBZYtI4GuYPjfinWTRdjWZD');
-define('SECURE_AUTH_SALT', 'l2jWanyCSbq67LdlhQnnCpNhHaLN1vdCqqPlWHaBi4AauTVV3SjxxFt1uaG9LhOW');
-define('LOGGED_IN_SALT',   '7Kfm1VTj1Z4O2KFnzoycgFfRtNWXEYXPVV76an6aeMiRhGOWkR40VIHypray9ii6');
-define('NONCE_SALT',       'ntYCuyLCT6VrzvCx0go5AJuIz6oylhSahR9dzjrkB3KZJoHa4ogHJ0kVlb3mEOqI');
-
-/**
- * Other customizations.
- */
-define('WP_TEMP_DIR',dirname(__FILE__).'/wp-content/uploads');
-
-/**
- * Multi-site
- *
- */
-define('WP_ALLOW_MULTISITE', true);
-define('MULTISITE', true);
-define('SUBDOMAIN_INSTALL', false);
-$base = '/blog/';
-define('DOMAIN_CURRENT_SITE', 'n2lab.io');
-define('PATH_CURRENT_SITE', '/blog/');
-define('SITE_ID_CURRENT_SITE', 1);
-define('BLOG_ID_CURRENT_SITE', 1);
-
-
+define( 'AUTH_KEY',         'z*wDU#a].UL*eu1R#KRyA6{e%<@xn=ORIdupEj@T||ic%+sn`?+~q><p:ZrU>D/E' );
+define( 'SECURE_AUTH_KEY',  '0Jh(KvLxybi6)KN$+^*uZfBWJg>XHl&45<ztLG%)(<z1TJ}@C&ZcCl@|*|bNifn4' );
+define( 'LOGGED_IN_KEY',    'kD9JZ4 2/f,u6u^(e~_;D+Mtx(?rRll<LuaRYa0+qg}#}^fRf;d}&S8Qh,Hlgjy_' );
+define( 'NONCE_KEY',        '940+jy4>eU,MkV~ogtlg]vEsC>JJ3iX%PSttgNjdU&1iNTAW&}g8&f:M%7h5ctW7' );
+define( 'AUTH_SALT',        'Lu4)A]@QKkS_c,{nt2oHCLd*a(s,RqYdS>feS]@<%_m*e01en ;4)j1h8N]7oH5X' );
+define( 'SECURE_AUTH_SALT', ';p51:;)NzsGL3Etra`*k{6lh.6QWn~ZW/i0(rpDXd%}-)!Gh^Z@26s$5Y?KC0Q.?' );
+define( 'LOGGED_IN_SALT',   '@$CCV)}%?-=~+y4.oiA]}G]X,U9;cCb2eezD%1mx:~s$ PEo/pV>yihdN@w}UfP7' );
+define( 'NONCE_SALT',       'eK|M(NC5A;Ze^+Jz_/_wRBJts{(MF0cISKq[b[|j90YUW0JJ-ES^i@jI,2y.3{ta' );
 
 /**#@-*/
 
@@ -91,7 +71,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
  *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
-$table_prefix = 'xz81_';
+$table_prefix = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.

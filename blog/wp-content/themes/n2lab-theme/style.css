@@ -23,7 +23,6 @@ Joanna Koh and Pei Hua Cher https://github.com/Asteritz
 .my-logo,
 footer {
   width: 100%;
-  padding-left: 1%;
   margin-bottom: 8px;
   background-color: #78baff;
   border: 1px solid #78baff;
@@ -69,10 +68,10 @@ body > header > h1 > a {
   }
   
   .primary-sidebar {
-    width: 25%;
+    width: 100%;
     padding: 1%;
     vertical-align: top;
-    background-color: #ececec;
+    background-color: #ffffff;
   }
   
   .article-loop {
@@ -94,6 +93,7 @@ body > header > h1 > a {
     background-color: #FFF;
     border-radius: 4px;
     margin-bottom: 4px;
+    margin-top: 4px;
   }
 
   @media screen and (max-width: 400px) {
@@ -2171,8 +2171,9 @@ a.em-active-button:hover {
 }
 
 .blog_img{
-    background:url(/assets/images/header/h_blog.jpg);
+    background:url(/assets/images/header/h_blog2.jpg);
 }
+
 
 .csHighTech_img{
     background:url(/assets/images/header/h_CShighTechManufacturing.jpg);
@@ -2189,6 +2190,8 @@ a.em-active-button:hover {
 .csWholesalesDis_img{
     background:url(/assets/images/header/h_CSwholesalesDistribution.jpg);
 }
+
+
 
 
 
@@ -9465,14 +9468,38 @@ p.seo-text1 {
 /*====================================================
 --<	Techno Blog Area Css -->
 ======================================================*/
+
+
+
 .single_blog {
     border: 1px solid #ebebeb;
     overflow: hidden;
 	transition:.5s;
+    border-radius: 10px;
 }
+
+
 .single_blog_content{
     background: #fff;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+    position: relative;
 }
+
+.single_blog_content:after {
+    display: block;
+    content: "...";
+    width: 1em;
+    height: 1.5em;
+    background-color: #fff;
+    position: absolute;
+    bottom: -6px;
+    right: 0;
+}
+
+
+
 .single_blog:hover {
     border-color: transparent;
     box-shadow:0 5px 30px rgba(0,0,0,0.2);
@@ -9486,6 +9513,8 @@ p.seo-text1 {
 }
 .single_blog_thumb img {
     width: 100%;
+    height: 160px;
+    object-fit: cover;
 }
 .blog_page_button a {
     font-size: 15px;
@@ -9510,22 +9539,35 @@ p.seo-text1 {
 .blog_page_title a:hover {
     color:#FC3C32;
 }
+
+
 .techno_blog_meta a {
-    color: #616161;
+    font-size: 14px;
+    padding-top: 2px;
+    color: #FC3C32;
 	transition:.3s;
 	position:relative;
 }
 .techno_blog_meta a:before {
     position: absolute;
     right: -6px;
-    height: 14px;
+    height: 121px;
     width: 1px;
-    background: #666;
+    background: #616161;
     content: "";
     top: 5px;
 }
 .techno_blog_meta a:hover{
-	color:#FC3C32;
+	color:#666;
+}
+
+.techno_blog_meta_date {
+    font-size: 12px;
+    display: inline-block;
+    padding: 0px 6px;
+    color: #616161;
+	transition:.3s;
+	position:relative;
 }
 
 /*odoo blog*/

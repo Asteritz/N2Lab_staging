@@ -31,11 +31,11 @@
 	<!-- meanmenu CSS -->
 	<link rel="stylesheet" href="/assets/css/meanmenu.min.css" type="text/css" media="all" />	
 	<!-- Main Style CSS -->
-	<link rel="stylesheet"  href="/N2Lab_staging/style.css" type="text/css" media="all" />
+	<link rel="stylesheet"  href="/style.css" type="text/css" media="all" />
 	<!-- transitions CSS -->
 	<link rel="stylesheet" href="/assets/css/owl.transitions.css" type="text/css" media="all" />
 	<!-- venobox CSS -->
-	<link rel="stylesheet" href="/N2Lab_staging/venobox/venobox.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/venobox/venobox.css" type="text/css" media="all" />
 	<!-- widget CSS -->
 	<link rel="stylesheet" href="/assets/css/widget.css" type="text/css" media="all" />
 	<!-- settings CSS -->

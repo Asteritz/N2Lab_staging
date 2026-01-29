@@ -72,8 +72,6 @@
 }
 /* widget list */
  .widget {
-    font-size: 14px; /*updated footer font size*/
-    line-height: 22px; /*updated footer */
 }
 .blog-left-side .widget h2 {
     bottom: -1px;
@@ -81,8 +79,8 @@
     display: block;
     font-size: 24px;
     line-height: 17px;
-    margin-bottom: 20px;
-    padding-bottom: 16px;
+    padding-bottom: 10px;
+    padding-top: 40px;
     text-transform: capitalize;
     font-weight: 700;
 }

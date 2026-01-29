@@ -3,7 +3,7 @@ Contributors: mycodecare
 Requires at least: 4.0
 Tested up to: 6.7.1
 Requires PHP: 5.6
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
 Tags: news, blog, entertainment, one-column, two-columns,three-columns,four-columns, grid-layout, editor-style, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks, custom-logo
@@ -38,6 +38,8 @@ Blog Reflection includes support for WooCommerce and for Infinite Scroll in Jetp
 * bug fix
 = 1.0.5 =
 * Implement demo content
+= 1.0.6 =
+* sdk update
 
 == Copyright ==
 

@@ -52,39 +52,39 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="menu">
-					<a href="index.html" class="logo">
+					<a href="/" class="logo">
 						<img class="down" src="/assets/images/N2Lab_PartnerLogo.png"  alt="N2 Lab logo"> 
 						<img class="main_sticky" src="/assets/images/N2Lab_PartnerLogo_white.png" alt="N2 Lab logo">
 					</a> <!--cph-->
 					<ul class="clearfix" id="fade-in">
-						<li><a href="/N2Lab_staging/index.html">Home</a>
+						<li><a href="/index.html">Home</a>
 							
 						</li>
-						<li><a href="/N2Lab_staging/about.html">Company</a>
+						<li><a href="/about.html">Company</a>
 							<ul>
-								<li><a href="/N2Lab_staging/about.html">About Us</a></li>
-								<li><a href="/N2Lab_staging/ourTeam.html">Our Team</a></li>
-								<li><a href="/N2Lab_staging/careers.html">Careers</a></li>
-								<li><a href="/N2Lab_staging/ourPartners.html">Our Partners</a></li>
+								<li><a href="/about.html">About Us</a></li>
+								<li><a href="/ourTeam.html">Our Team</a></li>
+								<li><a href="/careers.html">Careers</a></li>
+								<li><a href="/ourPartners.html">Our Partners</a></li>
 							</ul>
 						</li>
-						<li><a href="/N2Lab_staging/services.html">Services</a>
+						<li><a href="/services.html">Services</a>
 						</li>
-						<li><a href="/N2Lab_staging/products.html">Products</a>
+						<li><a href="/products.html">Products</a>
 							<ul>
-								<li><a href="/N2Lab_staging/products_inventoryAgingReport.html">Inventory Aging Report</a></li>
-								<li><a href="/N2Lab_staging/products_PurchaseApprovals_23wayMatching.html">Purchase Approvals w/2-3 way Matching</a></li>
-								<li><a href="/N2Lab_staging/products_SFTPconnector.html">SFTP Connector</a></li>
-								<li><a href="/N2Lab_staging/products_crossSubsidiaryFulfilment.html">Cross Subsidiary Fulfillment Plus</a></li>
+								<li><a href="/products_inventoryAgingReport.html">Inventory Aging Report</a></li>
+								<li><a href="/products_PurchaseApprovals_23wayMatching.html">Purchase Approvals w/2-3 way Matching</a></li>
+								<li><a href="/products_SFTPconnector.html">SFTP Connector</a></li>
+								<li><a href="/products_crossSubsidiaryFulfilment.html">Cross Subsidiary Fulfillment Plus</a></li>
 							</ul>
 						</li>
-						<li><a href="/N2Lab_staging/CS_highTechManufacturing.html">Our Works</a>
+						<li><a href="/CS_highTechManufacturing.html">Our Works</a>
 							<ul>
-									<li><a href="/N2Lab_staging/CS_highTechManufacturing.html">Case Studies</a></li>
-										<li><a href="/N2Lab_staging/ourClients.html">Our Clients</a></li>
+									<li><a href="/CS_highTechManufacturing.html">Case Studies</a></li>
+										<li><a href="/ourClients.html">Our Clients</a></li>
 									</ul>
 								</li>			
-						<li><a href="/N2Lab_staging/contact.html">Contact Us</a>
+						<li><a href="/contact.html">Contact Us</a>
 						</li>
 						
 						<!-- <div class="donate-btn-header">
@@ -101,34 +101,34 @@
 		<div class="mobile-menu">
 			<nav class="techno_menu">
 				<ul class="clearfix" id="fade-in">
-						<li><a href="/N2Lab_staging/index.html">Home</a>
+						<li><a href="/index.html">Home</a>
 							
 						</li>
-						<li><a href="/N2Lab_staging/about.html">Company</a>
+						<li><a href="/about.html">Company</a>
 							<ul>
-								<li><a href="/N2Lab_staging/about.html">About Us</a></li>
-								<li><a href="/N2Lab_staging/ourTeam.html">Our Team</a></li>
-								<li><a href="/N2Lab_staging/careers.html">Careers</a></li>
-								<li><a href="/N2Lab_staging/ourPartners.html">Our Partners</a></li>
+								<li><a href="/about.html">About Us</a></li>
+								<li><a href="/ourTeam.html">Our Team</a></li>
+								<li><a href="/careers.html">Careers</a></li>
+								<li><a href="/ourPartners.html">Our Partners</a></li>
 							</ul>
 						</li>
-						<li><a href="/N2Lab_staging/services.html">Services</a>
+						<li><a href="/services.html">Services</a>
 						</li>
-						<li><a href="/N2Lab_staging/products.html">Products</a>
+						<li><a href="/products.html">Products</a>
 							<ul>
-								<li><a href="/N2Lab_staging/products_inventoryAgingReport.html">Inventory Aging Report</a></li>
-								<li><a href="/N2Lab_staging/products_PurchaseApprovals_23wayMatching.html">Purchase Approvals w/2-3 way Matching</a></li>
-								<li><a href="/N2Lab_staging/products_SFTPconnector.html">SFTP Connector</a></li>
-								<li><a href="/N2Lab_staging/products_crossSubsidiaryFulfilment.html">Cross Subsidiary Fulfillment Plus</a></li>
+								<li><a href="/products_inventoryAgingReport.html">Inventory Aging Report</a></li>
+								<li><a href="/products_PurchaseApprovals_23wayMatching.html">Purchase Approvals w/2-3 way Matching</a></li>
+								<li><a href="/products_SFTPconnector.html">SFTP Connector</a></li>
+								<li><a href="/products_crossSubsidiaryFulfilment.html">Cross Subsidiary Fulfillment Plus</a></li>
 							</ul>
 						</li>
-						<li><a href="/N2Lab_staging/CS_highTechManufacturing.html">Our Works</a>
+						<li><a href="/CS_highTechManufacturing.html">Our Works</a>
 							<ul>
-									<li><a href="/N2Lab_staging/CS_highTechManufacturing.html">Case Studies</a></li>
-										<li><a href="/N2Lab_staging/ourClients.html">Our Clients</a></li>
+									<li><a href="/CS_highTechManufacturing.html">Case Studies</a></li>
+										<li><a href="/ourClients.html">Our Clients</a></li>
 									</ul>
 								</li>			
-						<li><a href="/N2Lab_staging/contact.html">Contact Us</a>
+						<li><a href="/contact.html">Contact Us</a>
 						</li>
 
 					</ul>
@@ -218,7 +218,7 @@
 							 data-paddingright="[0,0,0,0]"
 							 data-paddingbottom="[20,20,30,0]"
 							 data-paddingleft="[50,50,50,50]"
-							 ><a href="/N2Lab_staging/services.html#sox" class="vor_btn_1 mr13">Read More</a></div>
+							 ><a href="/services.html#sox" class="vor_btn_1 mr13">Read More</a></div>
 					</li>
 
 
@@ -293,7 +293,7 @@
 							 data-paddingright="[0,0,0,0]"
 							 data-paddingbottom="[40,40,40,40]"
 							 data-paddingleft="[50,50,50,50]"
-							 ><a href="/N2Lab_staging/services.html#arm1" class="vor_btn_1 mr13">Learn More</a></div>
+							 ><a href="/services.html#arm1" class="vor_btn_1 mr13">Learn More</a></div>
 					</li>
 					<!-- MINIMUM SLIDE STRUCTURE 3 -->
 					<li data-transition="random-premium" data-masterspeed="1000">
@@ -365,7 +365,7 @@
 							 data-paddingright="[0,0,0,0]"
 							 data-paddingbottom="[40,40,40,40]"
 							 data-paddingleft="[50,50,50,50]"
-							 ><a href="/N2Lab_staging/services.html" class="vor_btn_1 mr13">Learn More</a></div>
+							 ><a href="/services.html" class="vor_btn_1 mr13">Learn More</a></div>
 					</li>   
 						
 					<!-- MINIMUM SLIDE STRUCTURE 4 -->
@@ -438,7 +438,7 @@
 							 data-paddingright="[0,0,0,0]"
 							 data-paddingbottom="[40,40,40,40]"
 							 data-paddingleft="[50,50,50,50]"
-							 ><a href="/N2Lab_staging/products_inventoryAgingReport.html" class="vor_btn_1 mr13">Read More</a></div>
+							 ><a href="/products_inventoryAgingReport.html" class="vor_btn_1 mr13">Read More</a></div>
 					</li>
 			
 		</div>
@@ -490,7 +490,7 @@
 	<!-- imagesloaded js -->
 	<script type="text/javascript" src="/assets/js/imagesloaded.pkgd.min.js"></script>
 	<!-- venobox js -->
-	<script type="text/javascript" src="/N2Lab_staging/venobox/venobox.js"></script>
+	<script type="text/javascript" src="/venobox/venobox.js"></script>
 	<!-- ajax mail js -->
 	<script type="text/javascript" src="/assets/js/ajax-mail.js"></script>
 	<!--  testimonial js -->	
@@ -498,7 +498,7 @@
 	<!--  animated-text js -->	
 	<script type="text/javascript" src="/assets/js/animated-text.js"></script>
 	<!-- venobox min js -->
-	<script type="text/javascript" src="/N2Lab_staging/venobox/venobox.min.js"></script>
+	<script type="text/javascript" src="/venobox/venobox.min.js"></script>
 	<!-- isotope js -->
 	<script type="text/javascript" src="/assets/js/isotope.pkgd.min.js"></script>
 	<!-- jquery nivo slider pack js -->

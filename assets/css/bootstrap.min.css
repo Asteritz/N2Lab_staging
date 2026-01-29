@@ -4084,8 +4084,10 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   padding: .75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #ffeded;
+  background-color: #f2f2f2;
   border-radius: .25rem
+
+  
 }
 .breadcrumb-item + .breadcrumb-item {
   padding-left: .5rem

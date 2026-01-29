@@ -2092,8 +2092,8 @@ a.em-active-button:hover {
 }
 
 .product_benefits img{
-    max-height: 500px;
-    height: 100%; 
+    max-height: 610px;
+    height: 100%;
     margin: 0px;
 }
 
@@ -2257,7 +2257,7 @@ a.em-active-button:hover {
 }
 .text_left .section_main_title h1 {
     margin: 0;
-    
+    letter-spacing: -1px;
 }
 .section_main_title h1 span{
 	color:#FC3C32;
@@ -2288,7 +2288,7 @@ a.em-active-button:hover {
 .section_sub_title h6 {
     letter-spacing: 0;
     color: #FC3C32;
-    font-size: 24px;
+    font-size: 16px;
 }
 /*odoo section content*/
 .about_area.odoo .section_content_text {
@@ -9254,7 +9254,7 @@ p.seo-text1 {
 --<	Techno Contact Address Area Css -->
 ======================================================*/
 .single_contact_address {
-    border: 1px solid #dbd9d9;
+    border: 1px solid #d0e5fb;
     border-radius: 5px 5px 5px 5px;
     padding: 30px 25px 15px;
 }
@@ -9355,11 +9355,12 @@ p.seo-text1 {
     border: 1px solid #ebebeb;
     overflow: hidden;
 	transition:.5s;
+    border-radius: 10px;
 }
 
 .single_blog_content{
     background: #fff;
-    height: 900px;
+    height: 250px;
     float: left;
     overflow: hidden;
     position: relative;
@@ -9389,6 +9390,8 @@ p.seo-text1 {
 }
 .single_blog_thumb img {
     width: 100%;
+    height: 160px;
+    object-fit: cover;
 }
 .blog_page_button a {
     font-size: 15px;
@@ -9414,19 +9417,32 @@ p.seo-text1 {
     color:#FC3C32;
 }
 .techno_blog_meta a {
+    /* color: #616161; Jk-change category labels to red*/ 
+    font-size: 12px;
+	transition:.3s;
+	position:relative;
+    padding-right: 9px;
+    line-height: 1px !important;
+}
+.techno_blog_meta a:before {
+    position: absolute;
+    right: 1px;
+    height: 12px;
+    width: 1px;
+    background: #c5c5c5;
+    content: "";
+    top: 2px;
+}
+
+.techno_blog_meta_date {
+    font-size: 12px;
+    display: inline-block;
+    padding: 0px 6px;
     color: #616161;
 	transition:.3s;
 	position:relative;
 }
-.techno_blog_meta a:before {
-    position: absolute;
-    right: -6px;
-    height: 14px;
-    width: 1px;
-    background: #666;
-    content: "";
-    top: 5px;
-}
+
 .techno_blog_meta a:hover{
 	color:#FC3C32;
 }

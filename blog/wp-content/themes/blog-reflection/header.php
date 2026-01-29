@@ -9,11 +9,75 @@
  * @package BLOG_REFLECTION
  */
 ?>
-
 <!doctype html>
 <html <?php language_attributes(); ?>>
-    
+    <head>
+        <meta charset="<?php bloginfo('charset'); ?>">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <?php wp_head(); ?>
+    </head>
+<?php
+$body_typography = get_theme_mod('body_typography', array('font-family' => 'Outfit'));
 
+if (is_array($body_typography) && isset($body_typography['font-family'])) {
+    $font_family = esc_attr($body_typography['font-family']);
+} else {
+    $font_family = 'Outfit'; // Provide a default font family if not set
+}
+$blog_reflection_body_font = 'font-family:' . esc_attr($font_family);
+?>
+<body <?php body_class(); ?> style="<?php echo esc_attr($blog_reflection_body_font); ?>">
+<?php
+$blog_reflection_loder_enable_disable = get_theme_mod('preloader_options', 'off');
+if ($blog_reflection_loder_enable_disable == 'on') {
+    ?>
+    <div class="preloader ">
+        <div class="preloader-inner">
+            <span class="loader"></span>
+        </div>
+    </div>
+    <?php
+}
+?>
+    <!-- Preloader code  Ends-->
+    <!-- subscribs popup start  -->
+<?php
+$blog_reflection_subscribe_popup_form_enable_disable = get_theme_mod('popup_subscribe_options', 'off');
+
+if ($blog_reflection_subscribe_popup_form_enable_disable == 'on') {
+
+    $blog_reflection_subscribe_popup_form_title = get_theme_mod('popup_subscribe_form_title', 'Subscribe');
+    $blog_reflection_subscribe_form_description = get_theme_mod('popup_subscribe_form_text', 'Sign up to get update about us. Dont be hasitate your email is safe.');
+    $blog_reflection_subscribe_form_check_text = get_theme_mod('popup_subscribe_form_checkbox_text', 'I dont want to see this popup again.');
+    $popup_newsletter_shortcode = get_theme_mod('popup_newsletter_shortcode', '[contact-form-7 id="58d" title="Contact form 1"]');
+    ?>
+    <div class="popup-subscribe-area">
+        <div class="container">
+            <div class="popup-subscribe">
+                <div class="box-content">
+                    <button class="simple-icon popupClose"><i class="fas fa-times"></i></button>
+                    <div class="widget newsletter-widget footer-widget">
+                        <h3 class="widget_title"><?php echo esc_html($blog_reflection_subscribe_popup_form_title) ?></h3>
+                        <p class="footer-text"> <?php echo esc_html($blog_reflection_subscribe_form_description) ?></p>
+                        <form class="newsletter-form">
+                            <?php
+                            if (!empty($popup_newsletter_shortcode)) {
+                                echo wp_kses_post(do_shortcode($popup_newsletter_shortcode));
+                            }
+                            ?>
+                            <button type="submit" class="icon-btn"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                        <div class="mt-30">
+                            <input type="checkbox" id="destroyPopup">
+                            <label for="destroyPopup"><?php echo esc_html($blog_reflection_subscribe_form_check_text) ?></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<?php } ?>
 <!-- subscribs popup ends  -->
 <?php $blog_reflection_theme_color_mode = get_theme_mod('default_color_mode', 'light'); ?>
 <?php
@@ -21,101 +85,12 @@ if ($blog_reflection_theme_color_mode == 'dark') {
     blog_reflection_call_dark_mode();
     ?>
 <?php } ?>
-
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>N2 Lab - Contact Us</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="/assets/images/fav-icon/N2_icon.png">
-	<!-- bootstrap CSS -->
-	<link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css" media="all" />
-	<!-- carousel CSS -->
-	<link rel="stylesheet" href="/assets/css/owl.carousel.min.css" type="text/css" media="all" />	
-	<!-- nivo-slider CSS -->
-	<link rel="stylesheet" href="/assets/css/nivo-slider.css" type="text/css" media="all" />
-	<!-- animate CSS -->
-	<link rel="stylesheet" href="/assets/css/animate.css" type="text/css" media="all" />	
-	<!-- animated-text CSS -->
-	<link rel="stylesheet" href="/assets/css/animated-text.css" type="text/css" media="all" />	
-	<!-- font-awesome CSS -->
-	<link type="text/css" rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
-	<link type="text/css" rel="stylesheet" href="/assets/fonts/font-awesome/css/brands.css">
-	<!-- font-flaticon CSS -->
-	<link rel="stylesheet" href="/assets/css/flaticon.css" type="text/css" media="all" />	
-	<!-- theme-default CSS -->
-	<link rel="stylesheet" href="/assets/css/theme-default.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="/assets/css/all.min.css" type="text/css" media="all" />		
-	<!-- meanmenu CSS -->
-	<link rel="stylesheet" href="/assets/css/meanmenu.min.css" type="text/css" media="all" />	
-	<!-- Main Style CSS -->
-	<link rel="stylesheet"  href="/style.css" type="text/css" media="all" />
-	<!-- transitions CSS -->
-	<link rel="stylesheet" href="/assets/css/owl.transitions.css" type="text/css" media="all" />
-	<!-- venobox CSS -->
-	<link rel="stylesheet" href="/venobox/venobox.css" type="text/css" media="all" />
-	<!-- widget CSS -->
-	<link rel="stylesheet" href="/assets/css/widget.css" type="text/css" media="all" />
-	<!-- settings CSS -->
-	<link rel="stylesheet" href="/assets/css/settings.css" type="text/css" media="all" />
-	<!-- responsive CSS -->
-	<link rel="stylesheet" href="/assets/css/responsive.css" type="text/css" media="all" />
-	<style type="text/css">
-	body,td,th {
-    font-family: Muli, sans-serif;
-}
-h1,h2,h3,h4,h5,h6 {
-    font-family: Muli, sans-serif;
-}
-    </style>
-	<!-- modernizr js -->	
-	<script type="text/javascript" src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
-
-		<!--==================================================-->
-	<!----- Start repeat navi footer Script----->
-	<!--==================================================-->
-	
-	<!-- <script src="//code.jquery.com/jquery.min.js"></script> -->
-	<!-- <script type="text/javascript" src="assets/js/vendor/jquery-3.2.1.min.js"></script> -->
-	<script type="text/javascript" src="/assets/js/accordion/jquery-3.4.1.min.js"></script>
-
-
-	<script type="text/javascript" >
-		// <!-- start main_menu -->
-		// $.get("main_menu.html", function(data){
-		// 	$("#main_menu").replaceWith(data);
-		// });
-
-		$(document).ready(function() {
-                $('#fade-in').delay(1000).fadeIn('slow')
-		});
-	
-		// <!-- start footer -->
-		$.get("/footer.html", function(data){
-			$("#footer").replaceWith(data);
-		});
-
-		// <!-- start caseStudy -->
-		$.get("/case_study.html", function(data){
-			$("#case_study").replaceWith(data);
-		});
-
-		// <!-- start process -->
-		$.get("/process.html", function(data){
-			$("#process").replaceWith(data);
-		});
-
-	</script>
-
-
-	<!--==================================================-->
-	<!----- End repeat navi footer Script----->
-	<!--==================================================-->
-	
-</head>
-
 <?php wp_body_open(); ?>
+<div id="page" class="site">
+    <a class="skip-link screen-reader-text"
+       href="#primary"><?php esc_html_e('Skip to content', 'blog-reflection'); ?></a>
+<?php
+do_action('blog_reflection_mobile_menu_hook');
+get_template_part('inc/header/header-' . '' . get_theme_mod('select_header', 'one') . '');
+?>
 
-    
