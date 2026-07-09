@@ -108,7 +108,22 @@
 
 			</div>
 		</div>
-	</div>		
+	</div>
+	<script type="text/javascript">
+		document.addEventListener("visibilitychange", function() {
+			if (document.hidden) {
+				// Force Slider Revolution to pause when user leaves the tab
+				if (typeof revapi1 !== 'undefined' && revapi1.revpause) {
+					revapi1.revpause();
+				}
+			} else {
+				// Resume slider when user returns to the tab
+				if (typeof revapi1 !== 'undefined' && revapi1.revresume) {
+					revapi1.revresume();
+				}
+			}
+		});
+	</script>
     
     </footer>
 	
