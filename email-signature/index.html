@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>N2 Lab Customisable Email Signature</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<div class="app">
+  <aside class="controls">
+    <h1>N2 Lab Email Signature</h1>
+    <p class="intro">Personalise employee details, credentials, banner theme, meeting link and travel/PTO status. The preview updates automatically.</p>
+
+    <fieldset>
+      <legend>Employee details</legend>
+      <label for="name">Name</label>
+      <input id="name" type="text" value="Steven Chen">
+      <label for="title">Job title</label>
+      <input id="title" type="text" value="Partner / Solution Architect">
+      <label for="email">Email</label>
+      <input id="email" type="email" value="steven.chen@n2lab.io">
+      <label for="mobile">Mobile / GV</label>
+      <input id="mobile" type="text" value="669-696-5715">
+      <label for="website">Website label</label>
+      <input id="website" type="text" value="www.n2lab.io">
+      <label for="websiteUrl">Website URL</label>
+      <input id="websiteUrl" type="url" value="https://www.n2lab.io">
+    </fieldset>
+
+    <fieldset>
+      <legend>Partner badges</legend>
+      <div class="check-row"><input id="showAlliance" type="checkbox" checked><label for="showAlliance">Show Oracle NetSuite Alliance Partner</label></div>
+      <div class="check-row"><input id="showSolution" type="checkbox" checked><label for="showSolution">Show Oracle NetSuite Solution Provider Partner</label></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Social links</legend>
+      <label for="linkedin">LinkedIn URL</label><input id="linkedin" type="url" value="https://www.linkedin.com/company/n2lab">
+      <label for="instagram">Instagram URL</label><input id="instagram" type="url" value="https://www.instagram.com/n2labllc">
+      <label for="facebook">Facebook URL</label><input id="facebook" type="url" value="https://www.facebook.com/n2labllc">
+      <label for="xurl">X URL</label><input id="xurl" type="url" value="https://x.com/n2labllc">
+      <p class="mode-note">Leave a social URL blank to hide its icon.</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Certifications</legend>
+      <div class="cert-row"><div class="check-row"><input id="certEnabled0" type="checkbox" checked><label for="certEnabled0">Show certification 1</label></div><label for="certText0">Certification text</label><input id="certText0" type="text" value="SuiteFoundation Certified"></div>
+      <div class="cert-row"><div class="check-row"><input id="certEnabled1" type="checkbox" checked><label for="certEnabled1">Show certification 2</label></div><label for="certText1">Certification text</label><input id="certText1" type="text" value="Authorized Multi-Book Consultant"></div>
+      <div class="cert-row"><div class="check-row"><input id="certEnabled2" type="checkbox" checked><label for="certEnabled2">Show certification 3</label></div><label for="certText2">Certification text</label><input id="certText2" type="text" value="Certified ERP Consultant"></div>
+      <div class="cert-row"><div class="check-row"><input id="certEnabled3" type="checkbox"><label for="certEnabled3">Show certification 4</label></div><label for="certText3">Certification text</label><input id="certText3" type="text" value=""></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Booking & availability</legend>
+      <div class="option-box" id="bookingBox">
+        <div class="check-row"><input id="showBooking" type="checkbox" checked><label for="showBooking"><strong>Show booking link</strong></label></div>
+        <label for="bookingText">Booking CTA text</label>
+        <input id="bookingText" type="text" value="Book a time with me"> 
+        <label for="bookingUrl">Booking / meeting URL</label>
+        <input id="bookingUrl" type="url" value="https://calendly.com/">
+        <p class="mode-note">Use an employee's Calendly, Microsoft Bookings, Google appointment schedule, HubSpot meeting link, or other HTTPS booking URL.</p>
+      </div>
+      <div class="option-box" id="awayBox">
+        <div class="check-row"><input id="showAway" type="checkbox" checked><label for="showAway"><strong>Show travel / PTO status</strong></label></div>
+        <label for="awayLabel">Status label</label>
+        <input id="awayLabel" type="text" value="Away">
+        <label for="awayDates">Date / availability text</label>
+        <input id="awayDates" type="text" value="August, 12 - 23">
+        <p class="mode-note">Leave this option off when there is no upcoming travel or PTO. This avoids displaying “Nil”.</p>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Signature size</legend>
+      <label for="signatureSize">Overall size</label>
+      <select id="signatureSize"><option value="standard" selected>Standard — 620 px wide</option><option value="compact">Compact — 540 px wide</option><option value="large">Large — 700 px wide</option></select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Banner theme</legend>
+      <label for="bannerTheme">Choose banner style</label>
+      <select id="bannerTheme"><option value="light" selected>Light theme banner</option><option value="dark">Dark theme banner</option></select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Hosted assets</legend>
+      <label for="assetBase">Asset folder URL</label>
+      <input id="assetBase" type="url" value="">
+      <p class="mode-note">The page automatically detects its own <code>assets/</code> folder. Change this only when assets are hosted elsewhere.</p>
+    </fieldset>
+
+    <div class="buttons">
+      <button class="primary" id="copyRich" type="button">Copy rich signature</button>
+      <button class="secondary" id="copyHtml" type="button">Copy HTML code</button>
+      <button class="ghost" id="downloadHtml" type="button">Download HTML</button>
+      <button class="ghost" id="resetSample" type="button">Reset sample</button>
+    </div>
+    <div class="status" id="status" aria-live="polite"></div>
+  </aside>
+
+  <main class="preview-area">
+    <div class="preview-card">
+      <div class="preview-title">Live preview</div>
+      <div id="signaturePreview"></div>
+      <noscript><p class="error">JavaScript is required for the live preview.</p></noscript>
+    </div>
+    <div class="code-wrap">
+      <div class="preview-title">Generated production HTML</div>
+      <textarea id="htmlOutput" spellcheck="false" readonly></textarea>
+    </div>
+  </main>
+</div>
+</body>
+</html>

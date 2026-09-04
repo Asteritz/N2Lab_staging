@@ -3484,7 +3484,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   padding: .5rem 1rem
 }
 .nav-link:focus, .nav-link:hover {
-  text-decoration: none
+  text-decoration: none;
+  color: #fff;
 }
 .nav-link.disabled {
   color: #6c757d;

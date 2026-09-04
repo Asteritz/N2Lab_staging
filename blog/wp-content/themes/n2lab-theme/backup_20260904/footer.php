@@ -1,0 +1,132 @@
+<footer>
+        <!-- Your footer HTML here -->
+
+       <div class="footer-middle pt-95"> 
+		<div class="container">
+			<div class="row">
+				<!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
+					<div class="colProcess5 col-sm-6 col-xs-12">
+					<div class="widget widgets-company-info">
+						<div class="footer-bottom-logo pb-15">
+							<a href="/">
+							<img src="/assets/images/N2Lablogo_white.png" width="70%" alt="" />
+							</a>
+						</div>
+						<div class="company-info-desc">
+							<p>N2 Lab is a leading provider of NetSuite implementation and services.
+							</p>
+						</div>
+						<div class="follow-company-info pt-3">
+							<div class="follow-company-text mr-3">
+								<a href="#"><p>Follow Us</p></a>
+							</div>
+							<div class="follow-company-icon">
+								<a href="https://www.linkedin.com/company/n2lab/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+								<a href="https://www.instagram.com/n2labllc" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+								<a href="https://twitter.com/n2labllc" target="_blank"><i class="fa-brands fa-x-twitter"></i></i></a>
+							</div>
+						</div>
+					</div>					
+				</div>
+				<div class="colProcess5 col-sm-6 col-xs-12">
+					<div class="widget widget-nav-menu">
+						<h4 class="widget-title pb-4">Company&nbsp;</h4>
+						<div class="menu-quick-link-container">
+							<ul id="menu-quick-link" class="menu">
+								<li><a href="/about.html">About Us</a></li>
+								<li><a href="/ourTeam.html">Our Team</a></li>
+								<li><a href="/ourPartners.html">Our Partners</a></li>
+								<li><a href="/ourClients.html">Our Clients</a></li>
+								<li><a href="/CS_highTechManufacturing.html">Case Studies </a></li>
+								<li><a href="/careers.html">Careers</a></li>
+								<li><a href="/blog/">Blog</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+			 <div class="colProcess5 col-sm-6 col-xs-12">
+					
+					<div class="widget widget-nav-menu">
+						<h4 class="widget-title pb-4">Our Core Services&nbsp;</h4>
+						<div class="menu-quick-link-container">
+							<ul id="menu-quick-link" class="menu">
+								<li><a href="/services.html">N2 NetSuite Implementation Services</a></li>
+								<li><a href="/services.html">N2 NetSuite Technical Services</a></li>
+								<li><a href="/services.html">N2 NetSuite Managed Services</a></li>
+								<li><a href="/services.html">N2 NetSuite Enterprise Embedded Staffing Services</a></li>
+								<li><a href="/services.html">N2 NetSuite Advisory Services</a></li>
+								<li><a href="/services.html">N2 NetSuite Bi-Yearly Release Testing Service</a></li>
+						  </ul>
+					  </div>
+				</div>
+			  </div>
+
+			   <div class="colProcess5 col-sm-6 col-xs-12">
+					
+					<div class="widget widget-nav-menu">
+						<h4 class="widget-title pb-4">Our Specialities&nbsp;</h4>
+						<div class="menu-quick-link-container">
+							<ul id="menu-quick-link" class="menu">
+								<li><a href="/services.html">SOX-Compliance Solutions</a></li>
+								<li><a href="/services.html">Advanced Revenue Management (ARM)</a></li>
+								<li><a href="/services.html">Multibook Accounting</a></li>
+								<li><a href="/services.html">Warehouse Management System (WMS)</a></li>
+								<li><a href="/services.html">Material Resource Planning (MRP)</a></li>
+								<li><a href="/services.html">Electronic Data Interchange Automation (EDI)</a></li>
+								<li><a href="/services.html">Optimizing Procure-to-Pay Processes</a></li>
+
+						  </ul>
+					  </div>
+				</div>
+			  </div>
+				<div class="colProcess5 col-sm-6 col-xs-12">
+				  <div class="widget widget-nav-menu">
+						<h4 class="widget-title pb-4">Products&nbsp;</h4>
+					<div class="menu-quick-link-container">
+							<ul id="menu-quick-link" class="menu">
+								<li><a href="/products_inventoryAging.html">N2 Inventory Aging</a></li>
+								<li><a href="/products_APAutomationSuite.html">N2 AP Automation Suite</a></li>
+								<li><a href="/products_SFTPconnector.html">N2 SFTP Connector</a></li>
+								<li><a href="/products_crossSubsidiaryFulfilment.html">N2 I/C Cross-Subsidiary Fulfilment+</a></li>
+								<li><a href="/products_n2Link.html">N2 Link</a></li>
+								<li><a href="/products_accrualEngine.html">N2 Accrual Engine</a></li>
+							</ul>
+					</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row footer-bottom mt-70 pt-3 pb-1">
+				<hr>
+					<div class="footer-bottom-content">
+						
+						<div class="footer-bottom-content-copy">
+							<p>Copyright © 2024. All Rights Reserved to N2 Lab. </p>
+						</div>
+					</div>
+		
+
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		document.addEventListener("visibilitychange", function() {
+			if (document.hidden) {
+				// Force Slider Revolution to pause when user leaves the tab
+				if (typeof revapi1 !== 'undefined' && revapi1.revpause) {
+					revapi1.revpause();
+				}
+			} else {
+				// Resume slider when user returns to the tab
+				if (typeof revapi1 !== 'undefined' && revapi1.revresume) {
+					revapi1.revresume();
+				}
+			}
+		});
+	</script>
+    
+    </footer>
+	
+    <?php wp_footer(); ?>
+</body>
+</html>

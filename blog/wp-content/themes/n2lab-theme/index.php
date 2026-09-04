@@ -22,7 +22,7 @@
 						<div class="header_top_menu_address_inner">
 							<ul>
 								<li><a href="mailto:sales@n2lab.io"><i class="fa fa-envelope-o"></i>sales@n2lab.io</a></li>
-								<li><a href="#"><i class="fa fa-map-marker"></i>Austin, TX | San Jose, CA | Noida, India | Singapore</a></li>
+								<li><a href="/contact.html"><i class="fa fa-map-marker"></i>Austin, TX | San Jose, CA | India | Singapore | Thailand | Malaysia</a></li>
 							</ul>
 						</div>
 					</div>
@@ -54,9 +54,18 @@
 			<div class="row align-items-center">
 				<div class="menu">
 					<a href="/" class="logo">
-						<img class="down" src="/assets/images/N2Lab_PartnerLogo.png"  alt="N2 Lab logo"> 
-						<img class="main_sticky" src="/assets/images/N2Lab_PartnerLogo_white.png" alt="N2 Lab logo">
-					</a> <!--cph-->
+						<img class="down" src="/assets/images/N2Lab_menu_Logo.png"  alt="N2 Lab logo">
+						<img class="main_sticky" src="/assets/images/N2Lab_menu_Logo_reverse.png" alt="N2 Lab logo">
+					</a>
+					<a href="/" class="logo2">
+						<img class="down" src="/assets/images/oracle_NetSuite_Alliance_Partner_Logo.png"  alt="Oracle NetSuite Alliance Partner logo">
+						<img class="main_sticky" src="/assets/images/oracle_NetSuite_Alliance_Partner_Logo_reverse.png" alt="Oracle NetSuite Alliance Partner logo">
+					</a>
+					<a href="/" class="logo3">
+						<img class="down" src="/assets/images/oracle_NetSuite_Solution_Provider_Partner_Logo.png"  alt="Oracle NetSuite Solution Provider Partner logo">
+						<img class="main_sticky" src="/assets/images/oracle_NetSuite_Solution_Provider_Partner_Logo_reverse.png" alt="Oracle NetSuite Solution Provider Partner logo">
+					</a>
+
 					<ul class="clearfix" id="fade-in">
 						<li><a href="/">Home</a>
 							
@@ -67,6 +76,7 @@
 								<li><a href="/ourTeam.html">Our Team</a></li>
 								<li><a href="/careers.html">Careers</a></li>
 								<li><a href="/ourPartners.html">Our Partners</a></li>
+								<li><a href="/blog/">Our Blog</a></li>
 							</ul>
 						</li>
 						<li><a href="/services.html">Services</a>
@@ -84,12 +94,8 @@
 						<li><a href="/CS_highTechManufacturing.html">Our Works</a>
 							<ul>
 									<li><a href="/CS_highTechManufacturing.html">Case Studies</a></li>
-										<li><a href="/ourClients.html">Our Clients</a></li>
-									</ul>
-								</li>
-						<li><a href="/blog/">Blog</a>
-						</li>			
-						<li><a href="/contact.html">Contact Us</a>
+									<li><a href="/ourClients.html">Our Clients</a></li>
+							</ul>
 						</li>
 						
 						<!-- <div class="donate-btn-header">
@@ -132,10 +138,10 @@
 						<li><a href="/CS_highTechManufacturing.html">Our Works</a>
 							<ul>
 									<li><a href="/CS_highTechManufacturing.html">Case Studies</a></li>
-										<li><a href="/ourClients.html">Our Clients</a></li>
-									</ul>
-								</li>
-								<li><a href="/blog">Blog</a>
+									<li><a href="/ourClients.html">Our Clients</a></li>
+							</ul>
+						</li>
+						<li><a href="/blog">Blog</a>
 						</li>			
 						<li><a href="/contact.html">Contact Us</a>
 						</li>
@@ -158,7 +164,7 @@
 				<div class="col-lg-12">
 					<div class="breatcome_title">
 						<div class="breatcome_title_inner pb-2">
-							<h2>Our Blog</h2>
+							<h2>Our Blog - N2lab-theme > index.php</h2>
 						</div>
 						<div class="breatcome_title_inner">
 								

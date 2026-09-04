@@ -57,14 +57,30 @@ img.main_sticky {
 }
 .menu a.logo {
     display: inline-block;
-    width: 300px;
-    padding: 25px 1px 25px 1px;
+    width: 190px;
+    padding: 25px 1px 25px 5px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.menu a.logo2 {
+    display: inline-block;
+    width: 120px;
+    padding: 25px 1px 25px 5px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.menu a.logo3 {
+    display: inline-block;
+    width: 175px;
+    padding: 25px 1px 25px 5px;
     float: left;
     position: relative;
     z-index: 1;
 }
 .menu img {
-    padding-left: 15px;
+    padding-left: 5px;
     max-width: 100%; /*cph2024-01-20 changed from 100%, Jo changed to 100% 2024-05-07*/
 }
 .menu-mobile {
@@ -3628,6 +3644,22 @@ a.em-active-button:hover {
     font-weight: 700;
 }
 
+/* NetSuite Partners Feature */
+.feature_NetSuite_Partners {
+    background: #fff;
+    text-align: center;
+    box-shadow: 6px 5px 30px 0px rgba(0,0,0,0.12);
+    border-radius: 7px;
+    transition: .5s;
+	padding:35px 35px;
+}
+
+.partners_logo img {
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
 
 /* Feature Style Four */
 .feature_style_four {
@@ -6488,8 +6520,8 @@ a.team-color3 i {
 }
 .portfolio_menu ul li a{
     display: block;
-    color:#fff;
-	text-transform:uppercase;
+    color:#212529;
+	text-transform:capitalize;
 	position:relative;
 	transition:.5s;
 }
@@ -6507,7 +6539,7 @@ a.team-color3 i {
     background:#fff2f2;
     border: medium none;
     font-size: 16px;
-    line-height: 1;
+    line-height: 0;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
