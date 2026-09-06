@@ -77,6 +77,7 @@
 								<li><a href="/careers.html">Careers</a></li>
 								<li><a href="/ourPartners.html">Our Partners</a></li>
 								<li><a href="/blog/">Our Blog</a></li>
+								<li><a href="/contact.html">Contact Us</a></li>
 							</ul>
 						</li>
 						<li><a href="/services.html">Services</a>
