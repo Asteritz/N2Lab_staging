@@ -77,6 +77,7 @@
 								<li><a href="/careers.html">Careers</a></li>
 								<li><a href="/ourPartners.html">Our Partners</a></li>
 								<li><a href="/blog/">Our Blog</a></li>
+								<li><a href="/contact.html">Contact Us</a></li>
 							</ul>
 						</li>
 						<li><a href="/services.html">Services</a>
@@ -165,7 +166,7 @@
 				<div class="col-lg-12">
 					<div class="breatcome_title">
 						<div class="breatcome_title_inner pb-2">
-							<h2>Our Blog - Single.php</h2>
+							<h2>Our Blog</h2>
 						</div>
 						<div class="breatcome_title_inner">
 								
